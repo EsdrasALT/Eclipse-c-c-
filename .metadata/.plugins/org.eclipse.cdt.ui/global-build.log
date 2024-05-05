@@ -1,0 +1,1126 @@
+18:26:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+18:27:59 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+rm -rf src/exercicio1_nivelamento.o exercicio1_nivelamento.exe src/exercicio1_nivelamento.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+18:28:00 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+18:28:00 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+18:28:00 **** Clean-only build of configuration Debug for project programasC ****
+18:28:00 **** Rebuild of configuration Debug for project exercicio1_nivelamento ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1_nivelamento.o" "..\\src\\exercicio1_nivelamento.c" 
+..\src\exercicio1_nivelamento.c: In function 'main':
+..\src\exercicio1_nivelamento.c:49:8: warning: implicit declaration of function 'calcularFibonacci' [-Wimplicit-function-declaration]
+   49 |        calcularFibonacci(numero);
+      |        ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:53:15: warning: unknown escape sequence: '\F'
+   53 |        printf("\Fatorial:\n");
+      |               ^~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:57:15: warning: unknown escape sequence: '\S'
+   57 |        printf("\Somar Pares:\n");
+      |               ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c: At top level:
+..\src\exercicio1_nivelamento.c:74:6: warning: conflicting types for 'calcularFibonacci'
+   74 | void calcularFibonacci(int termos) {
+      |      ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:49:8: note: previous implicit declaration of 'calcularFibonacci' was here
+   49 |        calcularFibonacci(numero);
+      |        ^~~~~~~~~~~~~~~~~
+gcc -o exercicio1_nivelamento.exe "src\\exercicio1_nivelamento.o" 
+18:28:00 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+18:31:59 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+rm -rf src/exercicio1_nivelamento.o exercicio1_nivelamento.exe src/exercicio1_nivelamento.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+18:32:00 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+18:32:00 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+18:32:00 **** Clean-only build of configuration Debug for project programasC ****
+18:32:00 **** Rebuild of configuration Debug for project exercicio1_nivelamento ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1_nivelamento.o" "..\\src\\exercicio1_nivelamento.c" 
+..\src\exercicio1_nivelamento.c: In function 'main':
+..\src\exercicio1_nivelamento.c:49:8: warning: implicit declaration of function 'calcularFibonacci' [-Wimplicit-function-declaration]
+   49 |        calcularFibonacci(numero);
+      |        ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:53:15: warning: unknown escape sequence: '\F'
+   53 |        printf("\Fatorial:\n");
+      |               ^~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:57:15: warning: unknown escape sequence: '\S'
+   57 |        printf("\Somar Pares:\n");
+      |               ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c: At top level:
+..\src\exercicio1_nivelamento.c:74:6: warning: conflicting types for 'calcularFibonacci'
+   74 | void calcularFibonacci(int termos) {
+      |      ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:49:8: note: previous implicit declaration of 'calcularFibonacci' was here
+   49 |        calcularFibonacci(numero);
+      |        ^~~~~~~~~~~~~~~~~
+gcc -o exercicio1_nivelamento.exe "src\\exercicio1_nivelamento.o" 
+18:32:00 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+18:32:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+18:37:56 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+rm -rf src/exercicio1_nivelamento.o exercicio1_nivelamento.exe src/exercicio1_nivelamento.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+18:37:56 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+18:37:57 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+18:37:57 **** Clean-only build of configuration Debug for project programasC ****
+18:37:57 **** Rebuild of configuration Debug for project exercicio1_nivelamento ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1_nivelamento.o" "..\\src\\exercicio1_nivelamento.c" 
+..\src\exercicio1_nivelamento.c: In function 'main':
+..\src\exercicio1_nivelamento.c:49:8: warning: implicit declaration of function 'calcularFibonacci' [-Wimplicit-function-declaration]
+   49 |        calcularFibonacci(numero);
+      |        ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:53:15: warning: unknown escape sequence: '\F'
+   53 |        printf("\Fatorial:\n");
+      |               ^~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:57:15: warning: unknown escape sequence: '\S'
+   57 |        printf("\Somar Pares:\n");
+      |               ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c: At top level:
+..\src\exercicio1_nivelamento.c:74:6: warning: conflicting types for 'calcularFibonacci'
+   74 | void calcularFibonacci(int termos) {
+      |      ^~~~~~~~~~~~~~~~~
+..\src\exercicio1_nivelamento.c:49:8: note: previous implicit declaration of 'calcularFibonacci' was here
+   49 |        calcularFibonacci(numero);
+      |        ^~~~~~~~~~~~~~~~~
+gcc -o exercicio1_nivelamento.exe "src\\exercicio1_nivelamento.o" 
+18:37:57 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for exercicio1_nivelamento
+18:38:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for exercicio1_nivelamento
+18:39:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+16:48:12 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+rm -rf 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+16:48:13 **** Clean-only build of configuration Debug for project exercicio1_nivelamento ****
+16:48:13 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio1.o src/exercicio1.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+16:48:13 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+16:48:13 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+16:50:34 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+16:50:34 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+16:50:34 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c:11:6: error: two or more data types in declaration specifiers
+   11 | void int main(){
+      |      ^~~
+..\src\exercicio2.c:11:10: warning: return type of 'main' is not 'int' [-Wmain]
+   11 | void int main(){
+      |          ^~~~
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:12:2: warning: implicit declaration of function 'setbug'; did you mean 'setbuf'? [-Wimplicit-function-declaration]
+   12 |  setbug(stdout,NULL);
+      |  ^~~~~~
+      |  setbuf
+..\src\exercicio2.c:14:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   14 |  return 0;
+      |         ^
+..\src\exercicio2.c:11:10: note: declared here
+   11 | void int main(){
+      |          ^~~~
+16:50:55 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+16:50:55 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+16:50:56 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+16:52:45 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+16:52:45 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+16:52:45 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:17:15: warning: comparison between pointer and integer
+   17 |  for(int i=0;i<vetor;i++){
+      |               ^
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+16:53:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:17:15: warning: comparison between pointer and integer
+   17 |  for(int i=0;i<vetor;i++){
+      |               ^
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+16:55:21 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+16:55:21 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+16:55:21 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+16:57:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+16:59:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:17:2: error: expected ',' or ';' before 'for'
+   17 |  for(int i=0;i<1;i++){
+      |  ^~~
+..\src\exercicio2.c:17:14: error: 'i' undeclared (first use in this function)
+   17 |  for(int i=0;i<1;i++){
+      |              ^
+..\src\exercicio2.c:17:14: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercicio2.c:17:21: error: expected ';' before ')' token
+   17 |  for(int i=0;i<1;i++){
+      |                     ^
+      |                     ;
+..\src\exercicio2.c:17:21: error: expected statement before ')' token
+..\src\exercicio2.c:19:15: warning: division by zero [-Wdiv-by-zero]
+   19 |   if (tamanho % 0){
+      |               ^
+..\src\exercicio2.c:14:6: warning: variable 'vetor' set but not used [-Wunused-but-set-variable]
+   14 |  int vetor[] = {1,2,3,4,5,6,7,8,9,10};
+      |      ^~~~~
+16:59:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:15:2: error: expected ',' or ';' before 'int'
+   15 |  int tamanho = 2;
+      |  ^~~
+..\src\exercicio2.c:19:7: error: 'tamanho' undeclared (first use in this function)
+   19 |   if (tamanho % 0){
+      |       ^~~~~~~
+..\src\exercicio2.c:19:7: note: each undeclared identifier is reported only once for each function it appears in
+17:02:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:18:18: error: expected expression before '==' token
+   18 |   if (vetor[i] % == 0){
+      |                  ^~
+17:03:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+17:08:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+19:01:03 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio1.o src/exercicio1.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:01:04 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:01:05 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+19:01:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:01:36 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio1.o src/exercicio1.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:01:36 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:01:36 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+19:02:18 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio1.o src/exercicio1.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:02:18 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:02:18 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+19:15:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+19:23:18 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:23:18 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:23:18 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:13:2: warning: implicit declaration of function 'alfabetoPorLoop' [-Wimplicit-function-declaration]
+   13 |  alfabetoPorLoop();
+      |  ^~~~~~~~~~~~~~~
+..\src\exercicio2.c:14:2: warning: implicit declaration of function 'mensagemInicial' [-Wimplicit-function-declaration]
+   14 |  mensagemInicial();
+      |  ^~~~~~~~~~~~~~~
+..\src\exercicio2.c: At top level:
+..\src\exercicio2.c:19:6: warning: conflicting types for 'mensagemInicial'
+   19 | void mensagemInicial(){
+      |      ^~~~~~~~~~~~~~~
+..\src\exercicio2.c:14:2: note: previous implicit declaration of 'mensagemInicial' was here
+   14 |  mensagemInicial();
+      |  ^~~~~~~~~~~~~~~
+..\src\exercicio2.c:23:6: warning: conflicting types for 'alfabetoPorLoop'
+   23 | void alfabetoPorLoop(){
+      |      ^~~~~~~~~~~~~~~
+..\src\exercicio2.c:13:2: note: previous implicit declaration of 'alfabetoPorLoop' was here
+   13 |  alfabetoPorLoop();
+      |  ^~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio2.o" 
+19:23:51 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:23:51 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:23:51 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+19:24:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+19:27:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+19:28:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'alfabetoPorLoop':
+..\src\exercicio2.c:31:10: warning: too many arguments for format [-Wformat-extra-args]
+   31 |   printf("Caractere %c - ", i, i);
+      |          ^~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:28:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:28:45 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:28:45 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:28:45 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+19:29:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:29:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\exercicio2.o" 
+19:46:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+19:54:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:21:16: error: void value not ignored as it ought to be
+   21 |  letraMaiscula = transformarLetraEmMaiscula(letra);
+      |                ^
+..\src\exercicio2.c: At top level:
+..\src\exercicio2.c:31:6: error: conflicting types for 'transformarLetraEmMaiscula'
+   31 | char transformarLetraEmMaiscula(char letra){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\exercicio2.c:10:6: note: previous declaration of 'transformarLetraEmMaiscula' was here
+   10 | void transformarLetraEmMaiscula();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+19:56:21 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:56:22 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:56:22 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:21:16: error: void value not ignored as it ought to be
+   21 |  letraMaiscula = transformarLetraEmMaiscula(letra);
+      |                ^
+..\src\exercicio2.c: At top level:
+..\src\exercicio2.c:31:6: error: conflicting types for 'transformarLetraEmMaiscula'
+   31 | char transformarLetraEmMaiscula(char letra){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\exercicio2.c:10:6: note: previous declaration of 'transformarLetraEmMaiscula' was here
+   10 | void transformarLetraEmMaiscula();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for exercicio1_nivelamento
+19:56:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:21:16: error: void value not ignored as it ought to be
+   21 |  letraMaiscula = transformarLetraEmMaiscula(letra);
+      |                ^
+..\src\exercicio2.c: At top level:
+..\src\exercicio2.c:31:6: error: conflicting types for 'transformarLetraEmMaiscula'
+   31 | char transformarLetraEmMaiscula(char letra){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\exercicio2.c:10:6: note: previous declaration of 'transformarLetraEmMaiscula' was here
+   10 | void transformarLetraEmMaiscula();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+19:56:51 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:56:52 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:56:52 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:21:16: error: void value not ignored as it ought to be
+   21 |  letraMaiscula = transformarLetraEmMaiscula(letra);
+      |                ^
+..\src\exercicio2.c: At top level:
+..\src\exercicio2.c:31:6: error: conflicting types for 'transformarLetraEmMaiscula'
+   31 | char transformarLetraEmMaiscula(char letra){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\exercicio2.c:10:6: note: previous declaration of 'transformarLetraEmMaiscula' was here
+   10 | void transformarLetraEmMaiscula();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for exercicio1_nivelamento
+19:56:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:21:16: error: void value not ignored as it ought to be
+   21 |  letraMaiscula = transformarLetraEmMaiscula(letra);
+      |                ^
+..\src\exercicio2.c: At top level:
+..\src\exercicio2.c:31:6: error: conflicting types for 'transformarLetraEmMaiscula'
+   31 | char transformarLetraEmMaiscula(char letra){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\exercicio2.c:10:6: note: previous declaration of 'transformarLetraEmMaiscula' was here
+   10 | void transformarLetraEmMaiscula();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+19:57:22 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio2.o src/exercicio2.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:57:22 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:57:22 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+19:58:11 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio3.o src/exercicio3.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:58:11 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:58:11 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for exercicio1_nivelamento
+19:58:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+19:58:25 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio3.o src/exercicio3.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:58:25 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:58:25 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+19:58:32 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio3.o src/exercicio3.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:58:32 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+19:58:32 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:04:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:06:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+21:16:38 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+21:16:38 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+21:16:38 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:19:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   19 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:25:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   25 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:31:2: error: too few arguments to function 'printf'
+   31 |  printf();
+      |  ^~~~~~
+In file included from ..\src\aula.c:8:
+c:\mingw\include\stdio.h:462:38: note: declared here
+  462 | _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+      |                                      ^~~~~~
+..\src\aula.c:34:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   34 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:38:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   38 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+21:16:55 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+21:16:56 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+21:16:56 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:19:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   19 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:25:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   25 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:33:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   33 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:37:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   37 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:18:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:20:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   20 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:26:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   26 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:36:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   36 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:40:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   40 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+21:21:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:22:13: warning: passing argument 1 of 'incrementa' makes integer from pointer without a cast [-Wint-conversion]
+   22 |  incrementa(&contador); // o & serve para enviar um endereço de memoria
+      |             ^~~~~~~~~
+      |             |
+      |             int *
+..\src\aula.c:10:22: note: expected 'int' but argument is of type 'int *'
+   10 | void incrementa (int contador);
+      |                  ~~~~^~~~~~~~
+..\src\aula.c:26:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   26 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c: At top level:
+..\src\aula.c:32:6: error: conflicting types for 'incrementa'
+   32 | void incrementa (int *contador){ // o * serve para receber o endereço de memoria
+      |      ^~~~~~~~~~
+..\src\aula.c:10:6: note: previous declaration of 'incrementa' was here
+   10 | void incrementa (int contador);
+      |      ^~~~~~~~~~
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:36:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   36 |  printf("O endereço de memoria é %d\n\n", contador);
+      |                                    ~^       ~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:41:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |  printf("O endereço de memoria é %d\n\n", contador);
+      |                                    ~^       ~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+21:22:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:26:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   26 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:36:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   36 |  printf("O endereço de memoria é %d\n\n", contador);
+      |                                    ~^       ~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:41:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |  printf("O endereço de memoria é %d\n\n", contador);
+      |                                    ~^       ~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+21:23:15 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:20:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   20 |  printf("O endereço de memoria é %d\n\n", &contador);
+      |                                    ~^       ~~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:26:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   26 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:36:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   36 |  printf("O endereço de memoria é %d\n\n", contador);
+      |                                    ~^       ~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+..\src\aula.c:41:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |  printf("O endereço de memoria é %d\n\n", contador);
+      |                                    ~^       ~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+21:24:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:20:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   20 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c:26:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   26 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:36:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   36 |  printf("O endereço de memoria é %d\n", contador);
+      |                                    ~^     ~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c:41:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |  printf("O endereço de memoria é %d\n\n", contador);
+      |                                    ~^       ~~~~~~~~
+      |                                     |       |
+      |                                     int     int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+21:25:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:20:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   20 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c:28:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   28 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:38:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   38 |  printf("O endereço de memoria é %d\n", contador);
+      |                                    ~^     ~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c:44:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   44 |  printf("O endereço de memoria é %d\n", contador);
+      |                                    ~^     ~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+21:29:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:28:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   28 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:38:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   38 |  printf("O endereço de memoria é %d\n", contador);
+      |                                    ~^     ~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c:44:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   44 |  printf("O endereço de memoria é %d\n", contador);
+      |                                    ~^     ~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+21:29:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:19:27: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   19 |  printf("O contador vale %p\n", contador);
+      |                          ~^     ~~~~~~~~
+      |                           |     |
+      |                           |     int
+      |                           void *
+      |                          %d
+..\src\aula.c:28:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   28 |  printf("O endereço de memoria é %d\n", &contador);
+      |                                    ~^     ~~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c: In function 'incrementa':
+..\src\aula.c:38:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   38 |  printf("O endereço de memoria é %d\n", contador);
+      |                                    ~^     ~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+..\src\aula.c:44:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   44 |  printf("O endereço de memoria é %d\n", contador);
+      |                                    ~^     ~~~~~~~~
+      |                                     |     |
+      |                                     int   int *
+      |                                    %n
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+21:30:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+21:31:56 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula2.d src/aula2.o programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+21:31:56 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+21:31:56 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+21:32:59 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula2.d src/aula2.o programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+21:32:59 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for exercicio1_nivelamento
+21:32:59 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+Info: Nothing to build for exercicio1_nivelamento
+Info: Nothing to build for programasC
+12:55:24 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+12:55:25 **** Clean-only build of configuration Debug for project programasC ****
+12:55:25 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+13:11:32 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula2.d src/aula2.o programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+13:11:32 **** Clean-only build of configuration Debug for project programasC ****
+13:11:32 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+13:12:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:12:29 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:13:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\aula2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:13:19 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula2.d src/aula2.o programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+13:13:19 **** Clean-only build of configuration Debug for project programasC ****
+13:13:19 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+13:14:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+Info: Nothing to build for programasC
+13:16:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+..\src\aula2.c: In function 'main':
+..\src\aula2.c:35:24: warning: implicit declaration of function 'srtok'; did you mean 'strtok'? [-Wimplicit-function-declaration]
+   35 |   printf("Nome: %s\n", srtok(agenda.contatos[i].nome, "\n"));
+      |                        ^~~~~
+      |                        strtok
+..\src\aula2.c:35:18: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   35 |   printf("Nome: %s\n", srtok(agenda.contatos[i].nome, "\n"));
+      |                 ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |     |
+      |                  |     int
+      |                  char *
+      |                 %d
+..\src\aula2.c:37:22: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   37 |   printf("Telefone: %s\n", srtok(agenda.contatos[i].telefone, "\n"));
+      |                     ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      |     |
+      |                      |     int
+      |                      char *
+      |                     %d
+..\src\aula2.c:38:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   38 |   printf("Email: %s\n", srtok(agenda.contatos[i].email, "\n"));
+      |                  ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |     |
+      |                   |     int
+      |                   char *
+      |                  %d
+gcc -o programasC.exe "src\\aula2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\aula2.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/aula2.c:35: undefined reference to `srtok'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/aula2.c:37: undefined reference to `srtok'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/aula2.c:38: undefined reference to `srtok'
+collect2.exe: error: ld returned 1 exit status
+13:17:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+Info: Nothing to build for programasC
+13:18:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
+gcc -o programasC.exe "src\\aula2.o" 
+Info: Nothing to build for programasC

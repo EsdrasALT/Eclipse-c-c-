@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;programa3_exercicio_estruturas_de_decisao/src/programa3_exercicio_estruturas_de_decisao.c&apos; to &apos;exercicio1_2_e_3.c&apos;" description="Rename resource &apos;programa3_exercicio_estruturas_de_decisao.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/programa3_exercicio_estruturas_de_decisao.c" name="exercicio1_2_e_3.c" stamp="1713123973072" updateReferences="true"/>
+</session>
