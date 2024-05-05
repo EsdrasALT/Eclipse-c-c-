@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+struct st_pessoa{
+		char nome[100];
+		int idade;
+		char endereco[100];
+}Pessoa;
+
+int main(){
+	setbuf(stdout,NULL);
+
+	for(int i=0; i<2; i++){
+			printf("Informe o seu nome: ");
+			fgets(Pessoa.nome[i], 100, stdin);
+
+			printf("Informe a sua idade: ");
+			scanf("%d", &Pessoa.idade);
+			//getchar();
+
+			printf("Informe o seu endereço: ");
+			fgets(Pessoa.endereco, 100, stdin);
+		}
+
+
+
+	return 0;
+}
+

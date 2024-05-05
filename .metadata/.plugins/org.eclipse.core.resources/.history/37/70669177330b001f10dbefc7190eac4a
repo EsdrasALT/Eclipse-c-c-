@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+struct st_pessoa{
+		char nome[100];
+		int idade;
+		struct st_endereço endereço[100];
+};
+
+struct st_endereço{
+		char rua[100];
+		int numero;
+		int cep;
+};
+
+struct st_contatos {
+	struct st_pessoa pessoa[2];
+}Contatos;
+
+
+int main(){
+	setbuf(stdout,NULL);
+
+	for(int i=0; i<2; i++){
+			printf("Informe o seu nome: ");
+			fgets(Contatos.pessoa.nome[i], 100, stdin);
+
+			printf("Informe a sua idade: ");
+			scanf("%d", &Pessoa.idade);
+			getchar();
+
+			printf("Informe o telefone do contato: ");
+			fgets(agenda.contatos[i].telefone, 20, stdin);
+
+			printf("Informe o email do contato: ");
+			fgets(agenda.contatos[i].email, 100, stdin);
+		}
+
+
+
+	return 0;
+}
+

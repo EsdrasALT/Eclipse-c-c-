@@ -1124,3 +1124,728 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula2.o" "..\\src\\aula2.c" 
 gcc -o programasC.exe "src\\aula2.o" 
 Info: Nothing to build for programasC
+19:55:44 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio1.o src/exercicio1.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+19:55:45 **** Clean-only build of configuration Debug for project programasC ****
+19:55:45 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:6:16: error: stray '\303' in program
+    6 |   struct Endereço endereço[100] ;
+      |                ^
+..\src\exercicio1.c:6:17: error: stray '\247' in program
+    6 |   struct Endereço endereço[100] ;
+      |                 ^
+..\src\exercicio1.c:6:20: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+    6 |   struct Endereço endereço[100] ;
+      |                    ^~~~~~
+..\src\exercicio1.c:6:26: error: stray '\303' in program
+    6 |   struct Endereço endereço[100] ;
+      |                          ^
+..\src\exercicio1.c:6:27: error: stray '\247' in program
+    6 |   struct Endereço endereço[100] ;
+      |                           ^
+..\src\exercicio1.c:9:17: error: stray '\303' in program
+    9 | struct st_endereço {
+      |                 ^
+..\src\exercicio1.c:9:18: error: stray '\247' in program
+    9 | struct st_endereço {
+      |                  ^
+..\src\exercicio1.c:9:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | struct st_endereço {
+      |                     ^
+..\src\exercicio1.c:13:8: error: stray '\303' in program
+   13 | }Endereço;
+      |        ^
+..\src\exercicio1.c:13:9: error: stray '\247' in program
+   13 | }Endereço;
+      |         ^
+..\src\exercicio1.c:13:2: error: unknown type name 'Endere'; use 'struct' keyword to refer to the type
+   13 | }Endereço;
+      |  ^~~~~~
+      |  struct 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:21:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   21 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:28:10: error: 'agenda' undeclared (first use in this function)
+   28 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+..\src\exercicio1.c:28:10: note: each undeclared identifier is reported only once for each function it appears in
+19:55:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:6:16: error: stray '\303' in program
+    6 |   struct Endereço endereço[100] ;
+      |                ^
+..\src\exercicio1.c:6:17: error: stray '\247' in program
+    6 |   struct Endereço endereço[100] ;
+      |                 ^
+..\src\exercicio1.c:6:20: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+    6 |   struct Endereço endereço[100] ;
+      |                    ^~~~~~
+..\src\exercicio1.c:6:26: error: stray '\303' in program
+    6 |   struct Endereço endereço[100] ;
+      |                          ^
+..\src\exercicio1.c:6:27: error: stray '\247' in program
+    6 |   struct Endereço endereço[100] ;
+      |                           ^
+..\src\exercicio1.c:9:17: error: stray '\303' in program
+    9 | struct st_endereço {
+      |                 ^
+..\src\exercicio1.c:9:18: error: stray '\247' in program
+    9 | struct st_endereço {
+      |                  ^
+..\src\exercicio1.c:9:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | struct st_endereço {
+      |                     ^
+..\src\exercicio1.c:13:8: error: stray '\303' in program
+   13 | }Endereço;
+      |        ^
+..\src\exercicio1.c:13:9: error: stray '\247' in program
+   13 | }Endereço;
+      |         ^
+..\src\exercicio1.c:13:2: error: unknown type name 'Endere'; use 'struct' keyword to refer to the type
+   13 | }Endereço;
+      |  ^~~~~~
+      |  struct 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:21:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   21 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:28:10: error: 'agenda' undeclared (first use in this function)
+   28 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+..\src\exercicio1.c:28:10: note: each undeclared identifier is reported only once for each function it appears in
+19:56:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:6:16: error: stray '\303' in program
+    6 |   struct Endereço endereço[100];
+      |                ^
+..\src\exercicio1.c:6:17: error: stray '\247' in program
+    6 |   struct Endereço endereço[100];
+      |                 ^
+..\src\exercicio1.c:6:20: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+    6 |   struct Endereço endereço[100];
+      |                    ^~~~~~
+..\src\exercicio1.c:6:26: error: stray '\303' in program
+    6 |   struct Endereço endereço[100];
+      |                          ^
+..\src\exercicio1.c:6:27: error: stray '\247' in program
+    6 |   struct Endereço endereço[100];
+      |                           ^
+..\src\exercicio1.c:9:17: error: stray '\303' in program
+    9 | struct st_endereço {
+      |                 ^
+..\src\exercicio1.c:9:18: error: stray '\247' in program
+    9 | struct st_endereço {
+      |                  ^
+..\src\exercicio1.c:9:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | struct st_endereço {
+      |                     ^
+..\src\exercicio1.c:13:2: warning: data definition has no type or storage class
+   13 | }Endereco;
+      |  ^~~~~~~~
+..\src\exercicio1.c:13:2: warning: type defaults to 'int' in declaration of 'Endereco' [-Wimplicit-int]
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:21:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   21 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:28:10: error: 'agenda' undeclared (first use in this function)
+   28 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+..\src\exercicio1.c:28:10: note: each undeclared identifier is reported only once for each function it appears in
+19:58:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:6:16: error: stray '\303' in program
+    6 |   struct Endereço endereço[100];
+      |                ^
+..\src\exercicio1.c:6:17: error: stray '\247' in program
+    6 |   struct Endereço endereço[100];
+      |                 ^
+..\src\exercicio1.c:6:20: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+    6 |   struct Endereço endereço[100];
+      |                    ^~~~~~
+..\src\exercicio1.c:6:26: error: stray '\303' in program
+    6 |   struct Endereço endereço[100];
+      |                          ^
+..\src\exercicio1.c:6:27: error: stray '\247' in program
+    6 |   struct Endereço endereço[100];
+      |                           ^
+..\src\exercicio1.c:9:17: error: stray '\303' in program
+    9 | struct st_endereço {
+      |                 ^
+..\src\exercicio1.c:9:18: error: stray '\247' in program
+    9 | struct st_endereço {
+      |                  ^
+..\src\exercicio1.c:9:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | struct st_endereço {
+      |                     ^
+..\src\exercicio1.c:13:2: warning: data definition has no type or storage class
+   13 | }Endereco;
+      |  ^~~~~~~~
+..\src\exercicio1.c:13:2: warning: type defaults to 'int' in declaration of 'Endereco' [-Wimplicit-int]
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:25:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   25 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:32:10: error: 'agenda' undeclared (first use in this function)
+   32 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+..\src\exercicio1.c:32:10: note: each undeclared identifier is reported only once for each function it appears in
+20:00:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:6:19: error: stray '\303' in program
+    6 |   struct st_endereço endereço[100];
+      |                   ^
+..\src\exercicio1.c:6:20: error: stray '\247' in program
+    6 |   struct st_endereço endereço[100];
+      |                    ^
+..\src\exercicio1.c:6:23: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+    6 |   struct st_endereço endereço[100];
+      |                       ^~~~~~
+..\src\exercicio1.c:6:29: error: stray '\303' in program
+    6 |   struct st_endereço endereço[100];
+      |                             ^
+..\src\exercicio1.c:6:30: error: stray '\247' in program
+    6 |   struct st_endereço endereço[100];
+      |                              ^
+..\src\exercicio1.c:9:17: error: stray '\303' in program
+    9 | struct st_endereço {
+      |                 ^
+..\src\exercicio1.c:9:18: error: stray '\247' in program
+    9 | struct st_endereço {
+      |                  ^
+..\src\exercicio1.c:9:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | struct st_endereço {
+      |                     ^
+..\src\exercicio1.c:13:2: warning: data definition has no type or storage class
+   13 | }Endereco;
+      |  ^~~~~~~~
+..\src\exercicio1.c:13:2: warning: type defaults to 'int' in declaration of 'Endereco' [-Wimplicit-int]
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:25:25: error: '(struct st_pessoa *)&Contatos.pessoa' is a pointer; did you mean to use '->'?
+   25 |    fgets(Contatos.pessoa.nome[i], 100, stdin);
+      |                         ^
+      |                         ->
+..\src\exercicio1.c:32:10: error: 'agenda' undeclared (first use in this function)
+   32 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+..\src\exercicio1.c:32:10: note: each undeclared identifier is reported only once for each function it appears in
+20:00:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:6:19: error: stray '\303' in program
+    6 |   struct st_endereço endereço[100];
+      |                   ^
+..\src\exercicio1.c:6:20: error: stray '\247' in program
+    6 |   struct st_endereço endereço[100];
+      |                    ^
+..\src\exercicio1.c:6:23: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+    6 |   struct st_endereço endereço[100];
+      |                       ^~~~~~
+..\src\exercicio1.c:6:29: error: stray '\303' in program
+    6 |   struct st_endereço endereço[100];
+      |                             ^
+..\src\exercicio1.c:6:30: error: stray '\247' in program
+    6 |   struct st_endereço endereço[100];
+      |                              ^
+..\src\exercicio1.c:9:17: error: stray '\303' in program
+    9 | struct st_endereço {
+      |                 ^
+..\src\exercicio1.c:9:18: error: stray '\247' in program
+    9 | struct st_endereço {
+      |                  ^
+..\src\exercicio1.c:9:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | struct st_endereço {
+      |                     ^
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:25:10: error: 'Contatos' undeclared (first use in this function); did you mean 'st_contatos'?
+   25 |    fgets(Contatos.pessoa.nome[i], 100, stdin);
+      |          ^~~~~~~~
+      |          st_contatos
+..\src\exercicio1.c:25:10: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercicio1.c:28:17: error: 'Pessoa' undeclared (first use in this function)
+   28 |    scanf("%d", &Pessoa.idade);
+      |                 ^~~~~~
+..\src\exercicio1.c:32:10: error: 'agenda' undeclared (first use in this function)
+   32 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+20:01:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:6:19: error: stray '\303' in program
+    6 |   struct st_endereço endereço[100];
+      |                   ^
+..\src\exercicio1.c:6:20: error: stray '\247' in program
+    6 |   struct st_endereço endereço[100];
+      |                    ^
+..\src\exercicio1.c:6:23: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+    6 |   struct st_endereço endereço[100];
+      |                       ^~~~~~
+..\src\exercicio1.c:6:29: error: stray '\303' in program
+    6 |   struct st_endereço endereço[100];
+      |                             ^
+..\src\exercicio1.c:6:30: error: stray '\247' in program
+    6 |   struct st_endereço endereço[100];
+      |                              ^
+..\src\exercicio1.c:9:17: error: stray '\303' in program
+    9 | struct st_endereço {
+      |                 ^
+..\src\exercicio1.c:9:18: error: stray '\247' in program
+    9 | struct st_endereço {
+      |                  ^
+..\src\exercicio1.c:9:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | struct st_endereço {
+      |                     ^
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:25:25: error: '(struct st_pessoa *)&Contatos.pessoa' is a pointer; did you mean to use '->'?
+   25 |    fgets(Contatos.pessoa.nome[i], 100, stdin);
+      |                         ^
+      |                         ->
+..\src\exercicio1.c:28:17: error: 'Pessoa' undeclared (first use in this function)
+   28 |    scanf("%d", &Pessoa.idade);
+      |                 ^~~~~~
+..\src\exercicio1.c:28:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercicio1.c:32:10: error: 'agenda' undeclared (first use in this function)
+   32 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+20:01:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:3:17: error: stray '\303' in program
+    3 | struct st_endereço{
+      |                 ^
+..\src\exercicio1.c:3:18: error: stray '\247' in program
+    3 | struct st_endereço{
+      |                  ^
+..\src\exercicio1.c:3:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    3 | struct st_endereço{
+      |                    ^
+..\src\exercicio1.c:12:19: error: stray '\303' in program
+   12 |   struct st_endereço endereço[100];
+      |                   ^
+..\src\exercicio1.c:12:20: error: stray '\247' in program
+   12 |   struct st_endereço endereço[100];
+      |                    ^
+..\src\exercicio1.c:12:23: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+   12 |   struct st_endereço endereço[100];
+      |                       ^~~~~~
+..\src\exercicio1.c:12:29: error: stray '\303' in program
+   12 |   struct st_endereço endereço[100];
+      |                             ^
+..\src\exercicio1.c:12:30: error: stray '\247' in program
+   12 |   struct st_endereço endereço[100];
+      |                              ^
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:25:25: error: '(struct st_pessoa *)&Contatos.pessoa' is a pointer; did you mean to use '->'?
+   25 |    fgets(Contatos.pessoa.nome[i], 100, stdin);
+      |                         ^
+      |                         ->
+..\src\exercicio1.c:28:17: error: 'Pessoa' undeclared (first use in this function)
+   28 |    scanf("%d", &Pessoa.idade);
+      |                 ^~~~~~
+..\src\exercicio1.c:28:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercicio1.c:32:10: error: 'agenda' undeclared (first use in this function)
+   32 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+20:02:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:3:17: error: stray '\303' in program
+    3 | struct st_endereço{
+      |                 ^
+..\src\exercicio1.c:3:18: error: stray '\247' in program
+    3 | struct st_endereço{
+      |                  ^
+..\src\exercicio1.c:3:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    3 | struct st_endereço{
+      |                    ^
+..\src\exercicio1.c:12:19: error: stray '\303' in program
+   12 |   struct st_endereço endereços[100];
+      |                   ^
+..\src\exercicio1.c:12:20: error: stray '\247' in program
+   12 |   struct st_endereço endereços[100];
+      |                    ^
+..\src\exercicio1.c:12:23: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+   12 |   struct st_endereço endereços[100];
+      |                       ^~~~~~
+..\src\exercicio1.c:12:29: error: stray '\303' in program
+   12 |   struct st_endereço endereços[100];
+      |                             ^
+..\src\exercicio1.c:12:30: error: stray '\247' in program
+   12 |   struct st_endereço endereços[100];
+      |                              ^
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:25:25: error: '(struct st_pessoa *)&Contatos.pessoa' is a pointer; did you mean to use '->'?
+   25 |    fgets(Contatos.pessoa.nome[i], 100, stdin);
+      |                         ^
+      |                         ->
+..\src\exercicio1.c:28:17: error: 'Pessoa' undeclared (first use in this function)
+   28 |    scanf("%d", &Pessoa.idade);
+      |                 ^~~~~~
+..\src\exercicio1.c:28:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercicio1.c:32:10: error: 'agenda' undeclared (first use in this function)
+   32 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+20:06:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c:3:17: error: stray '\303' in program
+    3 | struct st_endereço{
+      |                 ^
+..\src\exercicio1.c:3:18: error: stray '\247' in program
+    3 | struct st_endereço{
+      |                  ^
+..\src\exercicio1.c:3:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    3 | struct st_endereço{
+      |                    ^
+..\src\exercicio1.c:12:19: error: stray '\303' in program
+   12 |   struct st_endereço endereços[100];
+      |                   ^
+..\src\exercicio1.c:12:20: error: stray '\247' in program
+   12 |   struct st_endereço endereços[100];
+      |                    ^
+..\src\exercicio1.c:12:23: error: expected ':', ',', ';', '}' or '__attribute__' before 'endere'
+   12 |   struct st_endereço endereços[100];
+      |                       ^~~~~~
+..\src\exercicio1.c:12:29: error: stray '\303' in program
+   12 |   struct st_endereço endereços[100];
+      |                             ^
+..\src\exercicio1.c:12:30: error: stray '\247' in program
+   12 |   struct st_endereço endereços[100];
+      |                              ^
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:25:25: error: '(struct st_pessoa *)&Contatos.pessoa' is a pointer; did you mean to use '->'?
+   25 |    fgets(Contatos.pessoa.nome[i], 100, stdin);
+      |                         ^
+      |                         ->
+..\src\exercicio1.c:28:17: error: 'Pessoa' undeclared (first use in this function)
+   28 |    scanf("%d", &Pessoa.idade);
+      |                 ^~~~~~
+..\src\exercicio1.c:28:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercicio1.c:32:10: error: 'agenda' undeclared (first use in this function)
+   32 |    fgets(agenda.contatos[i].telefone, 20, stdin);
+      |          ^~~~~~
+20:07:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:14:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   14 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+gcc -o programasC.exe "src\\exercicio1.o" 
+20:08:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:14:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   14 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:21:25: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   21 |    fgets(Pessoa.endereco[i], 100, stdin);
+      |          ~~~~~~~~~~~~~~~^~~
+      |                         |
+      |                         char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:27:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   27 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                         ^~~~~~
+..\src\exercicio1.c:27:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   27 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                  ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |     |
+      |                   |     int
+      |                   char *
+      |                  %d
+..\src\exercicio1.c:29:24: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   29 |    printf("Endereço: %s\n", strtok(Pessoa.endereco[i], "\n"));
+      |                       ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |     |
+      |                        |     int
+      |                        char *
+      |                       %d
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+20:09:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:14:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   14 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:22:25: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   22 |    fgets(Pessoa.endereco[i], 100, stdin);
+      |          ~~~~~~~~~~~~~~~^~~
+      |                         |
+      |                         char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:29:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   29 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                         ^~~~~~
+..\src\exercicio1.c:29:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   29 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                  ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |     |
+      |                   |     int
+      |                   char *
+      |                  %d
+..\src\exercicio1.c:31:24: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |    printf("Endereço: %s\n", strtok(Pessoa.endereco[i], "\n"));
+      |                       ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |     |
+      |                        |     int
+      |                        char *
+      |                       %d
+gcc -o programasC.exe "src\\exercicio1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:09:48 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio1.o src/exercicio1.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+20:09:48 **** Clean-only build of configuration Debug for project programasC ****
+20:09:48 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:14:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   14 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:22:25: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   22 |    fgets(Pessoa.endereco[i], 100, stdin);
+      |          ~~~~~~~~~~~~~~~^~~
+      |                         |
+      |                         char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:29:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   29 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                         ^~~~~~
+..\src\exercicio1.c:29:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   29 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                  ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |     |
+      |                   |     int
+      |                   char *
+      |                  %d
+..\src\exercicio1.c:31:24: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |    printf("Endereço: %s\n", strtok(Pessoa.endereco[i], "\n"));
+      |                       ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |     |
+      |                        |     int
+      |                        char *
+      |                       %d
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:10:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:14:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   14 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:21:25: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   21 |    fgets(Pessoa.endereco[i], 100, stdin);
+      |          ~~~~~~~~~~~~~~~^~~
+      |                         |
+      |                         char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:27:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   27 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                         ^~~~~~
+..\src\exercicio1.c:27:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   27 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                  ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |     |
+      |                   |     int
+      |                   char *
+      |                  %d
+..\src\exercicio1.c:29:24: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   29 |    printf("Endereço: %s\n", strtok(Pessoa.endereco[i], "\n"));
+      |                       ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |     |
+      |                        |     int
+      |                        char *
+      |                       %d
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+20:11:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:14:21: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   14 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:20:25: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   20 |    fgets(Pessoa.endereco[i], 100, stdin);
+      |          ~~~~~~~~~~~~~~~^~~
+      |                         |
+      |                         char
+In file included from ..\src\exercicio1.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio1.c:26:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   26 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                         ^~~~~~
+..\src\exercicio1.c:26:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   26 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                  ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |     |
+      |                   |     int
+      |                   char *
+      |                  %d
+..\src\exercicio1.c:28:24: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   28 |    printf("Endereço: %s\n", strtok(Pessoa.endereco[i], "\n"));
+      |                       ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |     |
+      |                        |     int
+      |                        char *
+      |                       %d
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+20:12:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:14:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'for'
+   14 |  for(int i=0; i<2; i++){
+      |  ^~~
+..\src\exercicio1.c:16:10: error: 'Pessoa' undeclared (first use in this function)
+   16 |    fgets(Pessoa.nome[i], 100, stdin);
+      |          ^~~~~~
+..\src\exercicio1.c:16:10: note: each undeclared identifier is reported only once for each function it appears in
+..\src\exercicio1.c:28:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   28 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                         ^~~~~~
+20:13:42 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:29:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   29 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                         ^~~~~~
+..\src\exercicio1.c:29:38: error: '(struct st_pessoa *)&Pessoa' is a pointer; did you mean to use '->'?
+   29 |    printf("Nome: %s\n", strtok(Pessoa.nome[i], "\n"));
+      |                                      ^
+      |                                      ->
+..\src\exercicio1.c:30:32: error: '(struct st_pessoa *)&Pessoa' is a pointer; did you mean to use '->'?
+   30 |    printf("Idade: %d\n", Pessoa.idade);
+      |                                ^
+      |                                ->
+..\src\exercicio1.c:31:43: error: '(struct st_pessoa *)&Pessoa' is a pointer; did you mean to use '->'?
+   31 |    printf("Endereço: %s\n", strtok(Pessoa.endereco[i], "\n"));
+      |                                           ^
+      |                                           ->
+20:14:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:29:25: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+   29 |    printf("Nome: %s\n", strtok(Pessoa[i].nome, "\n"));
+      |                         ^~~~~~
+..\src\exercicio1.c:29:19: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   29 |    printf("Nome: %s\n", strtok(Pessoa[i].nome, "\n"));
+      |                  ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |     |
+      |                   |     int
+      |                   char *
+      |                  %d
+..\src\exercicio1.c:31:24: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   31 |    printf("Endereço: %s\n", strtok(Pessoa[i].endereco, "\n"));
+      |                       ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        |     |
+      |                        |     int
+      |                        char *
+      |                       %d
+gcc -o programasC.exe "src\\exercicio1.o" 
+20:14:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
