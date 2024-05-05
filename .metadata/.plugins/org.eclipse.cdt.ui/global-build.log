@@ -1849,3 +1849,99 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
 gcc -o programasC.exe "src\\exercicio1.o" 
 Info: Nothing to build for programasC
+20:22:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+..\src\exercicio2.c: In function 'main':
+..\src\exercicio2.c:33:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   33 |    printf("Idade: %d\n", &salaDeAula.Alunos[i].matricula);
+      |                   ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    |     |
+      |                    int   int *
+      |                   %n
+gcc -o programasC.exe "src\\exercicio2.o" 
+20:22:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio2.o" "..\\src\\exercicio2.c" 
+gcc -o programasC.exe "src\\exercicio2.o" 
+Info: Nothing to build for programasC
+20:30:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:14:59: error: expected expression before ')' token
+   14 |  printf("Digite os valores de x,y e z, respectivamente: ",);
+      |                                                           ^
+20:32:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:15:8: warning: too many arguments for format [-Wformat-extra-args]
+   15 |  scanf("&2f, &2f, &2f",Vetor.x, Vetor.y, Vetor.z);
+      |        ^~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio3.o" 
+20:34:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:15:8: warning: too many arguments for format [-Wformat-extra-args]
+   15 |  scanf("&2f, &2f, &2f",&Vetor.x, &Vetor.y, &Vetor.z);
+      |        ^~~~~~~~~~~~~~~
+..\src\exercicio3.c:17:9: warning: too many arguments for format [-Wformat-extra-args]
+   17 |  printf("A soma dos valores x e y", (Vetor.x + Vetor.y));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:34:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:15:8: warning: too many arguments for format [-Wformat-extra-args]
+   15 |  scanf("&2f, &2f, &2f",&Vetor.x, &Vetor.y, &Vetor.z);
+      |        ^~~~~~~~~~~~~~~
+..\src\exercicio3.c:17:38: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   17 |  printf("A soma dos valores x e y = %d", (Vetor.x + Vetor.y));
+      |                                     ~^   ~~~~~~~~~~~~~~~~~~~
+      |                                      |            |
+      |                                      int          double
+      |                                     %f
+gcc -o programasC.exe "src\\exercicio3.o" 
+20:35:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:15:8: warning: too many arguments for format [-Wformat-extra-args]
+   15 |  scanf("&2f, &2f, &2f",&Vetor.x, &Vetor.y, &Vetor.z);
+      |        ^~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:36:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:36:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:45:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:48:45 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula1.d src/aula1.o programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+20:48:45 **** Clean-only build of configuration Debug for project programasC ****
+20:48:45 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula1.o" "..\\src\\aula1.c" 
+gcc -o programasC.exe "src\\aula1.o" 
+Info: Nothing to build for programasC

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+struct st_aluno {
+	char matricula[10];
+	char nome[100];
+	char curso[50];
+	int ano_nascimento;
+};
+
+int main (){
+	setbuf(stdout,NULL);
+
+	return 0;
+}
