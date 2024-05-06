@@ -22,10 +22,6 @@ int main (){
 
 	printf("A variavel 'ponteiro' ocupa %ld bytes na memoria", quantidade * sizeof(int));
 
-	//Liberar a memoria (desalocar)
-	free(ponteiro);
-	ponteiro = NULL;
-	//Medida de segurança
 
 	return 0;
 }

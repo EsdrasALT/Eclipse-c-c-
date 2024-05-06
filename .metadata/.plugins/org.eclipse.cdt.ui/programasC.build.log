@@ -1,1 +1,14 @@
-Info: Nothing to build for programasC
+21:15:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula1.o" "..\\src\\aula1.c" 
+..\src\aula1.c: In function 'main':
+..\src\aula1.c:23:40: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+   23 |  printf("A variavel 'ponteiro' ocupa %ld bytes na memoria", quantidade * sizeof(int));
+      |                                      ~~^                    ~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                        |                               |
+      |                                        long int                        unsigned int
+      |                                      %d
+gcc -o programasC.exe "src\\aula1.o" 
+
+21:15:02 Build Finished. 0 errors, 1 warnings. (took 1s.628ms)
+
