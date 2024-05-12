@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+	int *ponteiro, quantidade=3;
+
+	ponteiro = (int*) calloc (quantidade,sizeof(int));
+
+	ponteiro[0] = 3;
+	ponteiro[1] = 6;
+	ponteiro[2] = 9;
+
+	printf("\nValor ponteiro[0] é %d", ponteiro[0]);
+	printf("\nValor ponteiro[1] é %d", ponteiro[1]);
+	printf("\nValor ponteiro[2] é %d", ponteiro[2]);
+
+	return 0;
+}

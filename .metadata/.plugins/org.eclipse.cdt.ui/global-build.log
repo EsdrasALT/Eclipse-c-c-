@@ -2005,3 +2005,182 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula1.o" "..\\src\\aula1.c"
       |                                        long int                        unsigned int
       |                                      %d
 gcc -o programasC.exe "src\\aula1.o" 
+17:04:33 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+17:04:34 **** Clean-only build of configuration Debug for project programasC ****
+17:04:34 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+17:04:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\aula.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+17:05:01 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula1.d src/aula1.o programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+17:05:01 **** Clean-only build of configuration Debug for project programasC ****
+17:05:01 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula1.o" "..\\src\\aula1.c" 
+..\src\aula1.c: In function 'main':
+..\src\aula1.c:23:40: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'unsigned int' [-Wformat=]
+   23 |  printf("A variavel 'ponteiro' ocupa %ld bytes na memoria", quantidade * sizeof(int));
+      |                                      ~~^                    ~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                        |                               |
+      |                                        long int                        unsigned int
+      |                                      %d
+gcc -o programasC.exe "src\\aula1.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+17:07:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula1.o" "..\\src\\aula1.c" 
+gcc -o programasC.exe "src\\aula1.o" 
+Info: Nothing to build for programasC
+17:12:29 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/calloc.o src/calloc.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+17:12:29 **** Clean-only build of configuration Debug for project programasC ****
+17:12:29 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calloc.o" "..\\src\\calloc.c" 
+..\src\calloc.c: In function 'main':
+..\src\calloc.c:27:10: warning: too many arguments for format [-Wformat-extra-args]
+   27 |   printf("Verificando o que esta alocado: ", ponteiro[i]);
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\calloc.o" 
+17:12:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calloc.o" "..\\src\\calloc.c" 
+gcc -o programasC.exe "src\\calloc.o" 
+Info: Nothing to build for programasC
+17:14:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calloc.o" "..\\src\\calloc.c" 
+gcc -o programasC.exe "src\\calloc.o" 
+Info: Nothing to build for programasC
+17:16:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calloc.o" "..\\src\\calloc.c" 
+gcc -o programasC.exe "src\\calloc.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:16:52 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/calloc.o src/calloc.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+17:16:52 **** Clean-only build of configuration Debug for project programasC ****
+17:16:52 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calloc.o" "..\\src\\calloc.c" 
+gcc -o programasC.exe "src\\calloc.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+17:17:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calloc.o" "..\\src\\calloc.c" 
+gcc -o programasC.exe "src\\calloc.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:17:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\calloc.o" 
+17:20:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\realloc.o" "..\\src\\realloc.c" 
+..\src\realloc.c: In function 'main':
+..\src\realloc.c:37:69: error: 'ponteiro' undeclared (first use in this function)
+   37 |   printf("O Vetor 'queNãoFoiDeclarado[%d]' está o valor %d\n", i, ponteiro[i]);
+      |                                                                     ^~~~~~~~
+..\src\realloc.c:37:69: note: each undeclared identifier is reported only once for each function it appears in
+..\src\realloc.c:40:9: warning: too many arguments for format [-Wformat-extra-args]
+   40 |  printf("A variavel 'ponteiro' ocupa %d bytes na memoria", quantidade, sizeof(int));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+17:21:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\realloc.o" "..\\src\\realloc.c" 
+gcc -o programasC.exe "src\\realloc.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:34:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:34:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\aula.o" 
+17:55:10 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+17:55:11 **** Clean-only build of configuration Debug for project programasC ****
+17:55:11 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:8:28: error: 'quantidade' undeclared (first use in this function)
+    8 |  ponteiro = (int*) calloc (quantidade,sizeof(int));
+      |                            ^~~~~~~~~~
+..\src\aula.c:8:28: note: each undeclared identifier is reported only once for each function it appears in
+..\src\aula.c:18:11: warning: multi-character character constant [-Wmultichar]
+   18 |    printf('%d\n',ponteiro[i*colunas+j]);
+      |           ^~~~~~
+..\src\aula.c:18:11: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\src\aula.c:1:
+c:\mingw\include\stdio.h:462:46: note: expected 'const char *' but argument is of type 'int'
+  462 | _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+      |                                              ^~~~~~~~~~~~
+17:55:58 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+17:55:59 **** Clean-only build of configuration Debug for project programasC ****
+17:55:59 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+..\src\aula.c: In function 'main':
+..\src\aula.c:18:11: warning: multi-character character constant [-Wmultichar]
+   18 |    printf('%d\n',ponteiro[i*colunas+j]);
+      |           ^~~~~~
+..\src\aula.c:18:11: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\src\aula.c:1:
+c:\mingw\include\stdio.h:462:46: note: expected 'const char *' but argument is of type 'int'
+  462 | _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+      |                                              ^~~~~~~~~~~~
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+17:57:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC

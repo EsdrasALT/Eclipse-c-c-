@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+.metadata/.log
+.metadata/.log
+.metadata/.log
+.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/buildState/programasC/1141072722
