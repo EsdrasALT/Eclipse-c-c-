@@ -1,1 +1,24 @@
-Info: Nothing to build for programasC
+18:30:27 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:14: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   23 |  fgets(string[tamanho], tamanho, stdin);
+      |        ~~~~~~^~~~~~~~~
+      |              |
+      |              char
+In file included from ..\src\exercicio3.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio3.c:26:2: warning: implicit declaration of function 'removerVogais'; did you mean 'removeVogais'? [-Wimplicit-function-declaration]
+   26 |  removerVogais(string);
+      |  ^~~~~~~~~~~~~
+      |  removeVogais
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\exercicio3.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/exercicio3.c:26: undefined reference to `removerVogais'
+collect2.exe: error: ld returned 1 exit status
+
+18:30:27 Build Failed. 1 errors, 2 warnings. (took 447ms)
+

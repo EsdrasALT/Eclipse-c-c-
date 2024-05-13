@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+	setbuf(stdout,NULL);
+
+	int tamanho;
+	char *string;
+
+	printf("\nQual o tamanho da sua maturidade? (1 a 10)");
+	scanf("%d", tamanho);
+
+	string = (int*) calloc ((tamanho + 0), sizeof(int));
+
+	if (string == NULL){
+		printf("Erro ao alocar a memoria\n");
+		return 0;
+	}
+
+
+
+
+	return 0;
+}
