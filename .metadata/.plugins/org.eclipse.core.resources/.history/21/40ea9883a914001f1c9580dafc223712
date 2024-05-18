@@ -1,0 +1,27 @@
+/*
+ * exercicio1.c
+ *
+ *  Created on: 17 de mai. de 2024
+ *      Author: Bless
+ */
+
+#include <stdio.h>
+
+int main(){
+	setbuf(stdout,NULL);
+
+	int numero = 3;
+
+	printf("%d", &somatorioDe1AN(numero));
+
+	return 0;
+}
+
+int somatorioDe1AN (int numero){
+
+	int somatorio = 0;
+	for (int i=1; i<numero;i++){
+		somatorio = somatorio + i;
+	}
+	return somatorio + numero;
+}

@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void removeVogais(char *);
+
+int main (){
+	setbuf(stdout,NULL);
+
+	int tamanho;
+	char *string;
+
+	printf("\nQual o tamanho da sua maturidade? (1 a 10): \n");
+	scanf("%d", &tamanho);
+
+	string = (char*) malloc ((tamanho + 1) * sizeof(char*));
+
+	if (string == NULL){
+		printf("Erro ao alocar a memoria\n");
+		return 1;
+	}
+
+	printf("Digite a string: \n");
+	scanf("[^/n]", string);
+
+	printf("Sua string COM vogais: %s", *string);
+	printf("Sua string SEM vogais: %s", *string);
+
+	free(string);
+
+	return 0;
+}
+
+void removeVogais(char *str) {
+
+	for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] == 'a' || str[i] == 'A') {
+            printf("%c", str[i]);
+        }
+    }
+
+}

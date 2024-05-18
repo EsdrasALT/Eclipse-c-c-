@@ -1,0 +1,16 @@
+/*
+ * exercicio1.c
+ *
+ *  Created on: 17 de mai. de 2024
+ *      Author: Bless
+ */
+
+#include <stdio.h>
+
+int main(){
+	setbuf(stdout,NULL);
+
+	printf("Hello");
+
+	return 0;
+}

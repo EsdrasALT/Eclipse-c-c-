@@ -2438,3 +2438,540 @@ gcc -o programasC.exe "src\\exercicio3.o"
 c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\exercicio3.o: in function `main':
 C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/exercicio3.c:26: undefined reference to `removerVogais'
 collect2.exe: error: ld returned 1 exit status
+20:23:11 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio3.o src/exercicio3.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+20:23:12 **** Clean-only build of configuration Debug for project programasC ****
+20:23:12 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:14: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   23 |  fgets(string[tamanho], tamanho, stdin);
+      |        ~~~~~~^~~~~~~~~
+      |              |
+      |              char
+In file included from ..\src\exercicio3.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio3.c:26:2: warning: implicit declaration of function 'removerVogais'; did you mean 'removeVogais'? [-Wimplicit-function-declaration]
+   26 |  removerVogais(string);
+      |  ^~~~~~~~~~~~~
+      |  removeVogais
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\exercicio3.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/exercicio3.c:26: undefined reference to `removerVogais'
+collect2.exe: error: ld returned 1 exit status
+20:23:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\exercicio3.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/exercicio3.c:26: undefined reference to `removerVogais'
+collect2.exe: error: ld returned 1 exit status
+20:23:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\exercicio3.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/exercicio3.c:26: undefined reference to `removerVogais'
+collect2.exe: error: ld returned 1 exit status
+20:26:50 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio3.o src/exercicio3.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+20:26:50 **** Clean-only build of configuration Debug for project programasC ****
+20:26:50 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:14: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   23 |  fgets(string[tamanho], tamanho, stdin);
+      |        ~~~~~~^~~~~~~~~
+      |              |
+      |              char
+In file included from ..\src\exercicio3.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio3.c:26:2: warning: implicit declaration of function 'removerVogais'; did you mean 'removeVogais'? [-Wimplicit-function-declaration]
+   26 |  removerVogais(string);
+      |  ^~~~~~~~~~~~~
+      |  removeVogais
+..\src\exercicio3.c: In function 'removeVogais':
+..\src\exercicio3.c:38:22: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   38 |             printf("%s", str[i]);
+      |                     ~^   ~~~~~~
+      |                      |      |
+      |                      char * int
+      |                     %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\exercicio3.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/exercicio3.c:26: undefined reference to `removerVogais'
+collect2.exe: error: ld returned 1 exit status
+20:27:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:14: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   23 |  fgets(string[tamanho], tamanho, stdin);
+      |        ~~~~~~^~~~~~~~~
+      |              |
+      |              char
+In file included from ..\src\exercicio3.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio3.c:26:38: warning: implicit declaration of function 'removerVogais'; did you mean 'removeVogais'? [-Wimplicit-function-declaration]
+   26 |  printf("Sua string SEM vogais: %s", removerVogais(string));
+      |                                      ^~~~~~~~~~~~~
+      |                                      removeVogais
+..\src\exercicio3.c:26:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   26 |  printf("Sua string SEM vogais: %s", removerVogais(string));
+      |                                 ~^   ~~~~~~~~~~~~~~~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c: In function 'removeVogais':
+..\src\exercicio3.c:37:22: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   37 |             printf("%s", str[i]);
+      |                     ~^   ~~~~~~
+      |                      |      |
+      |                      char * int
+      |                     %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\exercicio3.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/exercicio3.c:26: undefined reference to `removerVogais'
+collect2.exe: error: ld returned 1 exit status
+20:27:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:14: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   23 |  fgets(string[tamanho], tamanho, stdin);
+      |        ~~~~~~^~~~~~~~~
+      |              |
+      |              char
+In file included from ..\src\exercicio3.c:1:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+..\src\exercicio3.c:26:38: error: invalid use of void expression
+   26 |  printf("Sua string SEM vogais: %s", removeVogais(string));
+      |                                      ^~~~~~~~~~~~~~~~~~~~
+20:29:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:8: warning: too many arguments for format [-Wformat-extra-args]
+   23 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:26:38: error: invalid use of void expression
+   26 |  printf("Sua string SEM vogais: %s", removeVogais(string));
+      |                                      ^~~~~~~~~~~~~~~~~~~~
+20:30:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:8: warning: too many arguments for format [-Wformat-extra-args]
+   23 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:25:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   25 |  printf("Sua string COM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c:26:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   26 |  printf("Sua string SEM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:30:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:8: warning: too many arguments for format [-Wformat-extra-args]
+   23 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:26:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   26 |  printf("Sua string COM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c:27:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   27 |  printf("Sua string SEM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:31:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:8: warning: too many arguments for format [-Wformat-extra-args]
+   23 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:26:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   26 |  printf("Sua string COM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c:28:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   28 |  printf("Sua string SEM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:32:27 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/exercicio3.o src/exercicio3.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+20:32:27 **** Clean-only build of configuration Debug for project programasC ****
+20:33:00 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:23:8: warning: too many arguments for format [-Wformat-extra-args]
+   23 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:26:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   26 |  printf("Sua string COM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c:28:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   28 |  printf("Sua string SEM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:34:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:21:8: warning: too many arguments for format [-Wformat-extra-args]
+   21 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:24:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   24 |  printf("Sua string COM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c:27:14: warning: comparison between pointer and integer
+   27 |   if (string == 'a' || string == 'A'){
+      |              ^~
+..\src\exercicio3.c:27:31: warning: comparison between pointer and integer
+   27 |   if (string == 'a' || string == 'A'){
+      |                               ^~
+..\src\exercicio3.c:32:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   32 |  printf("Sua string SEM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+20:35:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:21:8: warning: too many arguments for format [-Wformat-extra-args]
+   21 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:24:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   24 |  printf("Sua string COM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c:28:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   28 |    printf("%s", string[i]);
+      |            ~^   ~~~~~~~~~
+      |             |         |
+      |             char *    int
+      |            %d
+..\src\exercicio3.c:32:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   32 |  printf("Sua string SEM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:35:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+..\src\exercicio3.c: In function 'main':
+..\src\exercicio3.c:21:8: warning: too many arguments for format [-Wformat-extra-args]
+   21 |  scanf("[^/n]", string);
+      |        ^~~~~~~
+..\src\exercicio3.c:23:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   23 |  printf("Sua string COM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+..\src\exercicio3.c:28:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   28 |    printf("%s", string[i]);
+      |            ~^   ~~~~~~~~~
+      |             |         |
+      |             char *    int
+      |            %d
+..\src\exercicio3.c:32:34: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   32 |  printf("Sua string SEM vogais: %s", *string);
+      |                                 ~^   ~~~~~~~
+      |                                  |   |
+      |                                  |   int
+      |                                  char *
+      |                                 %d
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:36:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio3.o" "..\\src\\exercicio3.c" 
+gcc -o programasC.exe "src\\exercicio3.o" 
+Info: Nothing to build for programasC
+20:50:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:51:01 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+20:51:02 **** Clean-only build of configuration Debug for project programasC ****
+20:51:02 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:51:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:52:15 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/aula.o src/aula.d programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+20:52:16 **** Clean-only build of configuration Debug for project programasC ****
+20:52:16 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+20:52:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula.o" "..\\src\\aula.c" 
+gcc -o programasC.exe "src\\aula.o" 
+Info: Nothing to build for programasC
+20:55:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+20:59:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:15: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", somatorioDe1AN(numero));
+      |               ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio1.o" 
+20:59:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:16: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", &somatorioDe1AN(numero));
+      |                ^~~~~~~~~~~~~~
+..\src\exercicio1.c:15:15: error: lvalue required as unary '&' operand
+   15 |  printf("%d", &somatorioDe1AN(numero));
+      |               ^
+20:59:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:15: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", somatorioDe1AN(numero));
+      |               ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:00:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:15: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", somatorioDe1AN(numero));
+      |               ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+21:05:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:15: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", somatorioDe1AN(numero));
+      |               ^~~~~~~~~~~~~~
+..\src\exercicio1.c: In function 'somatorioDe1AN':
+..\src\exercicio1.c:25:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   25 |   printf("%d", &somatorio);
+      |           ~^   ~~~~~~~~~~
+      |            |   |
+      |            int int *
+      |           %n
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+21:05:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:15: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", somatorioDe1AN(numero));
+      |               ^~~~~~~~~~~~~~
+..\src\exercicio1.c: In function 'somatorioDe1AN':
+..\src\exercicio1.c:25:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   25 |   printf("%d\n", &somatorio);
+      |           ~^     ~~~~~~~~~~
+      |            |     |
+      |            int   int *
+      |           %n
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:08:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:15: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", somatorioDe1AN(numero));
+      |               ^~~~~~~~~~~~~~
+..\src\exercicio1.c: In function 'somatorioDe1AN':
+..\src\exercicio1.c:25:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   25 |   printf("%d\n", &somatorio);
+      |           ~^     ~~~~~~~~~~
+      |            |     |
+      |            int   int *
+      |           %n
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+21:09:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exercicio1.o" "..\\src\\exercicio1.c" 
+..\src\exercicio1.c: In function 'main':
+..\src\exercicio1.c:15:15: warning: implicit declaration of function 'somatorioDe1AN' [-Wimplicit-function-declaration]
+   15 |  printf("%d", somatorioDe1AN(numero));
+      |               ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\exercicio1.o" 
+Info: Nothing to build for programasC
+21:14:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula - fibonacci.o" "..\\src\\aula - fibonacci.c" 
+gcc -o programasC.exe "src\\aula - fibonacci.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:15:17 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf "src/aula - fibonacci.d" programasC.exe "src/aula - fibonacci.o" 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+21:15:17 **** Clean-only build of configuration Debug for project programasC ****
+21:15:17 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula - fibonacci.o" "..\\src\\aula - fibonacci.c" 
+gcc -o programasC.exe "src\\aula - fibonacci.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:16:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula - fibonacci.o" "..\\src\\aula - fibonacci.c" 
+gcc -o programasC.exe "src\\aula - fibonacci.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:16:42 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\aula - fibonacci.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:17:08 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf "src/aula - fibonacci.d" programasC.exe "src/aula - fibonacci.o" 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32]
+
+21:17:08 **** Clean-only build of configuration Debug for project programasC ****
+21:17:08 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula - fibonacci.o" "..\\src\\aula - fibonacci.c" 
+gcc -o programasC.exe "src\\aula - fibonacci.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:17:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aula - fibonacci.o" "..\\src\\aula - fibonacci.c" 
+gcc -o programasC.exe "src\\aula - fibonacci.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:17:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\aula - fibonacci.o" 
