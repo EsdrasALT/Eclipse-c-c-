@@ -1,6 +1,7 @@
-21:17:41 **** Incremental Build of configuration Debug for project programasC ****
+11:55:40 **** Incremental Build of configuration Debug for project programasC ****
 Info: Internal Builder is used for build
-gcc -o programasC.exe "src\\aula - fibonacci.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
 
-21:17:41 Build Finished. 0 errors, 0 warnings. (took 325ms)
+11:55:41 Build Finished. 0 errors, 0 warnings. (took 493ms)
 
