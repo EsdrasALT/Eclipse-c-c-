@@ -9,6 +9,6 @@ org.eclipse.launchbar.core.descriptorType.default\:exercicio1_nivelamento.exe/ac
 org.eclipse.launchbar.core.descriptorType.default\:exercicio1_nivelamento.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:programa1.c.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:programa1.c.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:programasC.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:programasC.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:teste.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:teste.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

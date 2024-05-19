@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: 18 de mai. de 2024
+ *      Author: Bless
+ */
+
+#include <stdio.h>
+
+int main(){
+	setbuf(stdout,NULL);
+
+	printf("Hello Word");
+
+	return 0;
+}
+

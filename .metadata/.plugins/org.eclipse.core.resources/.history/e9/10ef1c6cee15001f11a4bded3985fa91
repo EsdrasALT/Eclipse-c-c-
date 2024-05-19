@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+struct st_cadastroProduto {
+	char nome[40];
+	int codigo;
+	float preco;
+	int quantidade;
+};
+
+int main(){
+	setbuf(stdout,NULL);
+
+	struct st_cadastroProduto produtoA;
+	char operador;
+
+	printf("Dentre as opções, escolha\n"
+			"A"
+			"B"
+			"C"
+			"D"
+			"E");
+	scanf("%c", operador);
+
+	switch(opcao) {
+	        case 1:
+	            printf("A - Criar estrutura para preenchimento\n");
+	            break;
+	        case 2:
+	            printf("B - Preencher dados\n");
+	            break;
+	        case 3:
+	            printf("C - Exibir produtos com estoque zerado\n");
+	            break;
+	        case 4:
+	            printf("D - Exibir produtos em estoque\n");
+	            break;
+	        case 5:
+	            printf("E - Finalizar\n");
+	            break;
+	        default:
+	            printf("Opção inválida!\n");
+	            break;
+	    }
+
+
+
+	return 0;
+}
+
