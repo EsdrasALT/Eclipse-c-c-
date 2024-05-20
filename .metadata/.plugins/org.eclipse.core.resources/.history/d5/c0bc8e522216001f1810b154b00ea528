@@ -1,0 +1,101 @@
+#include "biblioteca.h"
+
+void menu() {
+	char opcao;
+	Produto *produtos = NULL;
+	int quantidadeTotalProdutos = 0;
+
+	printf("A.%d\n", produtos);
+	printf("B.%c\n", produtos->nome);
+
+	printf("-------------Bem vindo-------------------\n\n");
+
+	do {
+		printf("\nEscolha uma das opções abaixo:\n");
+		printf("A - Criar estrutura para preenchimento\n");
+		printf("B - Preencher dados\n");
+		printf("C - Exibir produtos com estoque zerado\n");
+		printf("D - Exibir produtos em estoque\n");
+		printf("E - Finalizar\n");
+		printf("Digite sua opção: ");
+		scanf(" %c", &opcao);
+
+		switch (opcao) {
+		case 'A':
+			printf("Você escolheu a opção A.\n\n");
+			if (produtos == NULL) {
+
+				printf("A.%d\n", produtos);
+				printf("B.%c\n", produtos->nome);
+
+				quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+				produtos = criarEstruturaDinamicamente(quantidadeTotalProdutos);
+			}
+			//To-do: Implementação de apagar struct antiga e criar uma nova
+			break;
+		case 'B':
+			printf("Você escolheu a opção B.\n\n");
+			cadastrarNome(produtos);
+			break;
+		case 'C':
+			printf("Você escolheu a opção C.\n\n");
+			break;
+		case 'D':
+			printf("Você escolheu a opção D.\n\n");
+			break;
+		case 'E':
+			printf("Você escolheu a opção E.\n\n");
+			break;
+		default:
+			printf("Opção inválida!\n\n");
+			break;
+		}
+	} while (opcao != 'E');
+
+	printf("\n----------------Fim do Programa------------------");
+}
+
+int solicitarQuantidadeTotalProdutos() {
+	int qtde;
+
+	do {
+		printf("Informe a quantidade total dos produtos que irá cadastrar\n"
+			   "Minimo de 1 | Maximo de 10:  ");
+		scanf("%d", &qtde);
+		if (qtde <= 0 || qtde > 10) {
+			printf("\nQuantidade inválida!\n");
+		}
+	} while (qtde <= 0 || qtde > 10);
+
+	return qtde;
+}
+
+void excluirEstruturaCriada(Produto *produtos) {
+	if (produtos != NULL) {
+		free(produtos);
+		produtos = NULL;
+	}
+}
+
+Produto *criarEstruturaDinamicamente(int tamanho) {
+	Produto *produtos = (Produto *)malloc(tamanho * sizeof(Produto));
+	return produtos;
+}
+
+void cadastrarNome(Produto *produtos){ //To-do: Limitar o preenchimento apenas do nome
+
+	printf("A.%d\n", produtos);
+	printf("B.%c\n", produtos->nome);
+
+	int contador;
+	for(int i=0; i<sizeof(produtos);i++){
+		printf("Informe o nome do(s) produto(s) abaixo.\n");
+		fgets(produtos[i].nome, sizeof(produtos->nome), stdin);
+		contador++;
+	}
+
+	for(int i=0; i<sizeof(produtos);i++){
+		printf("O %d° nome é: %s\n", contador[i],produtos[i].nome);
+	}
+
+}

@@ -1,11 +1,20 @@
-/*
- * biblioteca.h
- *
- *  Created on: 18 de mai. de 2024
- *      Author: Bless
- */
+#ifndef biblioteca_h_
 
-#ifndef BIBLIOTECA_H_
-#define BIBLIOTECA_H_
+#include <stdio.h>
+#include <stdlib.h>
 
-#endif /* BIBLIOTECA_H_ */
+typedef struct {
+	char nome[40];
+	int codigo;
+	float preco;
+	int quantidade;
+} Produto;
+
+void menu();
+int solicitarQuantidadeTotalProdutos();
+void excluirEstruturaCriada(Produto *produtos);
+Produto *criarEstruturaDinamicamente(int tamanho);
+void cadastrarNome(Produto *produtos, int quantidade);
+void cadastrarPreco(float *valor, int quantidade);
+
+#endif /* biblioteca_h_ */

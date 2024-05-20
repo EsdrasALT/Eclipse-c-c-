@@ -1,0 +1,11 @@
+#include "biblioteca.h"
+
+int main() {
+	setbuf(stdout, NULL);
+
+	Produto *produtos = NULL;
+
+	menu();
+
+	return 0;
+}

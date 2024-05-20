@@ -1,0 +1,17 @@
+#include "biblioteca.h"
+
+int main() {
+	setbuf(stdout, NULL);
+
+	if (produtos == NULL) {
+		quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+		produtos = criarEstruturaDinamicamente(quantidadeTotalProdutos);
+	}
+
+	menu();
+
+	// Liberar a memória (desalocar)
+	excluirEstruturaCriada(produtos);
+
+	return 0;
+}

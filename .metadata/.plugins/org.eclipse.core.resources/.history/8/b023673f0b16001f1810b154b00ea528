@@ -1,0 +1,116 @@
+#include <stdio.h>
+#include <time.h>
+
+#define RANDOM_0_50 (rand() % 51)
+
+typedef struct {
+	int nome[40];
+	int codigo;
+	float preco;
+	int quantidade;
+}Produto;
+
+void menu();
+int solicitarQuantidadeTotalProdutos ();
+void excluirEstruturaCriada (Produto *produtos);
+
+int main(){
+	setbuf(stdout, NULL);
+
+	Produto *produtos = NULL;
+
+	 if (produtos != NULL) {
+		 excluirEstruturaCriada(produtos);
+	}
+
+	menu();
+
+	return 0;
+
+}
+
+void menu(){
+	char opcao, pergunta;
+	int quantidadeTotalProdutos=0;
+
+	printf("-----Bem vindo-----\n\n");
+	printf("Primeiro acesso? S(Sim) ou N(Não): ");
+	scanf("%c", &pergunta);
+	getchar();
+
+	if(pergunta != 'N' && pergunta != 'n'){
+		quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+	} else {
+		printf("Não\n");
+	}
+	printf("A quantidade total informa é: %d\n\n", quantidadeTotalProdutos);
+
+
+
+	printf("Escolha uma das opções abaixo:\n");
+	do {
+		printf("A - Criar estrutura para preenchimento\n");
+		printf("B - Preencher dados\n");
+		printf("C - Exibir produtos com estoque zerado\n");
+		printf("D - Exibir produtos em estoque\n");
+		printf("E - Finalizar\n");
+		printf("Digite sua opção: ");
+		scanf("%c", &opcao);
+		getchar();
+
+		switch(opcao) {
+			case 'A':
+			case 'a':
+
+				break;
+			case 'B':
+			case 'b':
+				printf("Você escolheu a opção B.\n");
+				break;
+			case 'C':
+			case 'c':
+				printf("Você escolheu a opção C.\n");
+				break;
+			case 'D':
+			case 'd':
+				printf("Você escolheu a opção D.\n");
+				break;
+			case 'E':
+			case 'e':
+				printf("Você escolheu a opção E.\n");
+				break;
+			default:
+				printf("Opção inválida!\n\n");
+				break;
+		}
+	} while (opcao != 'E' && opcao != 'e');
+
+	printf("\n-----Fim do Programa-----");
+
+}
+
+int solicitarQuantidadeTotalProdutos (){
+
+	int qtde;
+
+	do {
+		printf("Informe a quantidade total dos produtos que ira cadastrar\n"
+				"Minimo de 1 | Maximo de 10:  ");
+		scanf("%d", &qtde);
+		if (qtde <= 0 || qtde > 10){
+			printf("\nQuantidade invalida!\n");
+		}
+	} while (qtde <= 0 || qtde > 10);
+
+	return qtde;
+}
+
+void excluirEstruturaCriada (Produto * produtos){
+	if (produtos != NULL){
+		free(produtos);
+	}
+}
+
+void criarEstruturaDinamicamente(int tamanho){
+	return tamanho;
+}

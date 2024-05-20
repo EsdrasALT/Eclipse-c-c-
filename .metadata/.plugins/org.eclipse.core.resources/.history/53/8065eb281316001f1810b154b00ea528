@@ -1,0 +1,14 @@
+#include "biblioteca.h"
+
+int main() {
+	setbuf(stdout, NULL);
+
+	Produto *produtos = NULL;
+
+	menu();
+
+	// Liberar a memória (desalocar)
+	excluirEstruturaCriada(produtos);
+
+	return 0;
+}

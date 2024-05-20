@@ -3171,3 +3171,2709 @@ Info: Nothing to build for programasC
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
 gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+12:00:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    4 |  printf("-----Bem vindo-----\n\n");
+      |  ^~~~~~
+..\src\funcoes.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menu(){
+..\src\funcoes.c:13:3: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   13 |   scanf("%c", &opcao);
+      |   ^~~~~
+..\src\funcoes.c:13:3: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:13:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:14:3: warning: implicit declaration of function 'getchar' [-Wimplicit-function-declaration]
+   14 |   getchar();
+      |   ^~~~~~~
+..\src\funcoes.c:14:3: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:01:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    4 |  printf("-----Bem vindo-----\n\n");
+      |  ^~~~~~
+..\src\funcoes.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menu(){
+..\src\funcoes.c:13:3: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   13 |   scanf("%c", &opcao);
+      |   ^~~~~
+..\src\funcoes.c:13:3: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:13:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:14:3: warning: implicit declaration of function 'getchar' [-Wimplicit-function-declaration]
+   14 |   getchar();
+      |   ^~~~~~~
+..\src\funcoes.c:14:3: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+12:04:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:7:22: warning: unused variable 'produtos' [-Wunused-variable]
+    7 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+12:42:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:7:22: warning: unused variable 'produtos' [-Wunused-variable]
+    7 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    4 |  printf("-----Bem vindo-----\n\n");
+      |  ^~~~~~
+..\src\funcoes.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menu(){
+..\src\funcoes.c:6:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+    6 |  scanf("%c", &pergunta);
+      |  ^~~~~
+..\src\funcoes.c:6:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:6:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'getchar' [-Wimplicit-function-declaration]
+    7 |  getchar();
+      |  ^~~~~~~
+..\src\funcoes.c:7:2: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:43:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    4 |  printf("-----Bem vindo-----\n\n");
+      |  ^~~~~~
+..\src\funcoes.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menu(){
+..\src\funcoes.c:6:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+    6 |  scanf("%c", &pergunta);
+      |  ^~~~~
+..\src\funcoes.c:6:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:6:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'getchar' [-Wimplicit-function-declaration]
+    7 |  getchar();
+      |  ^~~~~~~
+..\src\funcoes.c:7:2: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:56:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:4:5: warning: 'main' is normally a non-static function [-Wmain]
+    4 | int main(){
+      |     ^~~~
+..\src\main.c: In function 'main':
+..\src\main.c:7:22: warning: unused variable 'produtos' [-Wunused-variable]
+    7 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:13:1: error: expected declaration or statement at end of input
+   13 | }
+      | ^
+..\src\main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+At top level:
+..\src\main.c:4:5: warning: 'main' defined but not used [-Wunused-function]
+    4 | int main(){
+      |     ^~~~
+12:57:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:5:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |  printf("-----Bem vindo-----\n\n");
+      |  ^~~~~~
+..\src\funcoes.c:5:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menu(){
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+    7 |  scanf("%c", &pergunta);
+      |  ^~~~~
+..\src\funcoes.c:7:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:7:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:8:2: warning: implicit declaration of function 'getchar' [-Wimplicit-function-declaration]
+    8 |  getchar();
+      |  ^~~~~~~
+..\src\funcoes.c:8:2: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+..\src\funcoes.c:12:29: warning: implicit declaration of function 'solicitarQuantidadeTotalProdutos' [-Wimplicit-function-declaration]
+   12 |   quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\funcoes.c:66:3: warning: incompatible implicit declaration of built-in function 'printf'
+   66 |   printf("Informe a quantidade total dos produtos que ira cadastrar\n"
+      |   ^~~~~~
+..\src\funcoes.c:66:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:68:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   68 |   scanf("%d", &qtde);
+      |   ^~~~~
+..\src\funcoes.c:68:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:5:5: warning: 'main' is normally a non-static function [-Wmain]
+    5 | int main(){
+      |     ^~~~
+..\src\main.c: In function 'main':
+..\src\main.c:8:22: warning: unused variable 'produtos' [-Wunused-variable]
+    8 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:14:1: error: expected declaration or statement at end of input
+   14 | }
+      | ^
+..\src\main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+   14 | }
+      | ^
+At top level:
+..\src\main.c:5:5: warning: 'main' defined but not used [-Wunused-function]
+    5 | int main(){
+      |     ^~~~
+12:58:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:5:5: warning: 'main' is normally a non-static function [-Wmain]
+    5 | int main(){
+      |     ^~~~
+..\src\main.c: In function 'main':
+..\src\main.c:8:22: warning: unused variable 'produtos' [-Wunused-variable]
+    8 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:14:1: error: expected declaration or statement at end of input
+   14 | }
+      | ^
+..\src\main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+   14 | }
+      | ^
+At top level:
+..\src\main.c:5:5: warning: 'main' defined but not used [-Wunused-function]
+    5 | int main(){
+      |     ^~~~
+12:58:42 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:5:5: warning: 'main' is normally a non-static function [-Wmain]
+    5 | int main(void){
+      |     ^~~~
+..\src\main.c:14:1: error: expected declaration or statement at end of input
+   14 | }
+      | ^
+..\src\main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+   14 | }
+      | ^
+At top level:
+..\src\main.c:5:5: warning: 'main' defined but not used [-Wunused-function]
+    5 | int main(void){
+      |     ^~~~
+12:58:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:5:5: warning: 'main' is normally a non-static function [-Wmain]
+    5 | int main(void){
+      |     ^~~~
+..\src\main.c:14:1: error: expected declaration or statement at end of input
+   14 | }
+      | ^
+..\src\main.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+   14 | }
+      | ^
+At top level:
+..\src\main.c:5:5: warning: 'main' defined but not used [-Wunused-function]
+    5 | int main(void){
+      |     ^~~~
+13:01:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:17:5: warning: 'main' is normally a non-static function [-Wmain]
+   17 | int main(void){
+      |     ^~~~
+..\src\main.c:102:1: error: expected declaration or statement at end of input
+  102 | }
+      | ^
+..\src\main.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+At top level:
+..\src\main.c:88:5: warning: 'solicitarQuantidadeTotalProdutos' defined but not used [-Wunused-function]
+   88 | int solicitarQuantidadeTotalProdutos (){
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c:28:6: warning: 'menu' defined but not used [-Wunused-function]
+   28 | void menu(){
+      |      ^~~~
+..\src\main.c:17:5: warning: 'main' defined but not used [-Wunused-function]
+   17 | int main(void){
+      |     ^~~~
+13:01:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:17:5: warning: 'main' is normally a non-static function [-Wmain]
+   17 | int main(){
+      |     ^~~~
+..\src\main.c: In function 'main':
+..\src\main.c:20:22: warning: unused variable 'produtos' [-Wunused-variable]
+   20 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:102:1: error: expected declaration or statement at end of input
+  102 | }
+      | ^
+..\src\main.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+At top level:
+..\src\main.c:88:5: warning: 'solicitarQuantidadeTotalProdutos' defined but not used [-Wunused-function]
+   88 | int solicitarQuantidadeTotalProdutos (){
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c:28:6: warning: 'menu' defined but not used [-Wunused-function]
+   28 | void menu(){
+      |      ^~~~
+..\src\main.c:17:5: warning: 'main' defined but not used [-Wunused-function]
+   17 | int main(){
+      |     ^~~~
+13:03:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:17:5: warning: 'main' is normally a non-static function [-Wmain]
+   17 | int main(){
+      |     ^~~~
+..\src\main.c: In function 'main':
+..\src\main.c:20:22: warning: unused variable 'produtos' [-Wunused-variable]
+   20 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:102:1: error: expected declaration or statement at end of input
+  102 | }
+      | ^
+..\src\main.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+At top level:
+..\src\main.c:88:5: warning: 'solicitarQuantidadeTotalProdutos' defined but not used [-Wunused-function]
+   88 | int solicitarQuantidadeTotalProdutos (){
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c:28:6: warning: 'menu' defined but not used [-Wunused-function]
+   28 | void menu(){
+      |      ^~~~
+..\src\main.c:17:5: warning: 'main' defined but not used [-Wunused-function]
+   17 | int main(){
+      |     ^~~~
+13:05:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:20:22: warning: unused variable 'produtos' [-Wunused-variable]
+   20 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:06:08 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+13:06:08 **** Clean-only build of configuration Debug for project programasC ****
+13:06:08 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:20:22: warning: unused variable 'produtos' [-Wunused-variable]
+   20 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:5:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |  printf("-----Bem vindo-----\n\n");
+      |  ^~~~~~
+..\src\funcoes.c:5:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menu(){
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+    7 |  scanf("%c", &pergunta);
+      |  ^~~~~
+..\src\funcoes.c:7:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:7:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:8:2: warning: implicit declaration of function 'getchar' [-Wimplicit-function-declaration]
+    8 |  getchar();
+      |  ^~~~~~~
+..\src\funcoes.c:8:2: note: 'getchar' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+..\src\funcoes.c:12:29: warning: implicit declaration of function 'solicitarQuantidadeTotalProdutos' [-Wimplicit-function-declaration]
+   12 |   quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\funcoes.c:66:3: warning: incompatible implicit declaration of built-in function 'printf'
+   66 |   printf("Informe a quantidade total dos produtos que ira cadastrar\n"
+      |   ^~~~~~
+..\src\funcoes.c:66:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:68:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   68 |   scanf("%d", &qtde);
+      |   ^~~~~
+..\src\funcoes.c:68:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `menu':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:28: multiple definition of `menu'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:1: first defined here
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `solicitarQuantidadeTotalProdutos':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:88: multiple definition of `solicitarQuantidadeTotalProdutos'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:61: first defined here
+collect2.exe: error: ld returned 1 exit status
+13:06:13 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `menu':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:28: multiple definition of `menu'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:1: first defined here
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `solicitarQuantidadeTotalProdutos':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:88: multiple definition of `solicitarQuantidadeTotalProdutos'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:61: first defined here
+collect2.exe: error: ld returned 1 exit status
+13:06:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `menu':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:27: multiple definition of `menu'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:1: first defined here
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `solicitarQuantidadeTotalProdutos':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:87: multiple definition of `solicitarQuantidadeTotalProdutos'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:61: first defined here
+collect2.exe: error: ld returned 1 exit status
+13:06:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `menu':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:27: multiple definition of `menu'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:1: first defined here
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\main.o: in function `solicitarQuantidadeTotalProdutos':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/main.c:87: multiple definition of `solicitarQuantidadeTotalProdutos'; src\funcoes.o:C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:61: first defined here
+collect2.exe: error: ld returned 1 exit status
+13:07:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+Info: Nothing to build for programasC
+13:08:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:95:26: error: expected expression before '>' token
+   95 |   if (qtde <= 0 || qtde => 11){
+      |                          ^
+13:08:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:95:26: error: expected expression before '>' token
+   95 |   if (qtde <= 0 || qtde => 11){
+      |                          ^
+13:09:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:95:26: error: expected expression before '>' token
+   95 |   if (qtde <= 0 || qtde => 11){
+      |                          ^
+..\src\main.c:98:30: error: expected expression before '>' token
+   98 |  } while (qtde <= 0 || qtde => 11);
+      |                              ^
+13:09:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:95:13: error: expected expression before '<' token
+   95 |   if (qtde =< 0 || qtde => 11){
+      |             ^
+..\src\main.c:98:17: error: expected expression before '<' token
+   98 |  } while (qtde =< 0 || qtde => 11);
+      |                 ^
+13:09:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+..\src\main.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\main.c:95:25: error: expected expression before '>' token
+   95 |   if (qtde < 1 || qtde => 11){
+      |                         ^
+..\src\main.c:98:29: error: expected expression before '>' token
+   98 |  } while (qtde < 1 || qtde => 11);
+      |                             ^
+13:10:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+gcc -o programasC.exe "src\\main.o" 
+Info: Nothing to build for programasC
+13:11:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:22: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  st_cadastroProdutos produtos;
+      |                      ^~~~~~~~
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:11:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:05:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from c:\mingw\include\time.h:178,
+                 from ..\src\main.c:2:
+..\src\main.c: In function 'main':
+..\src\main.c:19:21: error: invalid initializer
+   19 |  Produto produtos = NULL;
+      |                     ^~~~
+..\src\main.c:21:2: error: too few arguments to function 'menu'
+   21 |  menu();
+      |  ^~~~
+..\src\main.c:13:6: note: declared here
+   13 | void menu(Produto *produtos);
+      |      ^~~~
+..\src\main.c:19:10: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  Produto produtos = NULL;
+      |          ^~~~~~~~
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:105:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  105 |   free(produtos);
+      |   ^~~~
+..\src\main.c:105:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+15:05:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from c:\mingw\include\time.h:178,
+                 from ..\src\main.c:2:
+..\src\main.c: In function 'main':
+..\src\main.c:19:21: error: invalid initializer
+   19 |  Produto produtos = NULL;
+      |                     ^~~~
+..\src\main.c:21:7: error: incompatible type for argument 1 of 'menu'
+   21 |  menu(produtos);
+      |       ^~~~~~~~
+      |       |
+      |       Produto {aka struct <anonymous>}
+..\src\main.c:13:20: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'Produto' {aka 'struct <anonymous>'}
+   13 | void menu(Produto *produtos);
+      |           ~~~~~~~~~^~~~~~~~
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:105:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  105 |   free(produtos);
+      |   ^~~~
+..\src\main.c:105:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+15:06:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:11: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  Produto *produtos = NULL;
+      |           ^~~~~~~~
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:105:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  105 |   free(produtos);
+      |   ^~~~
+..\src\main.c:105:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+gcc -o programasC.exe "src\\main.o" 
+15:07:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from c:\mingw\include\time.h:178,
+                 from ..\src\main.c:2:
+..\src\main.c: In function 'main':
+..\src\main.c:19:21: error: invalid initializer
+   19 |  Produto produtos = NULL;
+      |                     ^~~~
+..\src\main.c:19:10: warning: unused variable 'produtos' [-Wunused-variable]
+   19 |  Produto produtos = NULL;
+      |          ^~~~~~~~
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:107:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  107 |   free(produtos);
+      |   ^~~~
+..\src\main.c:107:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+15:11:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:110:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  110 |   free(produtos);
+      |   ^~~~
+..\src\main.c:110:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  115 |  return tamanho;
+      |         ^~~~~~~
+..\src\main.c:114:6: note: declared here
+  114 | void criarEstruturaDinamicamente(int tamanho){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\main.o" 
+15:11:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:110:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  110 |   free(produtos);
+      |   ^~~~
+..\src\main.c:110:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:9: warning: returning 'int' from a function with return type 'Produto *' {aka 'struct <anonymous> *'} makes pointer from integer without a cast [-Wint-conversion]
+  115 |  return tamanho;
+      |         ^~~~~~~
+gcc -o programasC.exe "src\\main.o" 
+15:11:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:110:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  110 |   free(produtos);
+      |   ^~~~
+..\src\main.c:110:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:17: warning: returning 'int' from a function with return type 'Produto *' {aka 'struct <anonymous> *'} makes pointer from integer without a cast [-Wint-conversion]
+  115 |  return tamanho +1;
+      |         ~~~~~~~~^~
+gcc -o programasC.exe "src\\main.o" 
+15:26:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:31: error: expected expression before 'int'
+   27 |   criarEstruturaDinamicamente(int quantidadeTotalProdutos);
+      |                               ^~~
+..\src\main.c:31:31: error: expected expression before 'int'
+   31 |   criarEstruturaDinamicamente(int quantidadeTotalProdutos);
+      |                               ^~~
+..\src\main.c:50:13: error: 'criarProdutos' undeclared (first use in this function)
+   50 |  produtos = criarProdutos
+      |             ^~~~~~~~~~~~~
+..\src\main.c:50:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:50:26: error: expected ';' before 'return'
+   50 |  produtos = criarProdutos
+      |                          ^
+      |                          ;
+......
+   59 |  return 0;
+      |  ~~~~~~                   
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:127:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  127 |   free(produtos);
+      |   ^~~~
+..\src\main.c:127:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:133:17: warning: returning 'int' from a function with return type 'Produto *' {aka 'struct <anonymous> *'} makes pointer from integer without a cast [-Wint-conversion]
+  133 |  return tamanho +1;
+      |         ~~~~~~~~^~
+15:27:13 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:49:13: error: 'criarProdutos' undeclared (first use in this function)
+   49 |  produtos = criarProdutos
+      |             ^~~~~~~~~~~~~
+..\src\main.c:49:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:49:26: error: expected ';' before 'return'
+   49 |  produtos = criarProdutos
+      |                          ^
+      |                          ;
+......
+   58 |  return 0;
+      |  ~~~~~~                   
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:126:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  126 |   free(produtos);
+      |   ^~~~
+..\src\main.c:126:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:132:17: warning: returning 'int' from a function with return type 'Produto *' {aka 'struct <anonymous> *'} makes pointer from integer without a cast [-Wint-conversion]
+  132 |  return tamanho +1;
+      |         ~~~~~~~~^~
+15:29:15 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:122:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  122 |   free(produtos);
+      |   ^~~~
+..\src\main.c:122:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:128:17: warning: returning 'int' from a function with return type 'Produto *' {aka 'struct <anonymous> *'} makes pointer from integer without a cast [-Wint-conversion]
+  128 |  return tamanho +1;
+      |         ~~~~~~~~^~
+..\src\main.c: In function 'main':
+..\src\main.c:34:4: warning: 'pergunta' is used uninitialized in this function [-Wuninitialized]
+   34 |  if(pergunta == 'S' && pergunta == 'S'){
+      |    ^
+gcc -o programasC.exe "src\\main.o" 
+15:29:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:17: warning: returning 'int' from a function with return type 'Produto *' {aka 'struct <anonymous> *'} makes pointer from integer without a cast [-Wint-conversion]
+  114 |  return tamanho +1;
+      |         ~~~~~~~~^~
+gcc -o programasC.exe "src\\main.o" 
+15:31:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:32: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  114 |  Produto produtos = (Produto*) malloc (tamanho * sizeof(Produto));
+      |                                ^~~~~~
+..\src\main.c:114:32: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:114:32: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\src\main.c:114:21: error: invalid initializer
+  114 |  Produto produtos = (Produto*) malloc (tamanho * sizeof(Produto));
+      |                     ^
+..\src\main.c:115:9: error: incompatible types when returning type 'Produto' {aka 'struct <anonymous>'} but 'Produto *' {aka 'struct <anonymous> *'} was expected
+  115 |  return produtos;
+      |         ^~~~~~~~
+..\src\main.c:116:1: warning: control reaches end of non-void function [-Wreturn-type]
+  116 | }
+      | ^
+15:31:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:33: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  114 |  Produto produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                 ^~~~~~
+..\src\main.c:114:33: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:114:33: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\src\main.c:114:21: error: invalid initializer
+  114 |  Produto produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                     ^
+..\src\main.c:115:9: error: incompatible types when returning type 'Produto' {aka 'struct <anonymous>'} but 'Produto *' {aka 'struct <anonymous> *'} was expected
+  115 |  return produtos;
+      |         ^~~~~~~~
+..\src\main.c:116:1: warning: control reaches end of non-void function [-Wreturn-type]
+  116 | }
+      | ^
+15:32:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:33: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  114 |  Produto produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                 ^~~~~~
+..\src\main.c:114:33: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:114:33: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\src\main.c:114:21: error: invalid initializer
+  114 |  Produto produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                     ^
+..\src\main.c:115:9: error: incompatible types when returning type 'Produto' {aka 'struct <anonymous>'} but 'Produto *' {aka 'struct <anonymous> *'} was expected
+  115 |  return produtos;
+      |         ^~~~~~~~
+..\src\main.c:116:1: warning: control reaches end of non-void function [-Wreturn-type]
+  116 | }
+      | ^
+15:32:03 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/main.d src/main.o programasC.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+15:32:03 **** Clean-only build of configuration Debug for project programasC ****
+15:32:03 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:33: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  114 |  Produto produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                 ^~~~~~
+..\src\main.c:114:33: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:114:33: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\src\main.c:114:21: error: invalid initializer
+  114 |  Produto produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                     ^
+..\src\main.c:115:9: error: incompatible types when returning type 'Produto' {aka 'struct <anonymous>'} but 'Produto *' {aka 'struct <anonymous> *'} was expected
+  115 |  return produtos;
+      |         ^~~~~~~~
+..\src\main.c:116:1: warning: control reaches end of non-void function [-Wreturn-type]
+  116 | }
+      | ^
+15:34:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  114 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:114:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:114:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+15:36:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  114 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:114:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:114:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+15:37:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:108:3: warning: incompatible implicit declaration of built-in function 'free'
+  108 |   free(produtos);
+      |   ^~~~
+..\src\main.c:108:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:114:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  114 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:114:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:114:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:37:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:38:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:109:3: warning: incompatible implicit declaration of built-in function 'free'
+  109 |   free(produtos);
+      |   ^~~~
+..\src\main.c:109:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  115 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:115:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:115:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:38:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:38:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:109:3: warning: incompatible implicit declaration of built-in function 'free'
+  109 |   free(produtos);
+      |   ^~~~
+..\src\main.c:109:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  115 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:115:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:115:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+Info: Nothing to build for programasC
+15:39:15 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:109:3: warning: incompatible implicit declaration of built-in function 'free'
+  109 |   free(produtos);
+      |   ^~~~
+..\src\main.c:109:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  115 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:115:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:115:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:39:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:39:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:109:3: warning: incompatible implicit declaration of built-in function 'free'
+  109 |   free(produtos);
+      |   ^~~~
+..\src\main.c:109:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  115 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:115:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:115:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:39:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:41:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:109:3: warning: incompatible implicit declaration of built-in function 'free'
+  109 |   free(produtos);
+      |   ^~~~
+..\src\main.c:109:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:115:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  115 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:115:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:115:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:41:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:42:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:104:3: warning: incompatible implicit declaration of built-in function 'free'
+  104 |   free(produtos);
+      |   ^~~~
+..\src\main.c:104:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:110:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  110 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:110:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:110:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:42:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:42:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:104:3: warning: incompatible implicit declaration of built-in function 'free'
+  104 |   free(produtos);
+      |   ^~~~
+..\src\main.c:104:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:110:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  110 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:110:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:110:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:42:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\main.o" 
+15:43:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:104:3: warning: incompatible implicit declaration of built-in function 'free'
+  104 |   free(produtos);
+      |   ^~~~
+..\src\main.c:104:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:110:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  110 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:110:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:110:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o programasC.exe "src\\main.o" 
+15:46:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:36:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   36 |  free(produtos);
+      |  ^~~~
+..\src\main.c:36:2: warning: incompatible implicit declaration of built-in function 'free'
+..\src\main.c:3:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+    2 | #include <time.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+..\src\main.c: In function 'menu':
+..\src\main.c:61:5: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+   61 |     quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+      |     solicitarQuantidadeTotalProdutos
+..\src\main.c:61:5: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:62:5: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   62 |     produtos = criarEstruturaDinamicamente (quantidadeTotalProdutos);
+      |     ^~~~~~~~
+      |     Produto
+..\src\main.c: In function 'excluirEstruturaCriada':
+..\src\main.c:104:3: warning: incompatible implicit declaration of built-in function 'free'
+  104 |   free(produtos);
+      |   ^~~~
+..\src\main.c:104:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+..\src\main.c: In function 'criarEstruturaDinamicamente':
+..\src\main.c:110:34: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  110 |  Produto *produtos = (Produto *) malloc (tamanho * sizeof(Produto));
+      |                                  ^~~~~~
+..\src\main.c:110:34: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\main.c:110:34: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+15:47:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:20:6: warning: unused variable 'quantidadeTotalProdutos' [-Wunused-variable]
+   20 |  int quantidadeTotalProdutos=0;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c: In function 'menu':
+..\src\main.c:50:5: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+   50 |     quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+      |     solicitarQuantidadeTotalProdutos
+..\src\main.c:50:5: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:51:5: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   51 |     produtos = criarEstruturaDinamicamente (quantidadeTotalProdutos);
+      |     ^~~~~~~~
+      |     Produto
+15:49:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\main.o" 
+16:04:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:1:10: fatal error: header.h: No such file or directory
+    1 | #include "header.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+16:04:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    4 |  printf("-------------Bem vindo-------------------\n\n");
+      |  ^~~~~~
+..\src\funcoes.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menu() {
+..\src\funcoes.c:14:3: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   14 |   scanf(" %c", &opcao);
+      |   ^~~~~
+..\src\funcoes.c:14:3: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:14:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c: In function 'solicitarQuantidadeTotalProdutos':
+..\src\funcoes.c:45:3: warning: incompatible implicit declaration of built-in function 'printf'
+   45 |   printf("Informe a quantidade total dos produtos que irá cadastrar\n"
+      |   ^~~~~~
+..\src\funcoes.c:45:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:47:3: warning: incompatible implicit declaration of built-in function 'scanf'
+   47 |   scanf("%d", &qtde);
+      |   ^~~~~
+..\src\funcoes.c:47:3: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:56:29: error: unknown type name 'Produto'
+   56 | void excluirEstruturaCriada(Produto *produtos) {
+      |                             ^~~~~~~
+..\src\funcoes.c:63:1: error: unknown type name 'Produto'
+   63 | Produto *criarEstruturaDinamicamente(int tamanho) {
+      | ^~~~~~~
+..\src\funcoes.c: In function 'criarEstruturaDinamicamente':
+..\src\funcoes.c:64:2: error: unknown type name 'Produto'
+   64 |  Produto *produtos = (Produto *)malloc(tamanho * sizeof(Produto));
+      |  ^~~~~~~
+..\src\funcoes.c:64:23: error: 'Produto' undeclared (first use in this function); did you mean 'produtos'?
+   64 |  Produto *produtos = (Produto *)malloc(tamanho * sizeof(Produto));
+      |                       ^~~~~~~
+      |                       produtos
+..\src\funcoes.c:64:23: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:64:32: error: expected expression before ')' token
+   64 |  Produto *produtos = (Produto *)malloc(tamanho * sizeof(Produto));
+      |                                ^
+16:05:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+16:06:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+16:06:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:21:8: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   21 |    if (produtos == NULL) {
+      |        ^~~~~~~~
+      |        Produto
+..\src\funcoes.c:21:8: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:22:5: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+   22 |     quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+      |     solicitarQuantidadeTotalProdutos
+16:06:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:21:9: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   21 |    if (&produtos == NULL) {
+      |         ^~~~~~~~
+      |         Produto
+..\src\funcoes.c:21:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:22:5: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+   22 |     quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+      |     solicitarQuantidadeTotalProdutos
+16:06:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:21:9: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   21 |    if (*produtos == NULL) {
+      |         ^~~~~~~~
+      |         Produto
+..\src\funcoes.c:21:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:22:5: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+   22 |     quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+      |     solicitarQuantidadeTotalProdutos
+16:07:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:21:8: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   21 |    if (produtos == NULL) {
+      |        ^~~~~~~~
+      |        Produto
+..\src\funcoes.c:21:8: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:22:5: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+   22 |     quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+      |     solicitarQuantidadeTotalProdutos
+16:07:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:6:6: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+    6 |  if (produtos == NULL) {
+      |      ^~~~~~~~
+      |      Produto
+..\src\main.c:6:6: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:7:3: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+    7 |   quantidadeTotalProdutos = solicitarQuantidadeTotalProdutos();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+      |   solicitarQuantidadeTotalProdutos
+16:07:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:9:25: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+    9 |  excluirEstruturaCriada(produtos);
+      |                         ^~~~~~~~
+      |                         Produto
+..\src\main.c:9:25: note: each undeclared identifier is reported only once for each function it appears in
+16:08:09 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+16:08:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:6:11: warning: unused variable 'produtos' [-Wunused-variable]
+    6 |  Produto *produtos = NULL;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+16:08:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:15:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:81:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+   81 |  for(int i=0, i<produtos.){
+      |                ^
+..\src\funcoes.c:85:1: error: expected expression before '}' token
+   85 | }
+      | ^
+..\src\funcoes.c:85:1: error: expected expression before '}' token
+..\src\funcoes.c:85:1: error: expected expression before '}' token
+..\src\funcoes.c:81:10: warning: unused variable 'i' [-Wunused-variable]
+   81 |  for(int i=0, i<produtos.){
+      |          ^
+17:18:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:82:19: error: expected expression before ')' token
+   82 |   printf("%d/%d", );
+      |                   ^
+..\src\funcoes.c:83:9: error: 'agenda' undeclared (first use in this function)
+   83 |   fgets(agenda.contatos[i].nome, 100, stdin);
+      |         ^~~~~~
+..\src\funcoes.c:83:9: note: each undeclared identifier is reported only once for each function it appears in
+17:22:13 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:84:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   84 |   if (produtos[0].nome == '\0'){
+      |                        ^~
+..\src\funcoes.c:84:7: note: did you mean to dereference the pointer?
+   84 |   if (produtos[0].nome == '\0'){
+      |       ^
+..\src\funcoes.c:87:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   87 |  } while (produtos[0].nome == '\0');
+      |                            ^~
+..\src\funcoes.c:87:11: note: did you mean to dereference the pointer?
+   87 |  } while (produtos[0].nome == '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:23:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:84:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   84 |   if (produtos[0].nome == '\0'){
+      |                        ^~
+..\src\funcoes.c:84:7: note: did you mean to dereference the pointer?
+   84 |   if (produtos[0].nome == '\0'){
+      |       ^
+..\src\funcoes.c:87:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   87 |  } while (produtos[0].nome == '\0');
+      |                            ^~
+..\src\funcoes.c:87:11: note: did you mean to dereference the pointer?
+   87 |  } while (produtos[0].nome == '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:24:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:31:18: error: expected expression before 'Produto'
+   31 |    cadastrarNome(Produto *produtos)
+      |                  ^~~~~~~
+..\src\funcoes.c:31:36: error: expected ';' before 'break'
+   31 |    cadastrarNome(Produto *produtos)
+      |                                    ^
+      |                                    ;
+   32 |    break;
+      |    ~~~~~                            
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:85:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   85 |   if (produtos[0].nome == '\0'){
+      |                        ^~
+..\src\funcoes.c:85:7: note: did you mean to dereference the pointer?
+   85 |   if (produtos[0].nome == '\0'){
+      |       ^
+..\src\funcoes.c:88:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   88 |  } while (produtos[0].nome == '\0');
+      |                            ^~
+..\src\funcoes.c:88:11: note: did you mean to dereference the pointer?
+   88 |  } while (produtos[0].nome == '\0');
+      |           ^
+17:24:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:31:27: error: expected ';' before 'break'
+   31 |    cadastrarNome(produtos)
+      |                           ^
+      |                           ;
+   32 |    break;
+      |    ~~~~~                   
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:85:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   85 |   if (produtos[0].nome == '\0'){
+      |                        ^~
+..\src\funcoes.c:85:7: note: did you mean to dereference the pointer?
+   85 |   if (produtos[0].nome == '\0'){
+      |       ^
+..\src\funcoes.c:88:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   88 |  } while (produtos[0].nome == '\0');
+      |                            ^~
+..\src\funcoes.c:88:11: note: did you mean to dereference the pointer?
+   88 |  } while (produtos[0].nome == '\0');
+      |           ^
+17:24:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:85:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   85 |   if (produtos[0].nome == '\0'){
+      |                        ^~
+..\src\funcoes.c:85:7: note: did you mean to dereference the pointer?
+   85 |   if (produtos[0].nome == '\0'){
+      |       ^
+..\src\funcoes.c:88:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   88 |  } while (produtos[0].nome == '\0');
+      |                            ^~
+..\src\funcoes.c:88:11: note: did you mean to dereference the pointer?
+   88 |  } while (produtos[0].nome == '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:25:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:86:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   86 |   if (produtos[0].nome == '\0'){
+      |                        ^~
+..\src\funcoes.c:86:7: note: did you mean to dereference the pointer?
+   86 |   if (produtos[0].nome == '\0'){
+      |       ^
+..\src\funcoes.c:89:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   89 |  } while (produtos[0].nome == '\0');
+      |                            ^~
+..\src\funcoes.c:89:11: note: did you mean to dereference the pointer?
+   89 |  } while (produtos[0].nome == '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+17:26:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:86:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   86 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:86:7: note: did you mean to dereference the pointer?
+   86 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:89:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   89 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:89:11: note: did you mean to dereference the pointer?
+   89 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:30:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   87 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:87:7: note: did you mean to dereference the pointer?
+   87 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:90:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   90 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:90:11: note: did you mean to dereference the pointer?
+   90 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:33:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:81:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'unsigned int' [-Wformat=]
+   81 |   printf("%s", sizeof(produtos->nome));
+      |           ~^   ~~~~~~~~~~~~~~~~~~~~~~
+      |            |   |
+      |            |   unsigned int
+      |            char *
+      |           %d
+..\src\funcoes.c:88:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   88 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:88:7: note: did you mean to dereference the pointer?
+   88 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:91:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   91 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:91:11: note: did you mean to dereference the pointer?
+   91 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:33:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:33:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:34:09 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:88:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   88 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:88:7: note: did you mean to dereference the pointer?
+   88 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:91:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   91 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:91:11: note: did you mean to dereference the pointer?
+   91 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:34:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:90:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   90 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:90:7: note: did you mean to dereference the pointer?
+   90 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:93:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   93 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:93:11: note: did you mean to dereference the pointer?
+   93 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:36:32 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+17:36:33 **** Clean-only build of configuration Debug for project programasC ****
+17:36:33 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   87 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:87:7: note: did you mean to dereference the pointer?
+   87 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:90:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   90 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:90:11: note: did you mean to dereference the pointer?
+   90 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+17:40:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:88:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   88 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:88:7: note: did you mean to dereference the pointer?
+   88 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:91:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   91 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:91:11: note: did you mean to dereference the pointer?
+   91 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:41:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:92:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   92 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:92:7: note: did you mean to dereference the pointer?
+   92 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:95:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   95 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:95:11: note: did you mean to dereference the pointer?
+   95 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:41:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:42:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:92:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   92 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:92:7: note: did you mean to dereference the pointer?
+   92 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:95:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   95 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:95:11: note: did you mean to dereference the pointer?
+   95 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:42:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:42:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:43:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:11: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'unsigned int' [-Wformat=]
+    8 |  printf("%p\n", sizeof(produtos));
+      |          ~^     ~~~~~~~~~~~~~~~~
+      |           |     |
+      |           |     unsigned int
+      |           void *
+      |          %d
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:89:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   89 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:89:7: note: did you mean to dereference the pointer?
+   89 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:92:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   92 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:92:11: note: did you mean to dereference the pointer?
+   92 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:43:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:44:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("%d\n", produtos);
+      |          ~^     ~~~~~~~~
+      |           |     |
+      |           int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:11: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("%c\n", produtos->nome);
+      |          ~^     ~~~~~~~~~~~~~~
+      |           |             |
+      |           int           char *
+      |          %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:90:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   90 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:90:7: note: did you mean to dereference the pointer?
+   90 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:93:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   93 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:93:11: note: did you mean to dereference the pointer?
+   93 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:44:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:44:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("2.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:90:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   90 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:90:7: note: did you mean to dereference the pointer?
+   90 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:93:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   93 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:93:11: note: did you mean to dereference the pointer?
+   93 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:44:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:45:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("2.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("1.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:86:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   86 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:95:24: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   95 |   if (produtos[0].nome != '\0'){
+      |                        ^~
+..\src\funcoes.c:95:7: note: did you mean to dereference the pointer?
+   95 |   if (produtos[0].nome != '\0'){
+      |       ^
+..\src\funcoes.c:98:28: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   98 |  } while (produtos[0].nome != '\0');
+      |                            ^~
+..\src\funcoes.c:98:11: note: did you mean to dereference the pointer?
+   98 |  } while (produtos[0].nome != '\0');
+      |           ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:45:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:46:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("2.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("1.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:86:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   86 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:46:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:47:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("2.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("1.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:86:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   86 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:47:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:50:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("2.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("1.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:86:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   86 |  printf("1.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:50:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("A.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:29:16: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |     printf("B.%c\n", produtos->nome);
+      |               ~^     ~~~~~~~~~~~~~~
+      |                |             |
+      |                int           char *
+      |               %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   87 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:88:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   88 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:50:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:51:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("A.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:29:16: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |     printf("B.%c\n", produtos->nome);
+      |               ~^     ~~~~~~~~~~~~~~
+      |                |             |
+      |                int           char *
+      |               %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   87 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:88:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   88 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:52:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+17:52:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("A.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:29:16: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |     printf("B.%c\n", produtos->nome);
+      |               ~^     ~~~~~~~~~~~~~~
+      |                |             |
+      |                int           char *
+      |               %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   87 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:88:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   88 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+17:54:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("A.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:29:16: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |     printf("B.%c\n", produtos->nome);
+      |               ~^     ~~~~~~~~~~~~~~
+      |                |             |
+      |                int           char *
+      |               %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   87 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:88:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   88 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:98:42: error: subscripted value is neither array nor pointer nor vector
+   98 |   printf("O %d° nome é: %s\n", contador[i],produtos[i].nome);
+      |                                          ^
+17:56:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("A.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:29:16: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |     printf("B.%c\n", produtos->nome);
+      |               ~^     ~~~~~~~~~~~~~~
+      |                |             |
+      |                int           char *
+      |               %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   87 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:88:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   88 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:56:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+18:18:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("A.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:29:16: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |     printf("B.%c\n", produtos->nome);
+      |               ~^     ~~~~~~~~~~~~~~
+      |                |             |
+      |                int           char *
+      |               %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   87 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:88:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   88 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+18:19:01 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+18:19:01 **** Clean-only build of configuration Debug for project programasC ****
+18:19:01 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:8:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+    8 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:9:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    9 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+..\src\funcoes.c:28:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   28 |     printf("A.%d\n", produtos);
+      |               ~^     ~~~~~~~~
+      |                |     |
+      |                int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:29:16: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   29 |     printf("B.%c\n", produtos->nome);
+      |               ~^     ~~~~~~~~~~~~~~
+      |                |             |
+      |                int           char *
+      |               %s
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Produto *' {aka 'struct <anonymous> *'} [-Wformat=]
+   87 |  printf("A.%d\n", produtos);
+      |            ~^     ~~~~~~~~
+      |             |     |
+      |             int   Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:88:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   88 |  printf("B.%c\n", produtos->nome);
+      |            ~^     ~~~~~~~~~~~~~~
+      |             |             |
+      |             int           char *
+      |            %s
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+18:20:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:20:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+18:20:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:20:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+18:22:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:22:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+18:22:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:22:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+18:37:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:11: error: lvalue required as increment operand
+   87 |   contador++;
+      |           ^~
+18:37:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:11: error: lvalue required as increment operand
+   87 |   contador++;
+      |           ^~
+18:38:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:15: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   87 |   contador[i] = contador + 1;
+      |               ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+18:39:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarNome':
+..\src\funcoes.c:87:15: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   87 |   contador[i] = contador + 1;
+      |               ^
+..\src\funcoes.c:88:16: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   88 |   contador2[i] = contador2 + 1;
+      |                ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:39:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+20:42:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:31:26: warning: passing argument 1 of 'cadastrarNome' from incompatible pointer type [-Wincompatible-pointer-types]
+   31 |    cadastrarNome(produtos->nome,quantidadeTotalProdutos);
+      |                  ~~~~~~~~^~~~~~
+      |                          |
+      |                          char *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:17:29: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   17 | void cadastrarNome(Produto *produtos, int quantidade);
+      |                    ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c:32:27: error: incompatible type for argument 1 of 'cadastrarPreco'
+   32 |    cadastrarPreco(produtos->preco);
+      |                   ~~~~~~~~^~~~~~~
+      |                           |
+      |                           float
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:18:28: note: expected 'float *' but argument is of type 'float'
+   18 | void cadastrarPreco(float *valor);
+      |                     ~~~~~~~^~~~~
+20:43:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:19: warning: passing argument 1 of 'cadastrarPreco' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |    cadastrarPreco(produtos);
+      |                   ^~~~~~~~
+      |                   |
+      |                   Produto * {aka struct <anonymous> *}
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:18:28: note: expected 'float *' but argument is of type 'Produto *' {aka 'struct <anonymous> *'}
+   18 | void cadastrarPreco(float *valor);
+      |                     ~~~~~~~^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:44:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:19: warning: passing argument 1 of 'cadastrarPreco' from incompatible pointer type [-Wincompatible-pointer-types]
+   32 |    cadastrarPreco(&produtos);
+      |                   ^~~~~~~~~
+      |                   |
+      |                   Produto ** {aka struct <anonymous> **}
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:18:28: note: expected 'float *' but argument is of type 'Produto **' {aka 'struct <anonymous> **'}
+   18 | void cadastrarPreco(float *valor);
+      |                     ~~~~~~~^~~~~
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:90:44: error: expected expression before ')' token
+   90 |  printf("Digite o preço do produto %s: ", );
+      |                                            ^
+20:45:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:27: error: incompatible type for argument 1 of 'cadastrarPreco'
+   32 |    cadastrarPreco(produtos->preco);
+      |                   ~~~~~~~~^~~~~~~
+      |                           |
+      |                           float
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:18:28: note: expected 'float *' but argument is of type 'float'
+   18 | void cadastrarPreco(float *valor);
+      |                     ~~~~~~~^~~~~
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:90:44: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   90 |  printf("Digite o preço do produto %s: ", produtos.);
+      |                                            ^~~~~~~~
+      |                                            Produto
+..\src\funcoes.c:90:44: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:90:53: error: expected identifier before ')' token
+   90 |  printf("Digite o preço do produto %s: ", produtos.);
+      |                                                     ^
+20:45:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:90:44: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   90 |  printf("Digite o preço do produto %s: ", produtos.);
+      |                                            ^~~~~~~~
+      |                                            Produto
+..\src\funcoes.c:90:44: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:90:53: error: expected identifier before ')' token
+   90 |  printf("Digite o preço do produto %s: ", produtos.);
+      |                                                     ^
+20:47:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:90:9: warning: too many arguments for format [-Wformat-extra-args]
+   90 |  printf("Digite o preço do produto: ", valor);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:91:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+   91 |  scanf("%d", valor);
+      |         ~^   ~~~~~
+      |          |   |
+      |          |   float *
+      |          int *
+      |         %e
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:47:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:91:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+   91 |  scanf("%d", valor);
+      |         ~^   ~~~~~
+      |          |   |
+      |          |   float *
+      |          int *
+      |         %e
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:47:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:48:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:48:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:92:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   92 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:50:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:96:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   96 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:50:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:96:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   96 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:100:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  100 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:50:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+20:52:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:96:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   96 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:100:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  100 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:52:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:02:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   98 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:103:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  103 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:02:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:04:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:33:27: error: incompatible type for argument 1 of 'cadastrarPreco'
+   33 |    cadastrarPreco(produtos->preco,quantidadeTotalProdutos);
+      |                   ~~~~~~~~^~~~~~~
+      |                           |
+      |                           float
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:18:28: note: expected 'float *' but argument is of type 'float'
+   18 | void cadastrarPreco(float *valor, int quantidade);
+      |                     ~~~~~~~^~~~~
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   98 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:103:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  103 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+21:04:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   98 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:103:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  103 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:05:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:16: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   98 |   scanf("%2f", produtos.valor[i]);
+      |                ^~~~~~~~
+      |                Produto
+..\src\funcoes.c:98:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:103:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  103 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+21:06:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   98 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:103:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  103 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:06:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:99:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   99 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:104:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  104 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:07:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:99:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   99 |   scanf("%2f", valor[i]);
+      |          ~~^   ~~~~~~~~
+      |            |        |
+      |            float *  double
+..\src\funcoes.c:103:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  103 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:07:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   98 |   scanf("%f", valor[i]);
+      |          ~^   ~~~~~~~~
+      |           |        |
+      |           float *  double
+..\src\funcoes.c:102:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  102 |   printf("Valores cadastrados %d", valor[i]);
+      |                               ~^   ~~~~~~~~
+      |                                |        |
+      |                                int      double
+      |                               %f
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:07:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   98 |   scanf("%f", valor[i]);
+      |          ~^   ~~~~~~~~
+      |           |        |
+      |           float *  double
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:08:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:98:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   98 |   scanf("%f", valor[i]);
+      |          ~^   ~~~~~~~~
+      |           |        |
+      |           float *  double
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:10:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:10:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:10:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:10:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status

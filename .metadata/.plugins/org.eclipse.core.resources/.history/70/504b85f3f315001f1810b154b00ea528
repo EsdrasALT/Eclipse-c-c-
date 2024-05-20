@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "biblioteca.h"
+
+int main(){
+	setbuf(stdout, NULL);
+
+	st_cadastroProdutos produtos;
+
+	menu();
+
+	return 0;
+
+}

@@ -1,0 +1,22 @@
+#ifndef BIBLIOTECA_H_
+#define BIBLIOTECA_H_
+
+//Importe Bibliotecas
+
+
+//Macros | Constantes
+#define RANDOM_0_50 (rand() % 51)
+
+//Estruturas
+typedef struct {
+	int nome[40];
+	int codigo;
+	float preco;
+	int quantidade;
+}st_cadastroProdutos;
+
+//Prototipos
+void menu();
+int solicitarQuantidadeTotalProdutos (){
+
+#endif /* BIBLIOTECA_H_ */
