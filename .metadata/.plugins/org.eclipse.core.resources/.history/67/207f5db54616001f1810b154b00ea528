@@ -1,0 +1,31 @@
+// Guarda de Inclusão
+#ifndef MEUHEADER_H
+#define MEUHEADER_H
+
+// Inclusões de Bibliotecas Necessárias
+#include <stdio.h>  // Exemplo de inclusão necessária
+
+// Definições de Macros e Constantes
+#define MAX_BUFFER_SIZE 1024
+#define SUCCESS 0
+#define FAILURE 1
+
+// Definições de Tipos (typedefs e enums)
+typedef enum {
+    TIPO_A,
+    TIPO_B,
+    TIPO_C
+} TipoExemplo;
+
+// Declarações de Estruturas
+typedef struct {
+    char nome[100];
+    int idade;
+    TipoExemplo tipo;
+} Pessoa;
+
+// Prototipação de Funções
+void inicializarPessoa(Pessoa *p, const char *nome, int idade, TipoExemplo tipo);
+void imprimirPessoa(const Pessoa *p);
+
+#endif // MEUHEADER_H
