@@ -29,14 +29,15 @@ void menu() {
 			break;
 		case 'B':
 			printf("Você escolheu a opção B.\n\n");
-			//cadastrarNome(produtos,quantidadeTotalProdutos);
-			cadastrarPreco(&produtos->preco,quantidadeTotalProdutos);
+			chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
 			break;
 		case 'C':
 			printf("Você escolheu a opção C.\n\n");
+			exibirProdutosZerados(produtos, quantidadeTotalProdutos);
 			break;
 		case 'D':
 			printf("Você escolheu a opção D.\n\n");
+			listarProdutosCadastrados(produtos, quantidadeTotalProdutos);
 			break;
 		case 'E':
 			printf("Você escolheu a opção E.\n\n");
@@ -79,6 +80,18 @@ Produto *criarEstruturaDinamicamente(int tamanho) {
 	return produtos;
 }
 
+void gerarCodigoProduto(int *codigo, int quantidade){
+
+	for(int i=0; i<quantidade;i++){
+		codigo[i] = rand() % (MAX_VALUE + 1);
+	}
+
+	for(int i=0; i<quantidade;i++){
+		printf("Codigos gerados %d\n", codigo[i]);
+	}
+
+}
+
 void cadastrarNome(Produto *produtos, int quantidade){ //To-do: Limitar o preenchimento apenas do nome
 
 	for(int i=0; i<quantidade;i++){
@@ -94,12 +107,68 @@ void cadastrarNome(Produto *produtos, int quantidade){ //To-do: Limitar o preenc
 void cadastrarPreco(float *valor, int quantidade){
 
 	for(int i=0; i<quantidade;i++){
-		printf("Digite o preço do produto: ");
-		scanf("%2f", &valor[i]);
+		do {
+			printf("Digite o preço do produto: ");
+			scanf("%2f", &valor[i]);
+			if (valor[i] < 0){
+				printf("Valor incorreto (Minimo 0)");
+			}
+		} while (valor[i] < 0);
 	}
 
 	for(int i=0; i<quantidade;i++){
 		printf("Valores cadastrados %2f\n", valor[i]);
 	}
 }
+
+void cadastrarQuantidade(Produto *produtos, int quantidade){
+
+	for(int i=0; i<quantidade;i++){
+		do {
+			printf("Digite a quantidade do produto: ");
+			scanf("%d", &produtos[i].quantidade);
+			if (produtos[i].quantidade < 0){
+				printf("Valor incorreto (Minimo 0)");
+			}
+		} while (produtos[i].quantidade < 0);
+	}
+
+	for(int i=0; i<quantidade;i++){
+		printf("Quantidade cadastrados: %d\n", produtos[i].quantidade);
+	}
+}
+
+void chamarFuncoesDePreenchimento(Produto *produtos, int quantidade){
+	cadastrarNome(produtos, quantidade);
+	gerarCodigoProduto(&produtos->codigo, quantidade);
+	cadastrarPreco(&produtos->preco, quantidade);
+	cadastrarQuantidade(produtos, quantidade);
+}
+
+void exibirProdutosZerados(Produto *produtos, int quantidade) {
+    printf("Produtos com estoque zerado:\n");
+    int i;
+    for (i = 0; i < quantidade; i++) {
+        if (produtos[i].quantidade == 0) {
+            printf("Nome: %s", produtos[i].nome);
+            printf("Código: %d\n", produtos[i].codigo);
+            printf("Preço: %.2f\n", produtos[i].preco);
+            printf("Quantidade: %d\n\n", produtos[i].quantidade);
+        }
+    }
+}
+
+void listarProdutosCadastrados(Produto *produtos, int quantidade) {
+    printf("Produtos cadastrados:\n");
+    int i;
+    for (i = 0; i < quantidade; i++) {
+        printf("Nome: %s", produtos[i].nome);
+        printf("Código: %d\n", produtos[i].codigo);
+        printf("Preço: %.2f\n", produtos[i].preco);
+        printf("Quantidade: %d\n\n", produtos[i].quantidade);
+    }
+}
+
+
+
 

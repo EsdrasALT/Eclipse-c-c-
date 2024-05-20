@@ -5877,3 +5877,734 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c"
 gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
 c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
+21:13:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'cadastrarPreco':
+..\src\funcoes.c:104:17: error: 'i' undeclared (first use in this function)
+  104 |  } while (valor[i] < 0);
+      |                 ^
+..\src\funcoes.c:104:17: note: each undeclared identifier is reported only once for each function it appears in
+21:14:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:14:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:17:15 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:43: error: expected ';', ',' or ')' before '.' token
+   19 | void cadastrarQuantidade(Produto *produtos.quantidade);
+      |                                           ^
+21:17:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:20:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c: In function 'cadastrarQuantidade':
+..\src\funcoes.c:121:13: error: 'valor' undeclared (first use in this function)
+  121 |    } while (valor[i] < 0);
+      |             ^~~~~
+..\src\funcoes.c:121:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:125:34: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int *' [-Wformat=]
+  125 |    printf("Valores cadastrados %2f\n", &produtos[i].quantidade);
+      |                                ~~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |     |
+      |                                  |     int *
+      |                                  double
+      |                                %2n
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:129:1: error: expected identifier or '(' before '}' token
+  129 | }
+      | ^
+21:20:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c: In function 'cadastrarQuantidade':
+..\src\funcoes.c:125:34: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int *' [-Wformat=]
+  125 |    printf("Valores cadastrados %2f\n", &produtos[i].quantidade);
+      |                                ~~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |     |
+      |                                  |     int *
+      |                                  double
+      |                                %2n
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:129:1: error: expected identifier or '(' before '}' token
+  129 | }
+      | ^
+21:20:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c: In function 'cadastrarQuantidade':
+..\src\funcoes.c:125:33: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int *' [-Wformat=]
+  125 |   printf("Valores cadastrados %2f\n", &produtos[i].quantidade);
+      |                               ~~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |     |
+      |                                 |     int *
+      |                                 double
+      |                               %2n
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:20:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c: In function 'cadastrarQuantidade':
+..\src\funcoes.c:125:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  125 |   printf("Valores cadastrados %d\n", &produtos[i].quantidade);
+      |                               ~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                int   int *
+      |                               %n
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:22:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c: In function 'cadastrarQuantidade':
+..\src\funcoes.c:116:61: error: invalid type argument of '->' (have 'Produto' {aka 'struct <anonymous>'})
+  116 |    printf("Digite a quantidade do produto %s: ", produtos[i]->nome);
+      |                                                             ^~
+..\src\funcoes.c:125:27: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int *' [-Wformat=]
+  125 |   printf("Para o produto %s o valor cadastrados e: %d\n", &produtos[i].quantidade);
+      |                          ~^                               ~~~~~~~~~~~~~~~~~~~~~~~
+      |                           |                               |
+      |                           char *                          int *
+      |                          %n
+..\src\funcoes.c:125:53: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  125 |   printf("Para o produto %s o valor cadastrados e: %d\n", &produtos[i].quantidade);
+      |                                                    ~^
+      |                                                     |
+      |                                                     int
+21:23:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c: In function 'cadastrarQuantidade':
+..\src\funcoes.c:125:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  125 |   printf("Valores cadastrados: %d\n", &produtos[i].quantidade);
+      |                                ~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |     |
+      |                                 int   int *
+      |                                %n
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:23:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+..\src\funcoes.c: In function 'cadastrarQuantidade':
+..\src\funcoes.c:125:36: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  125 |   printf("Quantidade cadastrados: %d\n", &produtos[i].quantidade);
+      |                                   ~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    |     |
+      |                                    int   int *
+      |                                   %n
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:24:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:19:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   19 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:24:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:38:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:34:24: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+   34 |    cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:28:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   28 | void cadastrarQuantidade(Produto *produtos, int quantidade);
+      |                          ~~~~~~~~~^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:39:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:36: warning: implicit declaration of function 'gerar_valor_aleatorio' [-Wimplicit-function-declaration]
+   32 |    printf("Valor aleatorio: %d\n", gerar_valor_aleatorio());
+      |                                    ^~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:40:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:40:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:40:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:36: error: too few arguments to function 'gerarCodigoProduto'
+   32 |    printf("Valor aleatorio: %d\n", gerarCodigoProduto());
+      |                                    ^~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:25:5: note: declared here
+   25 | int gerarCodigoProduto(int *produtos);
+      |     ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'gerarCodigoProduto':
+..\src\funcoes.c:84:1: error: number of arguments doesn't match prototype
+   84 | int gerarCodigoProduto() {
+      | ^~~
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:25:5: error: prototype declaration
+   25 | int gerarCodigoProduto(int *produtos);
+      |     ^~~~~~~~~~~~~~~~~~
+21:41:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:36: error: too few arguments to function 'gerarCodigoProduto'
+   32 |    printf("Valor aleatorio: %d\n", gerarCodigoProduto());
+      |                                    ^~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:25:5: note: declared here
+   25 | int gerarCodigoProduto(int *produtos, int quantidade);
+      |     ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:84:5: error: conflicting types for 'gerarCodigoProduto'
+   84 | int gerarCodigoProduto(int *produtos);
+      |     ^~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:25:5: note: previous declaration of 'gerarCodigoProduto' was here
+   25 | int gerarCodigoProduto(int *produtos, int quantidade);
+      |     ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:87:5: error: expected identifier or '(' before 'return'
+   87 |     return rand() % (MAX_VALUE + 1);
+      |     ^~~~~~
+..\src\funcoes.c:88:1: error: expected identifier or '(' before '}' token
+   88 | }
+      | ^
+21:44:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'gerarCodigoProduto':
+..\src\funcoes.c:90:19: error: request for member 'quantidade' in something not a structure or union
+   90 |    if (produtos[i].quantidade < 0){
+      |                   ^
+..\src\funcoes.c:93:23: error: request for member 'quantidade' in something not a structure or union
+   93 |   } while (produtos[i].quantidade < 0);
+      |                       ^
+..\src\funcoes.c:97:53: error: request for member 'quantidade' in something not a structure or union
+   97 |   printf("Quantidade cadastrados: %d\n", produtos[i].quantidade);
+      |                                                     ^
+..\src\funcoes.c:102:2: error: expected identifier before '}' token
+  102 |  }
+      |  ^
+21:45:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'gerarCodigoProduto':
+..\src\funcoes.c:88:2: error: expected identifier before '}' token
+   88 |  }
+      |  ^
+21:45:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'gerarCodigoProduto':
+..\src\funcoes.c:87:3: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+   87 |   produtos[i]
+      |   ^~~~~~~~
+      |   Produto
+..\src\funcoes.c:87:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:87:14: error: expected ';' before '}' token
+   87 |   produtos[i]
+      |              ^
+      |              ;
+   88 |  }
+      |  ~            
+21:45:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'gerarCodigoProduto':
+..\src\funcoes.c:87:11: warning: statement with no effect [-Wunused-value]
+   87 |   produtos[i]
+      |   ~~~~~~~~^~~
+..\src\funcoes.c:87:14: error: expected ';' before '}' token
+   87 |   produtos[i]
+      |              ^
+      |              ;
+   88 |  }
+      |  ~            
+21:47:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'gerarCodigoProduto':
+..\src\funcoes.c:87:14: error: lvalue required as left operand of assignment
+   87 |   &codigo[i] = rand() % (MAX_VALUE + 1);
+      |              ^
+..\src\funcoes.c:90:1: warning: control reaches end of non-void function [-Wreturn-type]
+   90 | }
+      | ^
+21:47:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'gerarCodigoProduto':
+..\src\funcoes.c:90:1: warning: control reaches end of non-void function [-Wreturn-type]
+   90 | }
+      | ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:48:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:84:6: error: conflicting types for 'gerarCodigoProduto'
+   84 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |      ^~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:25:5: note: previous declaration of 'gerarCodigoProduto' was here
+   25 | int gerarCodigoProduto(int *produtos, int quantidade);
+      |     ^~~~~~~~~~~~~~~~~~
+21:48:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:49:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:49:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:49:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:49:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:52:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:22: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+  140 |  gerarCodigoProduto(&produtos->codigo, quantidadeTotalProdutos);
+      |                      ^~~~~~~~
+      |                      Produto
+..\src\funcoes.c:140:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:140:40: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+  140 |  gerarCodigoProduto(&produtos->codigo, quantidadeTotalProdutos);
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                        solicitarQuantidadeTotalProdutos
+21:52:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:22: error: 'produtos' undeclared (first use in this function); did you mean 'Produto'?
+  140 |  gerarCodigoProduto(&produtos->codigo, quantidadeTotalProdutos);
+      |                      ^~~~~~~~
+      |                      Produto
+..\src\funcoes.c:140:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:140:40: error: 'quantidadeTotalProdutos' undeclared (first use in this function); did you mean 'solicitarQuantidadeTotalProdutos'?
+  140 |  gerarCodigoProduto(&produtos->codigo, quantidadeTotalProdutos);
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                        solicitarQuantidadeTotalProdutos
+21:54:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:139:35: error: unknown type name 'Produtos'; did you mean 'Produto'?
+  139 | void chamarFuncoesDePreenchimento(Produtos *produto, int quantidade){
+      |                                   ^~~~~~~~
+      |                                   Produto
+21:54:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:139:35: error: unknown type name 'Produtos'; did you mean 'Produto'?
+  139 | void chamarFuncoesDePreenchimento(Produtos *produto, int quantidadeTotalProdutos){
+      |                                   ^~~~~~~~
+      |                                   Produto
+21:54:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:139:35: error: unknown type name 'Produtos'; did you mean 'Produto'?
+  139 | void chamarFuncoesDePreenchimento(Produtos *produto, int quantidadeTotalProdutos){
+      |                                   ^~~~~~~~
+      |                                   Produto
+21:54:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:139:35: error: unknown type name 'Produtos'; did you mean 'Produto'?
+  139 | void chamarFuncoesDePreenchimento(Produtos *produto, int quantidadeTotalProdutos){
+      |                                   ^~~~~~~~
+      |                                   Produto
+21:55:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:21: error: 'produtos' undeclared (first use in this function); did you mean 'produto'?
+  140 |  gerarCodigoProduto(produtos->codigo, quantidadeTotalProdutos);
+      |                     ^~~~~~~~
+      |                     produto
+..\src\funcoes.c:140:21: note: each undeclared identifier is reported only once for each function it appears in
+21:55:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:29: warning: passing argument 1 of 'gerarCodigoProduto' makes pointer from integer without a cast [-Wint-conversion]
+  140 |  gerarCodigoProduto(produtos->codigo, quantidadeTotalProdutos);
+      |                     ~~~~~~~~^~~~~~~~
+      |                             |
+      |                             int
+..\src\funcoes.c:81:30: note: expected 'int *' but argument is of type 'int'
+   81 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |                         ~~~~~^~~~~~
+..\src\funcoes.c:142:25: error: incompatible type for argument 1 of 'cadastrarPreco'
+  142 |  cadastrarPreco(produtos->preco, quantidadeTotalProdutos);
+      |                 ~~~~~~~~^~~~~~~
+      |                         |
+      |                         float
+..\src\funcoes.c:105:28: note: expected 'float *' but argument is of type 'float'
+  105 | void cadastrarPreco(float *valor, int quantidade){
+      |                     ~~~~~~~^~~~~
+..\src\funcoes.c:143:30: warning: passing argument 1 of 'cadastrarQuantidade' makes pointer from integer without a cast [-Wint-conversion]
+  143 |  cadastrarQuantidade(produtos->quantidade, quantidadeTotalProdutos);
+      |                      ~~~~~~~~^~~~~~~~~~~~
+      |                              |
+      |                              int
+..\src\funcoes.c:122:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  122 | void cadastrarQuantidade(Produto *produtos, int quantidade){
+      |                          ~~~~~~~~~^~~~~~~~
+21:56:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:29: warning: passing argument 1 of 'gerarCodigoProduto' makes pointer from integer without a cast [-Wint-conversion]
+  140 |  gerarCodigoProduto(produtos->codigo, quantidadeTotalProdutos);
+      |                     ~~~~~~~~^~~~~~~~
+      |                             |
+      |                             int
+..\src\funcoes.c:81:30: note: expected 'int *' but argument is of type 'int'
+   81 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |                         ~~~~~^~~~~~
+..\src\funcoes.c:143:30: warning: passing argument 1 of 'cadastrarQuantidade' makes pointer from integer without a cast [-Wint-conversion]
+  143 |  cadastrarQuantidade(produtos->quantidade, quantidadeTotalProdutos);
+      |                      ~~~~~~~~^~~~~~~~~~~~
+      |                              |
+      |                              int
+..\src\funcoes.c:122:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  122 | void cadastrarQuantidade(Produto *produtos, int quantidade){
+      |                          ~~~~~~~~~^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:56:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:29: warning: passing argument 1 of 'gerarCodigoProduto' makes pointer from integer without a cast [-Wint-conversion]
+  140 |  gerarCodigoProduto(produtos->codigo, quantidadeTotalProdutos);
+      |                     ~~~~~~~~^~~~~~~~
+      |                             |
+      |                             int
+..\src\funcoes.c:81:30: note: expected 'int *' but argument is of type 'int'
+   81 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |                         ~~~~~^~~~~~
+..\src\funcoes.c:143:22: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+  143 |  cadastrarQuantidade(&produtos->quantidade, quantidadeTotalProdutos);
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+      |                      |
+      |                      int *
+..\src\funcoes.c:122:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+  122 | void cadastrarQuantidade(Produto *produtos, int quantidade){
+      |                          ~~~~~~~~~^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:57:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:29: warning: passing argument 1 of 'gerarCodigoProduto' makes pointer from integer without a cast [-Wint-conversion]
+  140 |  gerarCodigoProduto(produtos->codigo, quantidadeTotalProdutos);
+      |                     ~~~~~~~~^~~~~~~~
+      |                             |
+      |                             int
+..\src\funcoes.c:81:30: note: expected 'int *' but argument is of type 'int'
+   81 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |                         ~~~~~^~~~~~
+..\src\funcoes.c:143:22: warning: passing argument 1 of 'cadastrarQuantidade' from incompatible pointer type [-Wincompatible-pointer-types]
+  143 |  cadastrarQuantidade(&produtos, quantidadeTotalProdutos);
+      |                      ^~~~~~~~~
+      |                      |
+      |                      Produto ** {aka struct <anonymous> **}
+..\src\funcoes.c:122:35: note: expected 'Produto *' {aka 'struct <anonymous> *'} but argument is of type 'Produto **' {aka 'struct <anonymous> **'}
+  122 | void cadastrarQuantidade(Produto *produtos, int quantidade){
+      |                          ~~~~~~~~~^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:57:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:29: warning: passing argument 1 of 'gerarCodigoProduto' makes pointer from integer without a cast [-Wint-conversion]
+  140 |  gerarCodigoProduto(produtos->codigo, quantidadeTotalProdutos);
+      |                     ~~~~~~~~^~~~~~~~
+      |                             |
+      |                             int
+..\src\funcoes.c:81:30: note: expected 'int *' but argument is of type 'int'
+   81 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |                         ~~~~~^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:57:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:21: warning: passing argument 1 of 'gerarCodigoProduto' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |  gerarCodigoProduto(produtos, quantidadeTotalProdutos);
+      |                     ^~~~~~~~
+      |                     |
+      |                     Produto * {aka struct <anonymous> *}
+..\src\funcoes.c:81:30: note: expected 'int *' but argument is of type 'Produto *' {aka 'struct <anonymous> *'}
+   81 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |                         ~~~~~^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:57:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+..\src\funcoes.c: In function 'chamarFuncoesDePreenchimento':
+..\src\funcoes.c:140:21: warning: passing argument 1 of 'gerarCodigoProduto' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |  gerarCodigoProduto(&produtos, quantidadeTotalProdutos);
+      |                     ^~~~~~~~~
+      |                     |
+      |                     Produto ** {aka struct <anonymous> **}
+..\src\funcoes.c:81:30: note: expected 'int *' but argument is of type 'Produto **' {aka 'struct <anonymous> **'}
+   81 | void gerarCodigoProduto(int *codigo, int quantidade){
+      |                         ~~~~~^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:58:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:32:4: warning: parameter names (without types) in function declaration
+   32 |    void chamarFuncoesDePreenchimento(produtos,quantidadeTotalProdutos);
+      |    ^~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:58:39 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+21:58:39 **** Clean-only build of configuration Debug for project programasC ****
+21:58:39 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:59:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:05:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:05:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+22:06:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:08:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:10:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menu':
+..\src\funcoes.c:40:4: error: too few arguments to function 'listarProdutosCadastrados'
+   40 |    listarProdutosCadastrados();
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:31:6: note: declared here
+   31 | void listarProdutosCadastrados(Produto *produtos, int quantidade);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+22:10:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:10:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
