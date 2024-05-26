@@ -1,0 +1,23 @@
+//QUESTÃO 2
+#include "biblioteca.h"
+
+int main (void){
+	setbuf(stdout,NULL);
+
+	int numero=5, contador=6;
+
+	printf("\n---INICIO----\n");
+	iterativo(numero,contador);
+	printf("\n----FIM-----\n");
+
+	printf("\n---INICIO----\n");
+	recursivaComum(numero,contador);
+	printf("\n----FIM-----\n");
+
+	printf("\n---INICIO----\n");
+	recursivaDeCauda(numero,contador);
+	printf("\n----FIM-----\n");
+
+	return 0;
+}
+

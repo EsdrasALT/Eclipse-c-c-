@@ -7333,3 +7333,447 @@ PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.jus
 
 13:58:02 **** Clean-only build of configuration Debug for project programasC ****
 Info: Nothing to build for programasC
+14:02:58 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../libmingw32.a(main.o):(.text.startup+0xc0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+14:03:05 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:4:2: warning: implicit declaration of function 'setbuf' [-Wimplicit-function-declaration]
+    4 |  setbuf(stdout,NULL);
+      |  ^~~~~~
+..\src\main.c:4:9: error: 'stdout' undeclared (first use in this function)
+    4 |  setbuf(stdout,NULL);
+      |         ^~~~~~
+..\src\main.c:2:1: note: 'stdout' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+    1 | #include "biblioteca.h"
+  +++ |+#include <stdio.h>
+    2 | 
+..\src\main.c:4:9: note: each undeclared identifier is reported only once for each function it appears in
+    4 |  setbuf(stdout,NULL);
+      |         ^~~~~~
+..\src\main.c:4:16: error: 'NULL' undeclared (first use in this function)
+    4 |  setbuf(stdout,NULL);
+      |                ^~~~
+..\src\main.c:2:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+    1 | #include "biblioteca.h"
+  +++ |+#include <stddef.h>
+    2 | 
+14:03:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:1:
+..\src\biblioteca.h:1:19: warning: extra tokens at end of #ifndef directive
+    1 | #ifndef biblioteca.h
+      |                   ^
+..\src\biblioteca.h:2:9: warning: ISO C99 requires whitespace after the macro name
+    2 | #define biblioteca.h
+      |         ^~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:04:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+14:10:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:10:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:10:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:15:05 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:10:2: warning: incompatible implicit declaration of built-in function 'printf'
+   10 |  printf("%d° - %d x %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:10:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+14:15:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:18:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:10:2: warning: incompatible implicit declaration of built-in function 'printf'
+   10 |  printf("%d° - %d x %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:10:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:18:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:10:2: warning: incompatible implicit declaration of built-in function 'printf'
+   10 |  printf("%d° - %d x %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:10:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:12:19: error: void value not ignored as it ought to be
+   12 |   return numero + recursivaComum(numero, contador-1);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:12:10: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   12 |   return numero + recursivaComum(numero, contador-1);
+      |          ^~~~~~
+..\src\funcoes.c:9:6: note: declared here
+    9 | void recursivaComum(int numero, int contador){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:14:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   14 |  return 0;
+      |         ^
+..\src\funcoes.c:9:6: note: declared here
+    9 | void recursivaComum(int numero, int contador){
+      |      ^~~~~~~~~~~~~~
+14:18:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:10:2: warning: incompatible implicit declaration of built-in function 'printf'
+   10 |  printf("%d° - %d x %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:10:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:11:17: error: expected expression before ')' token
+   11 |  if (contador > ){
+      |                 ^
+14:19:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:10:2: warning: incompatible implicit declaration of built-in function 'printf'
+   10 |  printf("%d° - %d x %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:10:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+14:25:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:11:19: error: void value not ignored as it ought to be
+   11 |   return numero + recursivaComum(numero, contador-1);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:11:10: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   11 |   return numero + recursivaComum(numero, contador-1);
+      |          ^~~~~~
+..\src\funcoes.c:9:6: note: declared here
+    9 | void recursivaComum(int numero, int contador){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:13:2: warning: incompatible implicit declaration of built-in function 'printf'
+   13 |  printf("%d° - %d x %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:13:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+14:25:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:13:2: warning: incompatible implicit declaration of built-in function 'printf'
+   13 |  printf("%d° - %d x %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:13:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:25:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:13:2: warning: incompatible implicit declaration of built-in function 'printf'
+   13 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero);
+      |  ^~~~~~
+..\src\funcoes.c:13:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:26:09 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:13:2: warning: incompatible implicit declaration of built-in function 'printf'
+   13 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero*contador);
+      |  ^~~~~~
+..\src\funcoes.c:13:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:27:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:13:2: warning: incompatible implicit declaration of built-in function 'printf'
+   13 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero*contador);
+      |  ^~~~~~
+..\src\funcoes.c:13:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+14:28:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:5:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    5 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:5:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void iterativo(int numero, int contador){
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:13:2: warning: incompatible implicit declaration of built-in function 'printf'
+   13 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero*contador);
+      |  ^~~~~~
+..\src\funcoes.c:13:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:20:2: warning: incompatible implicit declaration of built-in function 'printf'
+   20 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero*contador);
+      |  ^~~~~~
+..\src\funcoes.c:20:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:29:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:29:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+15:13:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:6:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    6 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:6:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | //QUESTÃO 2
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:14:2: warning: incompatible implicit declaration of built-in function 'printf'
+   14 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero*contador);
+      |  ^~~~~~
+..\src\funcoes.c:14:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:9: warning: incompatible implicit declaration of built-in function 'printf'
+   19 |         printf("%d° - %d * %d = %d\n", contador, numero, contador, numero * contador);
+      |         ^~~~~~
+..\src\funcoes.c:19:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+   22 |     printf("%d° - %d * %d = %d\n", contador, numero, contador, numero * contador);
+      |     ^~~~~~
+..\src\funcoes.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+15:14:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+15:16:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+15:17:13 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+15:17:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+15:17:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+15:19:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:6:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    6 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:6:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | //QUESTÃO 3
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:14:2: warning: incompatible implicit declaration of built-in function 'printf'
+   14 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero*contador);
+      |  ^~~~~~
+..\src\funcoes.c:14:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:9: warning: incompatible implicit declaration of built-in function 'printf'
+   19 |         printf("%d° - %d * %d = %d\n", contador, numero, contador, numero * contador);
+      |         ^~~~~~
+..\src\funcoes.c:19:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+   22 |     printf("%d° - %d * %d = %d\n", contador, numero, contador, numero * contador);
+      |     ^~~~~~
+..\src\funcoes.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+15:19:21 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+15:19:22 **** Clean-only build of configuration Debug for project programasC ****
+15:19:22 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativo':
+..\src\funcoes.c:6:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    6 |   printf("%d° - %d x %d = %d\n",i,numero,i,total);
+      |   ^~~~~~
+..\src\funcoes.c:6:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | //QUESTÃO 3
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:14:2: warning: incompatible implicit declaration of built-in function 'printf'
+   14 |  printf("%d° - %d * %d = %d\n",contador,numero,contador,numero*contador);
+      |  ^~~~~~
+..\src\funcoes.c:14:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:9: warning: incompatible implicit declaration of built-in function 'printf'
+   19 |         printf("%d° - %d * %d = %d\n", contador, numero, contador, numero * contador);
+      |         ^~~~~~
+..\src\funcoes.c:19:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:22:5: warning: incompatible implicit declaration of built-in function 'printf'
+   22 |     printf("%d° - %d * %d = %d\n", contador, numero, contador, numero * contador);
+      |     ^~~~~~
+..\src\funcoes.c:22:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC

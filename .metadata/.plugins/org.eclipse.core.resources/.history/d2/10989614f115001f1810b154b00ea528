@@ -1,6 +1,0 @@
-#ifndef BIBLIOTECA_H_
-#define BIBLIOTECA_H_
-
-void menu();
-
-#endif /* BIBLIOTECA_H_ */

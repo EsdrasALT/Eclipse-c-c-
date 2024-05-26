@@ -1,0 +1,16 @@
+#ifndef biblioteca.h
+#define biblioteca.h
+
+// Inclusões de Bibliotecas Necessárias
+#include <stdio.h>
+#include <stdlib.h>
+
+// Definições de Macros e Constantes
+
+// Definições de Tipos (typedefs e enums)
+
+// Declarações de Estruturas
+
+// Prototipação de Funções
+
+#endif /* biblioteca.h */

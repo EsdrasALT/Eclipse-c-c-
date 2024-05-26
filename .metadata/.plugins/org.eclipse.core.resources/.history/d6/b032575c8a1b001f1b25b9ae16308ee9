@@ -1,0 +1,15 @@
+#include "biblioteca.h"
+
+int main (void){
+	setbuf(stdout,NULL);
+
+	int numero=5, contador=6;
+
+	//iterativo(numero,contador);
+	//recursivaComum(numero,contador);
+	recursivaDeCauda(numero,contador);
+
+
+	return 0;
+}
+
