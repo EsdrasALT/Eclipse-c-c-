@@ -1,0 +1,18 @@
+//QUESTÃO 4
+#ifndef BIBLIOTECA_H_
+#define BIBLIOTECA_H_
+
+// Inclusões de Bibliotecas Necessárias
+#include <stdio.h>
+#include <stdlib.h>
+
+// Definições de Macros e Constantes
+
+// Definições de Tipos (typedefs e enums)
+
+// Declarações de Estruturas
+
+// Prototipação de Funções
+int vetorRecursivoIndice(int *vetor, int tam);
+
+#endif /* BIBLIOTECA_H_ */

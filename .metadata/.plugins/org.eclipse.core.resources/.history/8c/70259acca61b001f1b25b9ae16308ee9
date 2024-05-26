@@ -1,0 +1,15 @@
+//QUESTÃO 3
+#include "biblioteca.h"
+
+int main (void){
+	setbuf(stdout,NULL);
+
+	int numero = 5;
+
+	//calcularSerieIterativo(numero);
+	printf("\n%.3f\n", calcularSerieRecursividade(numero));
+
+
+	return 0;
+}
+

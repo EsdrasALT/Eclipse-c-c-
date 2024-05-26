@@ -1,0 +1,16 @@
+//QUESTÃO 3
+
+// pow(variável, expoente)
+
+void iterativo(int numero){
+
+	int numerador;
+	int denominador;
+
+	for (int i=0;i<numero;i++){
+	numerador=pow(numero,3);
+	denominador=pow(10,numero);
+	printf("%d/%d",numerador,denominador);
+	}
+}
+

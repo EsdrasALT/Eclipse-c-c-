@@ -1,0 +1,9 @@
+//QUESTÃO 4
+#include "biblioteca.h"
+
+int main (void){
+	setbuf(stdout,NULL);
+
+	return 0;
+}
+

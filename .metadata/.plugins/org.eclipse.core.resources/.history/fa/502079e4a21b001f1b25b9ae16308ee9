@@ -1,0 +1,11 @@
+//QUESTÃO 3
+#include "biblioteca.h"
+
+int main (void){
+	setbuf(stdout,NULL);
+
+	iterativo(4);
+
+	return 0;
+}
+

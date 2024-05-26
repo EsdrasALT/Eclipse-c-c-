@@ -1,0 +1,14 @@
+//QUESTÃO 3
+#include "biblioteca.h"
+
+int main (void){
+	setbuf(stdout,NULL);
+
+	int numero = 5;
+
+	iterativo(numero);
+	calcularSerie(numero);
+
+	return 0;
+}
+

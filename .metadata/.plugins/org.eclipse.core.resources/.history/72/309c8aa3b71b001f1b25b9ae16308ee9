@@ -1,0 +1,11 @@
+//QUESTÃO 4
+
+
+
+int vetorRecursivoIndice(int *vetor, int tam){
+	if (tam > 1){
+		return vetor[tam-1] + vetorRecursivoIndice(vetor, tam-1);
+	} else {
+		return vetor[tam-1];
+	}
+}

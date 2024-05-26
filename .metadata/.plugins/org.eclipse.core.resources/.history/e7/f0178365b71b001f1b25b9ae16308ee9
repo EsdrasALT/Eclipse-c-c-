@@ -1,0 +1,17 @@
+//QUESTÃO 4
+
+int vetorRecursivoIndice(int *vetor, int tam){
+	if (tam > 1){ //Caso recursivo
+		return vetor[tam-1] + vetorRecursivoIndice(vetor, tam-1);
+	} else { //Caso base
+		return vetor[tam-1];
+	}
+}
+
+int vetorRecursivoAritmetica(int *vetor, int tam){
+	if (tam > 1){ //Caso recursivo
+		return *vetor + vetorRecursivoAritmetica(vetor++, tam-1);
+	} else { //Caso base
+		return *vetor;
+	}
+}
