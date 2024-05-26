@@ -6608,3 +6608,728 @@ collect2.exe: error: ld returned 1 exit status
 Info: Internal Builder is used for build
 gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
 Info: Nothing to build for programasC
+10:55:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativa':
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    7 |  printf("%d x %d = %d" = numero, multiplicacao, resultado);
+      |  ^~~~~~
+..\src\funcoes.c:7:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int iterativa(int numero, int multiplicacao){
+..\src\funcoes.c:7:24: error: assignment to expression with array type
+    7 |  printf("%d x %d = %d" = numero, multiplicacao, resultado);
+      |                        ^
+10:55:52 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+10:55:52 **** Clean-only build of configuration Debug for project programasC ****
+10:55:52 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativa':
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    7 |  printf("%d x %d = %d" = numero, multiplicacao, resultado);
+      |  ^~~~~~
+..\src\funcoes.c:7:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int iterativa(int numero, int multiplicacao){
+..\src\funcoes.c:7:24: error: assignment to expression with array type
+    7 |  printf("%d x %d = %d" = numero, multiplicacao, resultado);
+      |                        ^
+10:56:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativa':
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    7 |  printf("%d x %d = %d\n" = numero, multiplicacao, resultado);
+      |  ^~~~~~
+..\src\funcoes.c:7:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int iterativa(int numero, int multiplicacao){
+..\src\funcoes.c:7:26: error: assignment to expression with array type
+    7 |  printf("%d x %d = %d\n" = numero, multiplicacao, resultado);
+      |                          ^
+10:56:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+10:57:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+10:57:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+10:57:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'iterativa':
+..\src\funcoes.c:7:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    7 |  printf("%d x %d = %d\n" = numero, multiplicacao);
+      |  ^~~~~~
+..\src\funcoes.c:7:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int iterativa(int numero, int multiplicacao){
+..\src\funcoes.c:7:26: error: assignment to expression with array type
+    7 |  printf("%d x %d = %d\n" = numero, multiplicacao);
+      |                          ^
+10:58:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+10:58:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursiva':
+..\src\funcoes.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+   12 | }
+      | ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:02:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursiva':
+..\src\funcoes.c:12:19: error: too few arguments to function 'recursiva'
+   12 |   return numero + recursiva (numero-1);
+      |                   ^~~~~~~~~
+..\src\funcoes.c:10:5: note: declared here
+   10 | int recursiva(int numero, int multiplicador){
+      |     ^~~~~~~~~
+11:03:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:03:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:03:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:09:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaComum':
+..\src\funcoes.c:12:19: warning: implicit declaration of function 'recursiva'; did you mean 'recursivaComum'? [-Wimplicit-function-declaration]
+   12 |   return numero + recursiva(numero, multiplicador-1);
+      |                   ^~~~~~~~~
+      |                   recursivaComum
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:19: warning: implicit declaration of function 'recursividadeDeCauda'; did you mean 'recursivaDeCauda'? [-Wimplicit-function-declaration]
+   19 |   return numero + recursividadeDeCauda(numero-1, numero*multiplicador);
+      |                   ^~~~~~~~~~~~~~~~~~~~
+      |                   recursivaDeCauda
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\funcoes.o: in function `recursivaComum':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:12: undefined reference to `recursiva'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\funcoes.o: in function `recursivaDeCauda':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:19: undefined reference to `recursividadeDeCauda'
+collect2.exe: error: ld returned 1 exit status
+11:10:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:19: warning: implicit declaration of function 'recursividadeDeCauda'; did you mean 'recursivaDeCauda'? [-Wimplicit-function-declaration]
+   19 |   return numero + recursividadeDeCauda(numero-1, numero*multiplicador);
+      |                   ^~~~~~~~~~~~~~~~~~~~
+      |                   recursivaDeCauda
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\funcoes.o: in function `recursivaDeCauda':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:19: undefined reference to `recursividadeDeCauda'
+collect2.exe: error: ld returned 1 exit status
+11:10:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:10:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:11:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:11:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+11:26:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:27:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:27:08 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+11:27:08 **** Clean-only build of configuration Debug for project programasC ****
+11:27:08 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+11:28:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:28:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:28:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:28:24 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+11:28:25 **** Clean-only build of configuration Debug for project programasC ****
+11:28:25 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+11:28:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:29:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:29:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:30:29 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+   21 | }
+      | ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:30:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:30:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:31:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:43:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:43:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:43:38 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+11:43:38 **** Clean-only build of configuration Debug for project programasC ****
+11:43:38 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+11:44:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:44:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:47:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:47:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:47:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:50:27 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:50:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:51:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:51:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:51:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:52:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:55:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:55:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:55:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:55:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:55:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:55:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:55:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:56:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:56:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:43: warning: operation on 'numero' may be undefined [-Wsequence-point]
+   19 |   return recursivaDeCauda(numero-1, numero+++multiplicador);
+      |                                     ~~~~~~^~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:56:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:58:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:59:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:59:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+11:59:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:00:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:00:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:07:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:07:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+12:09:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:8:39: error: too few arguments to function 'recursivaDeCauda'
+    8 |  printf("Recursiva De Cauda: %d\n\n", recursivaDeCauda(5,7));
+      |                                       ^~~~~~~~~~~~~~~~
+In file included from ..\src\main.c:1:
+..\src\biblioteca.h:17:5: note: declared here
+   17 | int recursivaDeCauda(int numero, int multiplicador, int parcial);
+      |     ^~~~~~~~~~~~~~~~
+13:38:13 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:10:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'recursivaDeCauda'
+   10 |  int resultado recursivaDeCauda(numero1,numero2);
+      |                ^~~~~~~~~~~~~~~~
+..\src\main.c:10:16: error: too few arguments to function 'recursivaDeCauda'
+In file included from ..\src\main.c:1:
+..\src\biblioteca.h:17:5: note: declared here
+   17 | int recursivaDeCauda(int numero, int multiplicador, int parcial);
+      |     ^~~~~~~~~~~~~~~~
+..\src\main.c:11:56: error: 'resultado' undeclared (first use in this function)
+   11 |  printf("Recursiva De Cauda: %d\n\n", numero1,numero2, resultado);
+      |                                                        ^~~~~~~~~
+..\src\main.c:11:56: note: each undeclared identifier is reported only once for each function it appears in
+13:42:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:35: error: 'n' undeclared (first use in this function)
+   19 |   return recursivaDeCauda(numero, n*multiplicador);
+      |                                   ^
+..\src\funcoes.c:19:35: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:21:9: error: 'parcial' undeclared (first use in this function)
+   21 |  return parcial;
+      |         ^~~~~~~
+..\src\funcoes.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+   22 | }
+      | ^
+13:42:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:19:35: error: 'n' undeclared (first use in this function)
+   19 |   return recursivaDeCauda(numero, n*multiplicador);
+      |                                   ^
+..\src\funcoes.c:19:35: note: each undeclared identifier is reported only once for each function it appears in
+13:42:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:8:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'recursivaDeCauda'
+    8 |  int resultado recursivaDeCauda(5,1);
+      |                ^~~~~~~~~~~~~~~~
+13:42:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:8:6: warning: unused variable 'resultado' [-Wunused-variable]
+    8 |  int resultado = recursivaDeCauda(5,1);
+      |      ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:43:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:43:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:43:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:44:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+13:44:41 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/main.d src/main.o programasC.exe src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+13:44:41 **** Clean-only build of configuration Debug for project programasC ****
+13:44:41 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+13:45:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:45:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:45:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:45:59 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:47:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:18:6: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   18 |  if (numero = 0){
+      |      ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:47:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:47:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:47:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:47:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:47:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:48:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:48:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:48:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:49:15 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+13:50:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:52:42 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:17:53: error: unknown type name 'parcial'
+   17 | int recursivaDeCauda(int numero, int multiplicador, parcial){
+      |                                                     ^~~~~~~
+13:53:27 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:53:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:53:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:54:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'recursivaDeCauda':
+..\src\funcoes.c:18:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   18 |  printf("%d", parcial);
+      |  ^~~~~~
+..\src\funcoes.c:18:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int iterativa(int numero, int multiplicador){
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:54:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:55:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:8:39: error: too many arguments to function 'recursivaDeCauda'
+    8 |  printf("Recursiva de Cauda: %d\n\n", recursivaDeCauda(5,1,0));
+      |                                       ^~~~~~~~~~~~~~~~
+In file included from ..\src\main.c:1:
+..\src\biblioteca.h:17:5: note: declared here
+   17 | int recursivaDeCauda(int numero, int multiplicador);
+      |     ^~~~~~~~~~~~~~~~
+13:55:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:8:39: error: too few arguments to function 'recursivaDeCauda'
+    8 |  printf("Recursiva de Cauda: %d\n\n", recursivaDeCauda(5,1));
+      |                                       ^~~~~~~~~~~~~~~~
+In file included from ..\src\main.c:1:
+..\src\biblioteca.h:17:5: note: declared here
+   17 | int recursivaDeCauda(int numero, int multiplicador, int parcial);
+      |     ^~~~~~~~~~~~~~~~
+13:55:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:55:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+13:56:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:56:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:56:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:56:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:57:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+13:58:02 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+13:58:02 **** Clean-only build of configuration Debug for project programasC ****
+Info: Nothing to build for programasC

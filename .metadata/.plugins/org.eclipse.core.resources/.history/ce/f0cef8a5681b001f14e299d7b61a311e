@@ -1,0 +1,10 @@
+#include "biblioteca.h"
+
+int main (void){
+	setbuf(stdout,NULL);
+
+	printf("%d", iterativa(5, 7));
+
+	return 0;
+}
+
