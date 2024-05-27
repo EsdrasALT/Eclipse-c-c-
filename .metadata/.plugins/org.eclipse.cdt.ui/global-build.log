@@ -876,3 +876,157 @@ Info: Nothing to build for programasC
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
 gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+20:59:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuPrincipal':
+..\src\funcoes.c:6:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    6 |         printf("Menu Principal:\n");
+      |         ^~~~~~
+..\src\funcoes.c:6:9: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | //AAI
+..\src\funcoes.c:12:9: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   12 |         scanf(" %c", &escolha);
+      |         ^~~~~
+..\src\funcoes.c:12:9: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:12:9: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:16:17: warning: implicit declaration of function 'menuInserir' [-Wimplicit-function-declaration]
+   16 |                 menuInserir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c:19:17: warning: implicit declaration of function 'menuExcluir' [-Wimplicit-function-declaration]
+   19 |                 menuExcluir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c:22:17: warning: implicit declaration of function 'menuRelatorios' [-Wimplicit-function-declaration]
+   22 |                 menuRelatorios();
+      |                 ^~~~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:33:6: warning: conflicting types for 'menuInserir'
+   33 | void menuInserir() {
+      |      ^~~~~~~~~~~
+..\src\funcoes.c:16:17: note: previous implicit declaration of 'menuInserir' was here
+   16 |                 menuInserir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:35:5: warning: incompatible implicit declaration of built-in function 'printf'
+   35 |     printf("Submenu Inserir:\n");
+      |     ^~~~~~
+..\src\funcoes.c:35:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:39:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   39 |     scanf("%d", &escolha);
+      |     ^~~~~
+..\src\funcoes.c:39:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:53:6: warning: conflicting types for 'menuExcluir'
+   53 | void menuExcluir() {
+      |      ^~~~~~~~~~~
+..\src\funcoes.c:19:17: note: previous implicit declaration of 'menuExcluir' was here
+   19 |                 menuExcluir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c: In function 'menuExcluir':
+..\src\funcoes.c:55:5: warning: incompatible implicit declaration of built-in function 'printf'
+   55 |     printf("Submenu Excluir:\n");
+      |     ^~~~~~
+..\src\funcoes.c:55:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:59:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   59 |     scanf("%d", &escolha);
+      |     ^~~~~
+..\src\funcoes.c:59:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:73:6: warning: conflicting types for 'menuRelatorios'
+   73 | void menuRelatorios() {
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:22:17: note: previous implicit declaration of 'menuRelatorios' was here
+   22 |                 menuRelatorios();
+      |                 ^~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'menuRelatorios':
+..\src\funcoes.c:75:5: warning: incompatible implicit declaration of built-in function 'printf'
+   75 |     printf("Submenu Relatórios:\n");
+      |     ^~~~~~
+..\src\funcoes.c:75:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:80:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   80 |     scanf("%d", &escolha);
+      |     ^~~~~
+..\src\funcoes.c:80:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+21:02:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuPrincipal':
+..\src\funcoes.c:4:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    4 |         printf("Menu Principal:\n");
+      |         ^~~~~~
+..\src\funcoes.c:4:9: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\funcoes.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | void menuPrincipal() {
+..\src\funcoes.c:10:9: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   10 |         scanf(" %c", &escolha);
+      |         ^~~~~
+..\src\funcoes.c:10:9: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\funcoes.c:10:9: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c:15:17: warning: implicit declaration of function 'menuInserir' [-Wimplicit-function-declaration]
+   15 |                 menuInserir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c:19:17: warning: implicit declaration of function 'menuExcluir' [-Wimplicit-function-declaration]
+   19 |                 menuExcluir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c:23:17: warning: implicit declaration of function 'menuRelatorios' [-Wimplicit-function-declaration]
+   23 |                 menuRelatorios();
+      |                 ^~~~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:35:6: warning: conflicting types for 'menuInserir'
+   35 | void menuInserir() {
+      |      ^~~~~~~~~~~
+..\src\funcoes.c:15:17: note: previous implicit declaration of 'menuInserir' was here
+   15 |                 menuInserir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:37:5: warning: incompatible implicit declaration of built-in function 'printf'
+   37 |     printf("Submenu Inserir:\n");
+      |     ^~~~~~
+..\src\funcoes.c:37:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:41:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   41 |     scanf("%d", &escolha);
+      |     ^~~~~
+..\src\funcoes.c:41:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:57:6: warning: conflicting types for 'menuExcluir'
+   57 | void menuExcluir() {
+      |      ^~~~~~~~~~~
+..\src\funcoes.c:19:17: note: previous implicit declaration of 'menuExcluir' was here
+   19 |                 menuExcluir();
+      |                 ^~~~~~~~~~~
+..\src\funcoes.c: In function 'menuExcluir':
+..\src\funcoes.c:59:5: warning: incompatible implicit declaration of built-in function 'printf'
+   59 |     printf("Submenu Excluir:\n");
+      |     ^~~~~~
+..\src\funcoes.c:59:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:63:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   63 |     scanf("%d", &escolha);
+      |     ^~~~~
+..\src\funcoes.c:63:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:79:6: warning: conflicting types for 'menuRelatorios'
+   79 | void menuRelatorios() {
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:23:17: note: previous implicit declaration of 'menuRelatorios' was here
+   23 |                 menuRelatorios();
+      |                 ^~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'menuRelatorios':
+..\src\funcoes.c:81:5: warning: incompatible implicit declaration of built-in function 'printf'
+   81 |     printf("Submenu Relatórios:\n");
+      |     ^~~~~~
+..\src\funcoes.c:81:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\funcoes.c:86:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   86 |     scanf("%d", &escolha);
+      |     ^~~~~
+..\src\funcoes.c:86:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+Info: Nothing to build for programasC
+21:03:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
