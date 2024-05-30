@@ -11,10 +11,7 @@
 // Definições de Tipos (typedefs e enums)
 typedef struct st_DadosListaSimples listaSimples;
 struct st_DadosListaSimples {
-	//Dados Basicos
     int codigo;
-
-    //Listas
     listaSimples *proximo;
 };
 

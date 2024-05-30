@@ -1,0 +1,13 @@
+#include "biblioteca.h"
+
+//Daniel Ribeiro Costa
+//Danilo Augusto
+//Esdras Altivo
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	menu_principal();
+
+	return EXIT_SUCCESS;
+}

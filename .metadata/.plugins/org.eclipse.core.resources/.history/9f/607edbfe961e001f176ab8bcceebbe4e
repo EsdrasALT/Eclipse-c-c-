@@ -16,8 +16,7 @@ listaSimples* inserirInicio (listaSimples *inicioLista){
 
 void impressao(listaSimples *lista){
     if (lista != NULL) {
-        printf("\nEndereço %p - Codigo %d - Proximo %p",
-        		lista, lista->codigo, lista->proximo);
+        printf("\nEndereço %p - Codigo %d - Proximo %p", lista, lista->codigo, lista->proximo);
         impressao(lista->proximo);
     }
 }

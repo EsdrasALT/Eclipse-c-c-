@@ -116,10 +116,6 @@ void menuRelatorios(){
 //    return 1;
 //}
 
-void validarNome(){
 
-}
-//Funcao recursiva
-//Primeira letraas maisculas, restantes minuscula
 
 

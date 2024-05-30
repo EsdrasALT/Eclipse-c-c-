@@ -1030,3 +1030,37 @@ Info: Nothing to build for programasC
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
 gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+11:39:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\main.o" 
+12:12:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:1:
+..\src\biblioteca.h:29:17: error: array type has incomplete element type 'struct Data'
+   29 |     struct Data dataNascimento[10]; // DD/MM/AAAA
+      |                 ^~~~~~~~~~~~~~
+12:37:13 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:10:2: warning: implicit declaration of function 'menu_principal'; did you mean 'menuPrincipal'? [-Wimplicit-function-declaration]
+   10 |  menu_principal();
+      |  ^~~~~~~~~~~~~~
+      |  menuPrincipal
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\programaPrincipalAII.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/programaPrincipalAII.c:10: undefined reference to `menu_principal'
+collect2.exe: error: ld returned 1 exit status
+12:37:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+12:41:59 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 

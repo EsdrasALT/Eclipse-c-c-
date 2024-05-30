@@ -35,11 +35,10 @@ typedef struct {
 } cadastroPlacas;
 
 //-------------Prototipação de Funções-------------
+int validarData(int dia, int mes, int ano);
 void menuPrincipal();
 void menuInserir();
 void menuExcluir();
 void menuRelatorios();
-int validarData(int dia, int mes, int ano);
-
 
 #endif /* BIBLIOTECA_H_ */

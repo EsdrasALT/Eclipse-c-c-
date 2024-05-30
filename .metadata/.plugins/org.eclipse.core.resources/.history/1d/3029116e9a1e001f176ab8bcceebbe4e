@@ -1,4 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "biblioteca.h"
+
+void menuInserir(){
+void menuExcluir(){
+void menuRelatorios(){
+
+
 
 void menuPrincipal(){
     char opcao;
@@ -14,13 +23,13 @@ void menuPrincipal(){
 
         switch(opcao) {
             case 'A':
-            	menuInserir();
+                menu_inserir();
                 break;
             case 'B':
-            	menuExcluir();
+                menu_excluir();
                 break;
             case 'C':
-            	menuRelatorios();
+                menu_relatorios();
                 break;
             case 'D':
                 printf("Finalizando o programa...\n");
@@ -32,7 +41,7 @@ void menuPrincipal(){
     } while(opcao != 'D');
 }
 
-void menuInserir(){
+void menu_inserir() {
     int opcao;
     printf("\nMenu Inserir:\n");
     printf("1 - Inserção de cliente\n");
@@ -53,7 +62,7 @@ void menuInserir(){
     }
 }
 
-void menuExcluir(){
+void menu_excluir() {
     int opcao;
     printf("\nMenu Excluir:\n");
     printf("1 - Exclusão de cliente\n");
@@ -74,7 +83,7 @@ void menuExcluir(){
     }
 }
 
-void menuRelatorios(){
+void menu_relatorios() {
     int opcao;
     printf("\nMenu Relatórios:\n");
     printf("1 - Listar todos os clientes cadastrados (e seus carros)\n");
@@ -116,10 +125,6 @@ void menuRelatorios(){
 //    return 1;
 //}
 
-void validarNome(){
 
-}
-//Funcao recursiva
-//Primeira letraas maisculas, restantes minuscula
 
 

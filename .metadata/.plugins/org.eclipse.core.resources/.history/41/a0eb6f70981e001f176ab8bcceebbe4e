@@ -1,0 +1,34 @@
+#ifndef BIBLIOTECA_H_
+#define BIBLIOTECA_H_
+#include <String.h>
+
+int validarData(int dia, int mes, int ano);
+void menu_principal();
+void menu_inserir();
+void menu_excluir();
+void menu_relatorios();
+
+typedef struct {
+	int mes;
+	int dia;
+	int ano;
+} DataNascimento;
+
+typedef struct {
+	char nome[50];
+	char codigo;
+	int quantidade;
+	char tpContrato;
+	int quantidadePlacas;
+
+} cadastroClientes;
+
+typedef struct {
+	char placa[7];
+	char *codigoSequencial;
+	char marcaModelo[30];
+	int ano;
+
+} cadastroPlacas;
+
+#endif /* BIBLIOTECA_H_ */
