@@ -1064,3 +1064,8 @@ Info: Nothing to build for programasC
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
 gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+12:59:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 

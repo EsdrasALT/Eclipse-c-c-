@@ -1,5 +1,3 @@
-//FUNÇÕES - funcoes.c = https://codeshare.io/4YPo1d
-
 #include "biblioteca.h"
 
 void menuPrincipal(){
@@ -118,9 +116,10 @@ void menuRelatorios(){
 //    return 1;
 //}
 
-
 void validarNome(){
+
 }
 //Funcao recursiva
 //Primeira letraas maisculas, restantes minuscula
+
 
