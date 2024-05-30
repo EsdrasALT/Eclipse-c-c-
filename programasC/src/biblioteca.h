@@ -12,6 +12,31 @@
 
 // Declarações de Estruturas
 
+#include <stdio.h>
+
+struct Cliente {
+    char nome[51];
+    char codigo[9];
+    struct DataNascimento {
+        int dia;
+        int mes;
+        int ano;
+    } dataNascimento;
+    char tipoContrato;
+    int qtdePlacas;
+    struct Placa *placas;
+    struct Cliente *prox;
+};
+
+struct Placa {
+    char placa[8];
+    char codigo[11];
+    char marcaModelo[31];
+    int ano;
+    struct Placa *prox;
+};
+
+
 // Prototipação de Funções
 void menuPrincipal();
 void menuInserir();

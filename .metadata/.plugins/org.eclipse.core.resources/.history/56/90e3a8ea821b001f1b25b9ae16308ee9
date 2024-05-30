@@ -1,7 +1,0 @@
-void iterativo(int numero, int contador){
-	int total=0;
-	for(int i=1;i<=contador;i++){
-		total *= numero;
-		printf("%d° - %d x %d = %d\n",i,numero,i,total);
-	}
-}
