@@ -1069,3 +1069,1103 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
 gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+16:31:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\anotacoes.o" "..\\src\\anotacoes.c" 
+..\src\anotacoes.c:1:1: error: expected identifier or '(' before '--' token
+    1 | --
+      | ^~
+..\src\anotacoes.c:4:50: error: stray '\303' in program
+    4 | A.1)Crie uma estrutura struct chamada Data com três campos: dia, mes e ano.
+      |                                                  ^
+..\src\anotacoes.c:4:51: error: stray '\252' in program
+    4 | A.1)Crie uma estrutura struct chamada Data com três campos: dia, mes e ano.
+      |                                                   ^
+..\src\anotacoes.c:6:6: error: stray '\303' in program
+    6 | B)Função para validar a data
+      |      ^
+..\src\anotacoes.c:6:7: error: stray '\247' in program
+    6 | B)Função para validar a data
+      |       ^
+..\src\anotacoes.c:6:8: error: stray '\303' in program
+    6 | B)Função para validar a data
+      |        ^
+..\src\anotacoes.c:6:9: error: stray '\243' in program
+    6 | B)Função para validar a data
+      |         ^
+..\src\anotacoes.c:7:2: error: invalid suffix "Crie" on floating constant
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |  ^~~~~~
+..\src\anotacoes.c:7:16: error: stray '\303' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                ^
+..\src\anotacoes.c:7:17: error: stray '\247' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                 ^
+..\src\anotacoes.c:7:18: error: stray '\303' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                  ^
+..\src\anotacoes.c:7:19: error: stray '\243' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                   ^
+..\src\anotacoes.c:7:57: error: stray '\303' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                                                         ^
+..\src\anotacoes.c:7:58: error: stray '\251' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                                                          ^
+..\src\anotacoes.c:7:61: error: stray '\303' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                                                             ^
+..\src\anotacoes.c:7:62: error: stray '\241' in program
+    7 | B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+      |                                                              ^
+..\src\anotacoes.c:8:17: error: stray '\303' in program
+    8 | B.2)Crie uma função para calcular a idade do usuário a partir da data de nascimento.
+      |                 ^
+..\src\anotacoes.c:8:18: error: stray '\247' in program
+    8 | B.2)Crie uma função para calcular a idade do usuário a partir da data de nascimento.
+      |                  ^
+..\src\anotacoes.c:8:19: error: stray '\303' in program
+    8 | B.2)Crie uma função para calcular a idade do usuário a partir da data de nascimento.
+      |                   ^
+..\src\anotacoes.c:8:20: error: stray '\243' in program
+    8 | B.2)Crie uma função para calcular a idade do usuário a partir da data de nascimento.
+      |                    ^
+..\src\anotacoes.c:8:51: error: stray '\303' in program
+    8 | B.2)Crie uma função para calcular a idade do usuário a partir da data de nascimento.
+      |                                                   ^
+..\src\anotacoes.c:8:52: error: stray '\241' in program
+    8 | B.2)Crie uma função para calcular a idade do usuário a partir da data de nascimento.
+      |                                                    ^
+..\src\anotacoes.c:10:6: error: stray '\303' in program
+   10 | C)Função para ler e processar a data de nascimento
+      |      ^
+..\src\anotacoes.c:10:7: error: stray '\247' in program
+   10 | C)Função para ler e processar a data de nascimento
+      |       ^
+..\src\anotacoes.c:10:8: error: stray '\303' in program
+   10 | C)Função para ler e processar a data de nascimento
+      |        ^
+..\src\anotacoes.c:10:9: error: stray '\243' in program
+   10 | C)Função para ler e processar a data de nascimento
+      |         ^
+..\src\anotacoes.c:11:17: error: stray '\303' in program
+   11 | C.1)Crie uma função para ler a data de nascimento do usuário como uma string.
+      |                 ^
+..\src\anotacoes.c:11:18: error: stray '\247' in program
+   11 | C.1)Crie uma função para ler a data de nascimento do usuário como uma string.
+      |                  ^
+..\src\anotacoes.c:11:19: error: stray '\303' in program
+   11 | C.1)Crie uma função para ler a data de nascimento do usuário como uma string.
+      |                   ^
+..\src\anotacoes.c:11:20: error: stray '\243' in program
+   11 | C.1)Crie uma função para ler a data de nascimento do usuário como uma string.
+      |                    ^
+..\src\anotacoes.c:11:59: error: stray '\303' in program
+   11 | C.1)Crie uma função para ler a data de nascimento do usuário como uma string.
+      |                                                           ^
+..\src\anotacoes.c:11:60: error: stray '\241' in program
+   11 | C.1)Crie uma função para ler a data de nascimento do usuário como uma string.
+      |                                                            ^
+..\src\anotacoes.c:12:21: error: stray '\303' in program
+   12 | C.2)Extraia o dia, mês e ano da string.
+      |                     ^
+..\src\anotacoes.c:12:22: error: stray '\252' in program
+   12 | C.2)Extraia o dia, mês e ano da string.
+      |                      ^
+..\src\anotacoes.c:13:26: error: stray '\303' in program
+   13 | C.3)Valide se a idade está entre 18 e 100 anos.
+      |                          ^
+..\src\anotacoes.c:13:27: error: stray '\241' in program
+   13 | C.3)Valide se a idade está entre 18 e 100 anos.
+      |                           ^
+..\src\anotacoes.c:15:6: error: stray '\303' in program
+   15 | D)Função principal para coordenar as etapas
+      |      ^
+..\src\anotacoes.c:15:7: error: stray '\247' in program
+   15 | D)Função principal para coordenar as etapas
+      |       ^
+..\src\anotacoes.c:15:8: error: stray '\303' in program
+   15 | D)Função principal para coordenar as etapas
+      |        ^
+..\src\anotacoes.c:15:9: error: stray '\243' in program
+   15 | D)Função principal para coordenar as etapas
+      |         ^
+..\src\anotacoes.c:16:17: error: stray '\303' in program
+   16 | D.1)Chame as funções criadas para ler, validar e calcular a idade do usuário.
+      |                 ^
+..\src\anotacoes.c:16:18: error: stray '\247' in program
+   16 | D.1)Chame as funções criadas para ler, validar e calcular a idade do usuário.
+      |                  ^
+..\src\anotacoes.c:16:19: error: stray '\303' in program
+   16 | D.1)Chame as funções criadas para ler, validar e calcular a idade do usuário.
+      |                   ^
+..\src\anotacoes.c:16:20: error: stray '\265' in program
+   16 | D.1)Chame as funções criadas para ler, validar e calcular a idade do usuário.
+      |                    ^
+..\src\anotacoes.c:16:75: error: stray '\303' in program
+   16 | D.1)Chame as funções criadas para ler, validar e calcular a idade do usuário.
+      |                                                                           ^
+..\src\anotacoes.c:16:76: error: stray '\241' in program
+   16 | D.1)Chame as funções criadas para ler, validar e calcular a idade do usuário.
+      |                                                                            ^
+..\src\anotacoes.c:17:39: error: stray '\303' in program
+   17 | D.2)Exiba mensagens apropriadas ao usuário, indicando sucesso ou erro.
+      |                                       ^
+..\src\anotacoes.c:17:40: error: stray '\241' in program
+   17 | D.2)Exiba mensagens apropriadas ao usuário, indicando sucesso ou erro.
+      |                                        ^
+..\src\anotacoes.c:21:9: error: stray '\303' in program
+   21 | A)Definição de Assinatura da Função
+      |         ^
+..\src\anotacoes.c:21:10: error: stray '\247' in program
+   21 | A)Definição de Assinatura da Função
+      |          ^
+..\src\anotacoes.c:21:11: error: stray '\303' in program
+   21 | A)Definição de Assinatura da Função
+      |           ^
+..\src\anotacoes.c:21:12: error: stray '\243' in program
+   21 | A)Definição de Assinatura da Função
+      |            ^
+..\src\anotacoes.c:21:35: error: stray '\303' in program
+   21 | A)Definição de Assinatura da Função
+      |                                   ^
+..\src\anotacoes.c:21:36: error: stray '\247' in program
+   21 | A)Definição de Assinatura da Função
+      |                                    ^
+..\src\anotacoes.c:21:37: error: stray '\303' in program
+   21 | A)Definição de Assinatura da Função
+      |                                     ^
+..\src\anotacoes.c:21:38: error: stray '\243' in program
+   21 | A)Definição de Assinatura da Função
+      |                                      ^
+..\src\anotacoes.c:22:7: error: stray '\303' in program
+   22 | B)Criação da Função Principal
+      |       ^
+..\src\anotacoes.c:22:8: error: stray '\247' in program
+   22 | B)Criação da Função Principal
+      |        ^
+..\src\anotacoes.c:22:9: error: stray '\303' in program
+   22 | B)Criação da Função Principal
+      |         ^
+..\src\anotacoes.c:22:10: error: stray '\243' in program
+   22 | B)Criação da Função Principal
+      |          ^
+..\src\anotacoes.c:22:19: error: stray '\303' in program
+   22 | B)Criação da Função Principal
+      |                   ^
+..\src\anotacoes.c:22:20: error: stray '\247' in program
+   22 | B)Criação da Função Principal
+      |                    ^
+..\src\anotacoes.c:22:21: error: stray '\303' in program
+   22 | B)Criação da Função Principal
+      |                     ^
+..\src\anotacoes.c:22:22: error: stray '\243' in program
+   22 | B)Criação da Função Principal
+      |                      ^
+..\src\anotacoes.c:23:13: error: stray '\303' in program
+   23 | C)Implementação da Logica Recursiva
+      |             ^
+..\src\anotacoes.c:23:14: error: stray '\247' in program
+   23 | C)Implementação da Logica Recursiva
+      |              ^
+..\src\anotacoes.c:23:15: error: stray '\303' in program
+   23 | C)Implementação da Logica Recursiva
+      |               ^
+..\src\anotacoes.c:23:16: error: stray '\243' in program
+   23 | C)Implementação da Logica Recursiva
+      |                ^
+..\src\anotacoes.c:24:14: error: stray '\303' in program
+   24 | D) Transformação de caracteres (toupper e tolower)
+      |              ^
+..\src\anotacoes.c:24:15: error: stray '\247' in program
+   24 | D) Transformação de caracteres (toupper e tolower)
+      |               ^
+..\src\anotacoes.c:24:16: error: stray '\303' in program
+   24 | D) Transformação de caracteres (toupper e tolower)
+      |                ^
+..\src\anotacoes.c:24:17: error: stray '\243' in program
+   24 | D) Transformação de caracteres (toupper e tolower)
+      |                 ^
+..\src\anotacoes.c:25:9: error: stray '\303' in program
+   25 | E)Recursão (string + 1)
+      |         ^
+..\src\anotacoes.c:25:10: error: stray '\243' in program
+   25 | E)Recursão (string + 1)
+      |          ^
+16:31:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+16:48:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'solicitarDataNascimento':
+..\src\funcoes.c:113:14: error: invalid operands to binary & (have 'char *' and 'char *')
+  113 |  scanf(" %c" &data);
+      |        ~~~~~ ^
+      |        |     |
+      |        |     char *
+      |        char *
+..\src\funcoes.c:116:12: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  116 |   printf("%c",data);
+      |           ~^  ~~~~
+      |            |  |
+      |            |  char *
+      |            int
+      |           %s
+..\src\funcoes.c:119:9: warning: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Wint-conversion]
+  119 |  return data;
+      |         ^~~~
+16:49:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'solicitarDataNascimento':
+..\src\funcoes.c:113:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'char (*)[11]' [-Wformat=]
+  113 |  scanf(" %c" ,&data);
+      |          ~^   ~~~~~
+      |           |   |
+      |           |   char (*)[11]
+      |           char *
+..\src\funcoes.c:116:12: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  116 |   printf("%c",data);
+      |           ~^  ~~~~
+      |            |  |
+      |            |  char *
+      |            int
+      |           %s
+..\src\funcoes.c:119:9: warning: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Wint-conversion]
+  119 |  return data;
+      |         ^~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+16:49:16 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/programaPrincipalAII.d programasC.exe src/programaPrincipalAII.o src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+16:49:17 **** Clean-only build of configuration Debug for project programasC ****
+16:49:17 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'solicitarDataNascimento':
+..\src\funcoes.c:113:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'char (*)[11]' [-Wformat=]
+  113 |  scanf(" %c" ,&data);
+      |          ~^   ~~~~~
+      |           |   |
+      |           |   char (*)[11]
+      |           char *
+..\src\funcoes.c:116:12: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  116 |   printf("%c",data);
+      |           ~^  ~~~~
+      |            |  |
+      |            |  char *
+      |            int
+      |           %s
+..\src\funcoes.c:119:9: warning: returning 'char *' from a function with return type 'char' makes integer from pointer without a cast [-Wint-conversion]
+  119 |  return data;
+      |         ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+16:49:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+17:02:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+17:08:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:116:16: error: conflicting types for 'solicitarDataDeNascimento'
+  116 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:54:6: note: previous declaration of 'solicitarDataDeNascimento' was here
+   54 | void solicitarDataDeNascimento();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+17:09:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+17:14:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+17:16:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'solicitarDataDeNascimento':
+..\src\funcoes.c:117:3: warning: statement with no effect [-Wunused-value]
+  117 |   verificarIdade
+      |   ^~~~~~~~~~~~~~
+..\src\funcoes.c:117:17: error: expected ';' before 'if'
+  117 |   verificarIdade
+      |                 ^
+      |                 ;
+  118 | 
+  119 |   if (data.dia >= 1 && data.dia <= 31 && data.mes >= 1 && data.mes <= 12 && data.ano >= 1900 && data.ano <= 2024) {
+      |   ~~             
+17:17:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'solicitarDataDeNascimento':
+..\src\funcoes.c:125:9: error: expected expression before ')' token
+  125 |  while (){
+      |         ^
+..\src\funcoes.c:127:6: error: used struct type value where scalar is required
+  127 |   if(data)
+      |      ^~~~
+..\src\funcoes.c:128:2: error: expected expression before '}' token
+  128 |  }
+      |  ^
+17:40:05 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+17:40:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+17:41:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+17:43:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+17:48:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+20:46:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:04:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNome':
+..\src\funcoes.c:176:14: warning: implicit declaration of function 'isalpha' [-Wimplicit-function-declaration]
+  176 |     else if (isalpha(*nome)) {
+      |              ^~~~~~~
+..\src\funcoes.c:177:17: warning: implicit declaration of function 'toupper' [-Wimplicit-function-declaration]
+  177 |         *nome = toupper(*nome);
+      |                 ^~~~~~~
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:165:1: warning: control reaches end of non-void function [-Wreturn-type]
+  165 | }
+      | ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:04:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNome':
+..\src\funcoes.c:176:14: warning: implicit declaration of function 'isalpha' [-Wimplicit-function-declaration]
+  176 |     else if (isalpha(*nome)) {
+      |              ^~~~~~~
+..\src\funcoes.c:177:17: warning: implicit declaration of function 'toupper' [-Wimplicit-function-declaration]
+  177 |         *nome = toupper(*nome);
+      |                 ^~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:05:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:05:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:14:2: error: too few arguments to function 'receberNomePreenchido'
+   14 |  receberNomePreenchido();
+      |  ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:6: note: declared here
+   61 | void receberNomePreenchido(cadastroClientes *cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:13:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   13 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:07:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:2: error: unknown type name 'cadastroClientes'; did you mean 'CadastroClientes'?
+   13 |  cadastroClientes Clientes = receberNomePreenchido();
+      |  ^~~~~~~~~~~~~~~~
+      |  CadastroClientes
+..\src\programaPrincipalAII.c:13:30: error: too few arguments to function 'receberNomePreenchido'
+   13 |  cadastroClientes Clientes = receberNomePreenchido();
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:6: note: declared here
+   61 | void receberNomePreenchido(CadastroClientes *cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:13:19: warning: unused variable 'Clientes' [-Wunused-variable]
+   13 |  cadastroClientes Clientes = receberNomePreenchido();
+      |                   ^~~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:07:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:30: error: too few arguments to function 'receberNomePreenchido'
+   13 |  CadastroClientes Clientes = receberNomePreenchido();
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:6: note: declared here
+   61 | void receberNomePreenchido(CadastroClientes *cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:13:19: warning: unused variable 'Clientes' [-Wunused-variable]
+   13 |  CadastroClientes Clientes = receberNomePreenchido();
+      |                   ^~~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:08:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:52: error: expected expression before 'CadastroClientes'
+   13 |  CadastroClientes Clientes = receberNomePreenchido(CadastroClientes *cliente);
+      |                                                    ^~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:13:19: warning: unused variable 'Clientes' [-Wunused-variable]
+   13 |  CadastroClientes Clientes = receberNomePreenchido(CadastroClientes *cliente);
+      |                   ^~~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:08:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:62: error: 'cliente' undeclared (first use in this function); did you mean 'Clientes'?
+   13 |  CadastroClientes Clientes = receberNomePreenchido(Clientes *cliente);
+      |                                                              ^~~~~~~
+      |                                                              Clientes
+..\src\programaPrincipalAII.c:13:62: note: each undeclared identifier is reported only once for each function it appears in
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:08:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:62: error: 'clientes' undeclared (first use in this function); did you mean 'Clientes'?
+   13 |  CadastroClientes Clientes = receberNomePreenchido(Clientes *clientes);
+      |                                                              ^~~~~~~~
+      |                                                              Clientes
+..\src\programaPrincipalAII.c:13:62: note: each undeclared identifier is reported only once for each function it appears in
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:10:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:60: warning: passing argument 1 of 'receberNomePreenchido' from incompatible pointer type [-Wincompatible-pointer-types]
+   13 |  CadastroClientes Clientes = receberNomePreenchido(Clientes.nome);
+      |                                                    ~~~~~~~~^~~~~
+      |                                                            |
+      |                                                            char *
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   61 | void receberNomePreenchido(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\programaPrincipalAII.c:13:30: error: invalid initializer
+   13 |  CadastroClientes Clientes = receberNomePreenchido(Clientes.nome);
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:11:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:52: error: incompatible type for argument 1 of 'receberNomePreenchido'
+   13 |  CadastroClientes Clientes = receberNomePreenchido(Clientes);
+      |                                                    ^~~~~~~~
+      |                                                    |
+      |                                                    CadastroClientes {aka struct <anonymous>}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'CadastroClientes' {aka 'struct <anonymous>'}
+   61 | void receberNomePreenchido(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:11:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:13:30: error: invalid initializer
+   13 |  CadastroClientes Clientes = receberNomePreenchido(&Clientes);
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+21:11:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:12:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:14:32: warning: passing argument 1 of 'receberNomePreenchido' from incompatible pointer type [-Wincompatible-pointer-types]
+   14 |  receberNomePreenchido(Clientes.nome);
+      |                        ~~~~~~~~^~~~~
+      |                                |
+      |                                char *
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   61 | void receberNomePreenchido(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: unused variable 'dataNascimento' [-Wunused-variable]
+   12 |  DataNascimento dataNascimento = solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:12:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:32: warning: passing argument 1 of 'receberNomePreenchido' from incompatible pointer type [-Wincompatible-pointer-types]
+   15 |  receberNomePreenchido(Clientes.nome);
+      |                        ~~~~~~~~^~~~~
+      |                                |
+      |                                char *
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   61 | void receberNomePreenchido(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: variable 'dataNascimento' set but not used [-Wunused-but-set-variable]
+   12 |  DataNascimento dataNascimento;
+      |                 ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:12:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:32: warning: passing argument 1 of 'receberNomePreenchido' from incompatible pointer type [-Wincompatible-pointer-types]
+   15 |  receberNomePreenchido(Clientes.nome);
+      |                        ~~~~~~~~^~~~~
+      |                                |
+      |                                char *
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   61 | void receberNomePreenchido(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:14:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:16:15: error: incompatible type for argument 1 of 'formatarNome'
+   16 |  formatarNome(Clientes);
+      |               ^~~~~~~~
+      |               |
+      |               CadastroClientes {aka struct <anonymous>}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:60:25: note: expected 'char *' but argument is of type 'CadastroClientes' {aka 'struct <anonymous>'}
+   60 | void formatarNome(char *nome);
+      |                   ~~~~~~^~~~
+21:14:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:16:15: warning: passing argument 1 of 'formatarNome' from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |  formatarNome(Clientes);
+      |               ^~~~~~~~
+      |               |
+      |               CadastroClientes * {aka struct <anonymous> *}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:60:25: note: expected 'char *' but argument is of type 'CadastroClientes *' {aka 'struct <anonymous> *'}
+   60 | void formatarNome(char *nome);
+      |                   ~~~~~~^~~~
+..\src\programaPrincipalAII.c:16:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   16 |  formatarNome(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:17:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:161:5: warning: implicit declaration of function 'formatarNome' [-Wimplicit-function-declaration]
+  161 |     formatarNome(cliente->nome);
+      |     ^~~~~~~~~~~~
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:170:8: error: 'cliente' undeclared (first use in this function)
+  170 |  fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |        ^~~~~~~
+..\src\funcoes.c:170:8: note: each undeclared identifier is reported only once for each function it appears in
+21:17:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:17:24: warning: passing argument 1 of 'formatarNomeIterativa' from incompatible pointer type [-Wincompatible-pointer-types]
+   17 |  formatarNomeIterativa(Clientes);
+      |                        ^~~~~~~~
+      |                        |
+      |                        CadastroClientes * {aka struct <anonymous> *}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:62:34: note: expected 'char *' but argument is of type 'CadastroClientes *' {aka 'struct <anonymous> *'}
+   62 | void formatarNomeIterativa(char *nome);
+      |                            ~~~~~~^~~~
+..\src\programaPrincipalAII.c:17:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   17 |  formatarNomeIterativa(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:161:5: warning: implicit declaration of function 'formatarNome' [-Wimplicit-function-declaration]
+  161 |     formatarNome(cliente->nome);
+      |     ^~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\funcoes.o: in function `receberNomePreenchido':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:161: undefined reference to `formatarNome'
+collect2.exe: error: ld returned 1 exit status
+21:17:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:19:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNomeIterativa':
+..\src\funcoes.c:203:15: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  203 |      printf("%s", nome[i]);
+      |              ~^   ~~~~~~~
+      |               |       |
+      |               char *  int
+      |              %d
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:19:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:23:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:16:2: warning: implicit declaration of function 'formatarNome' [-Wimplicit-function-declaration]
+   16 |  formatarNome(Clientes);
+      |  ^~~~~~~~~~~~
+..\src\programaPrincipalAII.c:16:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   16 |  formatarNome(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\programaPrincipalAII.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/programaPrincipalAII.c:16: undefined reference to `formatarNome'
+collect2.exe: error: ld returned 1 exit status
+21:24:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\programaPrincipalAII.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/programaPrincipalAII.c:16: undefined reference to `formatarNome'
+collect2.exe: error: ld returned 1 exit status
+21:24:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:16:24: warning: passing argument 1 of 'formatarNomeRecursiva' from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |  formatarNomeRecursiva(Clientes);
+      |                        ^~~~~~~~
+      |                        |
+      |                        CadastroClientes * {aka struct <anonymous> *}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:60:34: note: expected 'char *' but argument is of type 'CadastroClientes *' {aka 'struct <anonymous> *'}
+   60 | void formatarNomeRecursiva(char *nome);
+      |                            ~~~~~~^~~~
+..\src\programaPrincipalAII.c:16:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   16 |  formatarNomeRecursiva(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:26:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:161:34: warning: passing argument 1 of 'formatarNomeRecursiva' from incompatible pointer type [-Wincompatible-pointer-types]
+  161 |     formatarNomeRecursiva(cliente->nome);
+      |                           ~~~~~~~^~~~~~
+      |                                  |
+      |                                  char *
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   61 | void formatarNomeRecursiva(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:172:20: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+  172 |  if (cliente->nome == '\0') {
+      |                    ^~
+..\src\funcoes.c:172:6: note: did you mean to dereference the pointer?
+  172 |  if (cliente->nome == '\0') {
+      |      ^
+..\src\funcoes.c:176:23: warning: comparison between pointer and integer
+  176 |     if (cliente->nome == ' ') {
+      |                       ^~
+..\src\funcoes.c:177:42: warning: passing argument 1 of 'formatarNomeRecursiva' from incompatible pointer type [-Wincompatible-pointer-types]
+  177 |      formatarNomeRecursiva(cliente->nome + 1);
+      |                            ~~~~~~~~~~~~~~^~~
+      |                                          |
+      |                                          char *
+..\src\funcoes.c:168:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+  168 | void formatarNomeRecursiva(CadastroClientes *cliente) {
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\funcoes.c:179:29: warning: passing argument 1 of 'isalpha' makes integer from pointer without a cast [-Wint-conversion]
+  179 |     else if (isalpha(cliente->nome)) {
+      |                      ~~~~~~~^~~~~~
+      |                             |
+      |                             char *
+In file included from ..\src\biblioteca.h:10,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\ctype.h:71:46: note: expected 'int' but argument is of type 'char *'
+   71 | _CRTIMP __cdecl __MINGW_NOTHROW  int isalpha(int);
+      |                                              ^~~
+..\src\funcoes.c:180:37: warning: passing argument 1 of 'toupper' makes integer from pointer without a cast [-Wint-conversion]
+  180 |      cliente->nome = toupper(cliente->nome);
+      |                              ~~~~~~~^~~~~~
+      |                                     |
+      |                                     char *
+In file included from ..\src\biblioteca.h:10,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\ctype.h:96:47: note: expected 'int' but argument is of type 'char *'
+   96 | _CRTIMP __cdecl __MINGW_NOTHROW  int toupper (int);
+      |                                               ^~~
+..\src\funcoes.c:180:20: error: assignment to expression with array type
+  180 |      cliente->nome = toupper(cliente->nome);
+      |                    ^
+..\src\funcoes.c:181:45: warning: passing argument 1 of 'formatarNomeRecursiva' from incompatible pointer type [-Wincompatible-pointer-types]
+  181 |         formatarNomeRecursiva(cliente->nome + 1);
+      |                               ~~~~~~~~~~~~~~^~~
+      |                                             |
+      |                                             char *
+..\src\funcoes.c:168:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+  168 | void formatarNomeRecursiva(CadastroClientes *cliente) {
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+21:28:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:161:34: warning: passing argument 1 of 'formatarNomeRecursiva' from incompatible pointer type [-Wincompatible-pointer-types]
+  161 |     formatarNomeRecursiva(cliente->nome);
+      |                           ~~~~~~~^~~~~~
+      |                                  |
+      |                                  char *
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   61 | void formatarNomeRecursiva(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:16:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   16 |  formatarNomeRecursiva(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\funcoes.o: in function `receberNomePreenchido':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/funcoes.c:161: undefined reference to `formatarNomeRecursiva'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\programaPrincipalAII.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/programaPrincipalAII.c:16: undefined reference to `formatarNomeRecursiva'
+collect2.exe: error: ld returned 1 exit status
+21:29:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:161:34: warning: passing argument 1 of 'formatarNomeRecursiva' from incompatible pointer type [-Wincompatible-pointer-types]
+  161 |     formatarNomeRecursiva(cliente->nome);
+      |                           ~~~~~~~^~~~~~
+      |                                  |
+      |                                  char *
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:61:46: note: expected 'CadastroClientes *' {aka 'struct <anonymous> *'} but argument is of type 'char *'
+   61 | void formatarNomeRecursiva(CadastroClientes *cliente);
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:168:6: error: conflicting types for 'formatarNomeRecursiva'
+  168 | void formatarNomeRecursiva(char *nome) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:61:6: note: previous declaration of 'formatarNomeRecursiva' was here
+   61 | void formatarNomeRecursiva(CadastroClientes *cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+21:29:27 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:16:24: warning: passing argument 1 of 'formatarNomeRecursiva' from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |  formatarNomeRecursiva(Clientes);
+      |                        ^~~~~~~~
+      |                        |
+      |                        CadastroClientes * {aka struct <anonymous> *}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:61:34: note: expected 'char *' but argument is of type 'CadastroClientes *' {aka 'struct <anonymous> *'}
+   61 | void formatarNomeRecursiva(char *nome);
+      |                            ~~~~~~^~~~
+..\src\programaPrincipalAII.c:16:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   16 |  formatarNomeRecursiva(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:31:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:2: warning: implicit declaration of function 'receberNomePreenchido' [-Wimplicit-function-declaration]
+   15 |  receberNomePreenchido(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:15:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   15 |  receberNomePreenchido(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:32:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:34:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:169:8: error: 'cliente' undeclared (first use in this function)
+  169 |  fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |        ^~~~~~~
+..\src\funcoes.c:169:8: note: each undeclared identifier is reported only once for each function it appears in
+21:34:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:169:8: error: 'cliente' undeclared (first use in this function)
+  169 |  fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |        ^~~~~~~
+..\src\funcoes.c:169:8: note: each undeclared identifier is reported only once for each function it appears in
+21:34:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:169:21: error: 'cliente' undeclared (first use in this function)
+  169 |  fgets(nome, sizeof(cliente->nome), stdin);
+      |                     ^~~~~~~
+..\src\funcoes.c:169:21: note: each undeclared identifier is reported only once for each function it appears in
+21:35:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:169:22: error: 'cliente' undeclared (first use in this function)
+  169 |  fgets(&nome, sizeof(cliente->nome), stdin);
+      |                      ^~~~~~~
+..\src\funcoes.c:169:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:169:8: warning: passing argument 1 of 'fgets' from incompatible pointer type [-Wincompatible-pointer-types]
+  169 |  fgets(&nome, sizeof(cliente->nome), stdin);
+      |        ^~~~~
+      |        |
+      |        char **
+In file included from ..\src\biblioteca.h:7,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char **'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+21:35:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:169:22: error: 'cliente' undeclared (first use in this function)
+  169 |  fgets(*nome, sizeof(cliente->nome), stdin);
+      |                      ^~~~~~~
+..\src\funcoes.c:169:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:169:8: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+  169 |  fgets(*nome, sizeof(cliente->nome), stdin);
+      |        ^~~~~
+      |        |
+      |        char
+In file included from ..\src\biblioteca.h:7,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\stdio.h:706:41: note: expected 'char *' but argument is of type 'char'
+  706 | _CRTIMP __cdecl __MINGW_NOTHROW  char * fgets (char *, int, FILE *);
+      |                                         ^~~~~
+21:35:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:36:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:36:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'formatarNomeRecursiva':
+..\src\funcoes.c:169:11: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+  169 |  if (nome == '\0') {
+      |           ^~
+..\src\funcoes.c:169:6: note: did you mean to dereference the pointer?
+  169 |  if (nome == '\0') {
+      |      ^
+..\src\funcoes.c:173:14: warning: comparison between pointer and integer
+  173 |     if (nome == ' ') {
+      |              ^~
+..\src\funcoes.c:176:22: warning: passing argument 1 of 'isalpha' makes integer from pointer without a cast [-Wint-conversion]
+  176 |     else if (isalpha(nome)) {
+      |                      ^~~~
+      |                      |
+      |                      char *
+In file included from ..\src\biblioteca.h:10,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\ctype.h:71:46: note: expected 'int' but argument is of type 'char *'
+   71 | _CRTIMP __cdecl __MINGW_NOTHROW  int isalpha(int);
+      |                                              ^~~
+..\src\funcoes.c:177:24: warning: passing argument 1 of 'toupper' makes integer from pointer without a cast [-Wint-conversion]
+  177 |         nome = toupper(nome);
+      |                        ^~~~
+      |                        |
+      |                        char *
+In file included from ..\src\biblioteca.h:10,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\ctype.h:96:47: note: expected 'int' but argument is of type 'char *'
+   96 | _CRTIMP __cdecl __MINGW_NOTHROW  int toupper (int);
+      |                                               ^~~
+..\src\funcoes.c:177:14: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  177 |         nome = toupper(nome);
+      |              ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+21:37:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:37:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:38:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:152:11: error: 'cliente' undeclared (first use in this function)
+  152 |     fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |           ^~~~~~~
+..\src\funcoes.c:152:11: note: each undeclared identifier is reported only once for each function it appears in
+21:39:34 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:152:24: error: 'cliente' is a pointer; did you mean to use '->'?
+  152 |     scanf(" %c",cliente.nome);
+      |                        ^
+      |                        ->
+21:39:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:39:56 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:40:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:153:30: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  153 |     printf("Nome formatado: %c\n", cliente->nome);
+      |                             ~^     ~~~~~~~~~~~~~
+      |                              |            |
+      |                              int          char *
+      |                             %s
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:40:38 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:41:03 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:42:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   15 |  receberNomePreenchido(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+21:42:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:43:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC

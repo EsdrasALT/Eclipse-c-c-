@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 // -------------Definições de Macros e Constantes-------------
 
@@ -20,28 +21,43 @@ typedef struct {
 } DataNascimento;
 
 typedef struct {
+	//Dados Simples
 	char nome[50];
 	char codigo;
 	int quantidade;
 	char tpContrato;
 	int quantidadePlacas;
 
-} cadastroClientes;
+  //TO-DO Declaracao Listas
+
+} CadastroClientes;
 
 typedef struct {
+	//Dados Simples
 	char placa[7];
 	char *codigoSequencial;
 	char marcaModelo[30];
 	int ano;
 
-} cadastroPlacas;
+  //TO-DO Declaracao Listas
+
+} CadastroPlacas;
 
 //-------------Prototipação de Funções-------------
+//MENU
 void menuPrincipal();
 void menuInserir();
 void menuExcluir();
 void menuRelatorios();
-int validarData(int dia, int mes, int ano);
 
+//DATA
+int validarData(int dia, int mes, int ano);
+DataNascimento converterData( char *data_str);
+DataNascimento solicitarDataDeNascimento();
+int verificarIdade(DataNascimento data_nascimento); //TO-DO IMPLEMENTAR
+
+//NOME
+void receberNomePreenchido(CadastroClientes *cliente);
+void formatarNomeRecursiva(char *nome);
 
 #endif /* BIBLIOTECA_H_ */

@@ -1,0 +1,20 @@
+// MAIN - programaPrincipal.c = https://codeshare.io/jALdkP
+
+#include "biblioteca.h"
+
+//Daniel Ribeiro Costa
+//Danilo Augusto
+//Esdras Altivo
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	solicitarDataDeNascimento();
+	DataNascimento data_nascimento = solicitarDataDeNascimento();
+    printf("Data de nascimento válida: %02d/%02d/%d\n", data_nascimento.mes, data_nascimento.dia, data_nascimento.ano);
+
+	//menuPrincipal();
+
+
+	return EXIT_SUCCESS;
+}

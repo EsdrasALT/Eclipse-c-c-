@@ -1,0 +1,172 @@
+//FUNÇÕES - funcoes.c = https://codeshare.io/4YPo1d
+
+#include "biblioteca.h"
+
+void menuPrincipal(){
+    char opcao;
+    do {
+        printf("\nMenu Principal:\n");
+        printf("A - Inserir (cliente e placa)\n");
+        printf("B - Excluir (cliente e placa)\n");
+        printf("C - Relatórios\n");
+        printf("D - Finalizar\n");
+        printf("Escolha uma opção: ");
+        scanf(" %c", &opcao);
+        getchar(); // Limpar buffer
+
+        switch(opcao) {
+            case 'A':
+            	menuInserir();
+                break;
+            case 'B':
+            	menuExcluir();
+                break;
+            case 'C':
+            	menuRelatorios();
+                break;
+            case 'D':
+                printf("Finalizando o programa...\n");
+                break;
+            default:
+                printf("Opção inválida!\n");
+                break;
+        }
+    } while(opcao != 'D');
+}
+
+void menuInserir(){
+    int opcao;
+    printf("\nMenu Inserir:\n");
+    printf("1 - Inserção de cliente\n");
+    printf("2 - Inserção de placa\n");
+    printf("Escolha uma opção: ");
+    scanf("%d", &opcao);
+
+    switch(opcao) {
+        case 1:
+          //  inserir_cliente();
+            break;
+        case 2:
+            //inserir_placa();
+            break;
+        default:
+            printf("Opção inválida!\n");
+            break;
+    }
+}
+
+void menuExcluir(){
+    int opcao;
+    printf("\nMenu Excluir:\n");
+    printf("1 - Exclusão de cliente\n");
+    printf("2 - Exclusão de placa\n");
+    printf("Escolha uma opção: ");
+    scanf("%d", &opcao);
+
+    switch(opcao) {
+        case 1:
+            //excluir_cliente();
+            break;
+        case 2:
+            //excluir_placa();
+            break;
+        default:
+            printf("Opção inválida!\n");
+            break;
+    }
+}
+
+void menuRelatorios(){
+    int opcao;
+    printf("\nMenu Relatórios:\n");
+    printf("1 - Listar todos os clientes cadastrados (e seus carros)\n");
+    printf("2 - Listar dados do cliente por código (dados e carros)\n");
+    printf("3 - Listar clientes por tipo de contrato\n");
+    printf("Escolha uma opção: ");
+    scanf("%d", &opcao);
+
+    switch(opcao) {
+        case 1:
+            //listar_todos_clientes();
+            break;
+        case 2:
+            //listar_cliente_por_codigo();
+            break;
+        case 3:
+            //listar_clientes_por_contrato();
+            break;
+        default:
+            printf("Opção inválida!\n");
+            break;
+    }
+}
+
+//TO-DO
+//DATA DE NASCIMENTO
+//A)Definir a estrutura struct para armazenar a data de nascimento
+//B)Função para validar a data
+
+char solicitarDataNascimento(){
+	char data[11];
+
+	printf("Digite sua data de nascimento:");
+	scanf(" %c" ,&data);
+
+	for (int i=0;i<11;i++){
+		printf("%c",data);
+	}
+
+	return data;
+}
+
+DataNascimento converterData(char *data_str) {
+    DataNascimento data;
+    sscanf(data_str, "%d/%d/%d", &data.dia, &data.mes, &data.ano); //Verifica se a string tem o formato correto (dd/mm/yyyy)
+    return data;
+}
+
+//C)Função para ler e processar a data de nascimento
+//D)Função principal para coordenar as etapas
+
+//int validarData(int dia, int mes, int ano) {
+//    if (ano < 1924 || ano > 2006)
+//        return 0;
+//    if (mes < 1 || mes > 12)
+//        return 0;
+//    if (dia < 1 || dia > 31)
+//        return 0;
+//    if ((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30)
+//        return 0;
+//    if (mes == 2) {
+//        int bissexto = (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0));
+//        if (dia > (bissexto ? 29 : 28))
+//            return 0;
+//    }
+//    return 1;
+//}
+
+//TO-DO NOME
+//A)função formatarNome (char *nome)
+//B)Criação da Função Principal
+//C)Implementação da Logica Recursiva
+//D) Tratar espaço em branco
+//E) Transformação de caracteres (toupper e tolower)
+//F)Recursão (nome + 1)
+
+//TO-DO
+//QUANTIDADE DE PLACA
+//A)Definir a constante para o numero de carros (MAX_CARROS 5)
+//B)Declarar a função de cadastro de carros (void cadastrarCarros)
+//C)Implementar a função
+
+//TO-DO
+//TIPO DE CONTRATO
+//A) Criar a funcao verificarTipoContrato()
+
+
+//TO-DO
+//PLACA
+//A) Criar a funcao validarPlaca(char *placa)
+//B) Verificar se placa = 3 letras + 4 numeros (tamanho)
+//C) Verificar 3 primeiros são letras e 4 ultimos são numeros
+

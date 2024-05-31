@@ -101,26 +101,103 @@ void menuRelatorios(){
     }
 }
 
-//int validarData(int dia, int mes, int ano) {
-//    if (ano < 1924 || ano > 2006)
-//        return 0;
-//    if (mes < 1 || mes > 12)
-//        return 0;
-//    if (dia < 1 || dia > 31)
-//        return 0;
-//    if ((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30)
-//        return 0;
-//    if (mes == 2) {
-//        int bissexto = (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0));
-//        if (dia > (bissexto ? 29 : 28))
-//            return 0;
-//    }
-//    return 1;
-//}
+DataNascimento solicitarDataDeNascimento() {
+	char data_str[11];
+	DataNascimento data;
 
+	int formato_incorreto = 1;
+	while (formato_incorreto) {
+		printf("Digite sua data de nascimento no formato MM/DD/AAAA: ");
+		scanf("%10s", data_str);
 
-void validarNome(){
+		data = converterData(data_str);
+
+		if (data.dia >= 1 && data.dia <= 31 && data.mes >= 1 && data.mes <= 12 && data.ano >= 1900 && data.ano <= 2024) {
+			formato_incorreto = 0; // Saida do loop
+		} else {
+			printf("Formato incorreto. Por favor, insira a data no formato correto.\n");
+		}
+	}
+
+    printf("Data de nascimento válida: %02d/%02d/%d\n", data.mes, data.dia, data.ano);
+	return data;
 }
-//Funcao recursiva
-//Primeira letraas maisculas, restantes minuscula
+
+DataNascimento converterData(char *data_string) {
+    DataNascimento data;
+    sscanf(data_string, "%d/%d/%d",
+    		&data.dia, &data.mes, &data.ano);
+    return data;
+}
+
+//TO-DO IMPLEMENTAR VERIFICAÇÃO DE IDADE
+int verificarIdade(DataNascimento data_nascimento) {
+    // Obter a data atual
+    DataNascimento data_atual;
+    // Suponha que a data atual seja 30/12/2024 para fins de exemplo
+    data_atual.dia = 30;
+    data_atual.mes = 12;
+    data_atual.ano = 2024;
+
+    // Calcular a idade
+    int idade = data_atual.ano - data_nascimento.ano;
+    if (data_atual.mes < data_nascimento.mes || (data_atual.mes == data_nascimento.mes && data_atual.dia < data_nascimento.dia)) {
+        idade--; // Ainda não fez aniversário neste ano
+    }
+    return idade;
+}
+
+void receberNomePreenchido(CadastroClientes *cliente) {
+    printf("Digite o nome do cliente: ");
+    fgets(cliente->nome, sizeof(cliente->nome), stdin);
+
+    if (cliente->nome[strlen(cliente->nome) - 1] == '\n') {
+        cliente->nome[strlen(cliente->nome) - 1] = '\0';
+    }
+
+    printf("Nome formatado: %s\n", cliente->nome);
+    formatarNomeRecursiva(cliente->nome);
+
+    printf("Nome formatado: %s\n", cliente->nome);
+}
+
+//TO-DO IMPLEMENTAR PRIMERAS MAISCULAS O RESTO MINUSCULAS
+void formatarNomeRecursiva(char *nome) {
+
+    printf("Nome formatado: %s\n", nome);
+	if (*nome == '\0') {
+        return;
+    }
+
+    if (*nome == ' ') {
+    	formatarNomeRecursiva(nome + 1);
+    }
+    else if (isalpha(*nome)) {
+        *nome = toupper(*nome);
+        formatarNomeRecursiva(nome + 1);
+    }
+}
+
+//B)Criação da Função Principal
+//C)Implementação da Logica Recursiva
+//D) Tratar espaço em branco
+//E) Transformação de caracteres (toupper e tolower)
+//F)Recursão (nome + 1)
+
+//TO-DO
+//QUANTIDADE DE PLACA
+//A)Definir a constante para o numero de carros (MAX_CARROS 5)
+//B)Declarar a função de cadastro de carros (void cadastrarCarros)
+//C)Implementar a função
+
+//TO-DO
+//TIPO DE CONTRATO
+//A) Criar a funcao verificarTipoContrato()
+
+
+//TO-DO
+//PLACA
+//A) Criar a funcao validarPlaca(char *placa)
+//B) Verificar se placa = 3 letras + 4 numeros (tamanho)
+//C) Verificar 3 primeiros são letras e 4 ultimos são numeros
 

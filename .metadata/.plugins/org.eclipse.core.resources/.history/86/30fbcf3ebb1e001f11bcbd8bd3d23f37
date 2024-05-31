@@ -1,0 +1,26 @@
+--
+TO-DO DATA DE NASCIMENTO
+A)Definir a estrutura struct para armazenar a data de nascimento
+A.1)Crie uma estrutura struct chamada Data com três campos: dia, mes e ano.
+
+B)Função para validar a data
+B.1Crie uma função para verificar se a data fornecida é válida (considerando meses e anos bissextos).
+B.2)Crie uma função para calcular a idade do usuário a partir da data de nascimento.
+
+C)Função para ler e processar a data de nascimento
+C.1)Crie uma função para ler a data de nascimento do usuário como uma string.
+C.2)Extraia o dia, mês e ano da string.
+C.3)Valide se a idade está entre 18 e 100 anos.
+
+D)Função principal para coordenar as etapas
+D.1)Chame as funções criadas para ler, validar e calcular a idade do usuário.
+D.2)Exiba mensagens apropriadas ao usuário, indicando sucesso ou erro.
+--
+
+TO-DO NOME
+A)Definição de Assinatura da Função
+B)Criação da Função Principal
+C)Implementação da Logica Recursiva
+D) Transformação de caracteres (toupper e tolower)
+E)Recursão (string + 1)
+

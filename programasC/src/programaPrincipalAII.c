@@ -9,7 +9,13 @@
 int main(void) {
 	setbuf(stdout, NULL);
 
-	menuPrincipal();
+	//DataNascimento dataNascimento;
+	//dataNascimento = solicitarDataDeNascimento();
+	CadastroClientes *Clientes;
+	receberNomePreenchido(Clientes);
+
+	//menuPrincipal();
+
 
 	return EXIT_SUCCESS;
 }
