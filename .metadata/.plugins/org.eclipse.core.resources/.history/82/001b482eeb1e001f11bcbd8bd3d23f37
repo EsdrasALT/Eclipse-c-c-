@@ -65,7 +65,7 @@ void formatarNomeRecursiva(char *nome);
 //QTDE PLACA
 void inicializarCliente(Clientes *cliente);
 void adicionarCarro(Clientes *cliente, const char *placa, int ano);
-void exibirCliente(const Clientes *cliente);
+void exibirCliente(const Cliente *cliente);
 
 
 #endif /* BIBLIOTECA_H_ */

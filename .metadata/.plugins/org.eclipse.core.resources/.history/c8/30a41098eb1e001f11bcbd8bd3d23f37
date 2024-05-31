@@ -178,6 +178,8 @@ void formatarNomeRecursiva(char *nome) {
     }
 }
 
+//TO-DO
+//QUANTIDADE DE PLACA
 void inicializarCliente(Clientes *cliente) {
     cliente->quantidadePlacas = 0;
     for(int i = 0; i < MAX_CARROS; i++) {
@@ -205,6 +207,8 @@ void exibirCliente(const Clientes *cliente) {
     }
 }
 
+
+//B)Declarar a função de cadastro de carros (void cadastrarCarros)
 
 
 //TO-DO

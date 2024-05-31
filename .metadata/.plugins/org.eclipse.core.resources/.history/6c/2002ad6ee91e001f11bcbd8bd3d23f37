@@ -23,6 +23,20 @@ typedef struct {
 
 typedef struct {
 	//Dados Simples
+	char nome[50];
+	char codigo;
+	int quantidade;
+	char tpContrato;
+	int quantidadePlacas;
+	CadastroPlacas *carros[MAX_CARROS];
+
+  //TO-DO Declaracao Listas
+
+
+} CadastroClientes;
+
+typedef struct {
+	//Dados Simples
 	char placa[8];
 	char *codigoSequencial;
 	char marcaModelo[30];
@@ -30,20 +44,7 @@ typedef struct {
 
   //TO-DO Declaracao Listas
 
-} Carros;
-
-typedef struct {
-	//Dados Simples
-	char nome[50];
-	char codigo;
-	int quantidade;
-	char tpContrato;
-	int quantidadePlacas;
-	Carros *carros[MAX_CARROS];
-
-  //TO-DO Declaracao Listas
-
-} Clientes;
+} CadastroPlacas;
 
 //-------------Prototipação de Funções-------------
 //MENU
@@ -59,13 +60,7 @@ DataNascimento solicitarDataDeNascimento();
 int verificarIdade(DataNascimento data_nascimento); //TO-DO IMPLEMENTAR
 
 //NOME
-void receberNomePreenchido(Clientes *cliente);
+void receberNomePreenchido(CadastroClientes *cliente);
 void formatarNomeRecursiva(char *nome);
-
-//QTDE PLACA
-void inicializarCliente(Clientes *cliente);
-void adicionarCarro(Clientes *cliente, const char *placa, int ano);
-void exibirCliente(const Clientes *cliente);
-
 
 #endif /* BIBLIOTECA_H_ */

@@ -39,7 +39,7 @@ typedef struct {
 	int quantidade;
 	char tpContrato;
 	int quantidadePlacas;
-	Carros *carros[MAX_CARROS];
+	CadastroPlacas *carros[MAX_CARROS];
 
   //TO-DO Declaracao Listas
 
@@ -64,8 +64,5 @@ void formatarNomeRecursiva(char *nome);
 
 //QTDE PLACA
 void inicializarCliente(Clientes *cliente);
-void adicionarCarro(Clientes *cliente, const char *placa, int ano);
-void exibirCliente(const Clientes *cliente);
-
 
 #endif /* BIBLIOTECA_H_ */

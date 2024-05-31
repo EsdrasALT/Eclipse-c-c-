@@ -147,7 +147,7 @@ int verificarIdade(DataNascimento data_nascimento) {
     return idade;
 }
 
-void receberNomePreenchido(Clientes *cliente) {
+void receberNomePreenchido(CadastroClientes *cliente) {
     printf("Digite o nome do cliente: ");
     fgets(cliente->nome, sizeof(cliente->nome), stdin);
 
@@ -178,34 +178,18 @@ void formatarNomeRecursiva(char *nome) {
     }
 }
 
-void inicializarCliente(Clientes *cliente) {
-    cliente->quantidadePlacas = 0;
+//TO-DO
+//QUANTIDADE DE PLACA
+void inicializarCliente(Cliente *cliente) {
+    cliente->qtde_placas = 0;
     for(int i = 0; i < MAX_CARROS; i++) {
         cliente->carros[i] = NULL;
     }
 }
 
-void adicionarCarro(Clientes *cliente, const char *placa, int ano) {
-    if (cliente->quantidadePlacas < MAX_CARROS) {
-    	Carros *novoCarro = (Carros *)malloc(sizeof(Carros));
-        strncpy(novoCarro->placa, placa, sizeof(novoCarro->placa) - 1);
-        novoCarro->placa[sizeof(novoCarro->placa) - 1] = '\0';
-        novoCarro->ano = ano;
-        cliente->carros[cliente->quantidadePlacas] = novoCarro;
-        cliente->quantidadePlacas++;
-    } else {
-        printf("Número máximo de carros atingido.\n");
-    }
-}
-
-void exibirCliente(const Clientes *cliente) {
-    printf("Cliente possui %d carros cadastrados:\n", cliente->quantidadePlacas);
-    for(int i = 0; i < cliente->quantidadePlacas; i++) {
-        printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
-    }
-}
-
-
+//A)Definir a constante para o numero de carros (MAX_CARROS 5)
+//B)Declarar a função de cadastro de carros (void cadastrarCarros)
+//C)Implementar a função
 
 //TO-DO
 //TIPO DE CONTRATO

@@ -178,6 +178,8 @@ void formatarNomeRecursiva(char *nome) {
     }
 }
 
+//TO-DO
+//QUANTIDADE DE PLACA
 void inicializarCliente(Clientes *cliente) {
     cliente->quantidadePlacas = 0;
     for(int i = 0; i < MAX_CARROS; i++) {
@@ -189,7 +191,7 @@ void adicionarCarro(Clientes *cliente, const char *placa, int ano) {
     if (cliente->quantidadePlacas < MAX_CARROS) {
     	Carros *novoCarro = (Carros *)malloc(sizeof(Carros));
         strncpy(novoCarro->placa, placa, sizeof(novoCarro->placa) - 1);
-        novoCarro->placa[sizeof(novoCarro->placa) - 1] = '\0';
+        novoCarro->placa[sizeof(novoCarro->placa) - 1] = '\0'; // Garantir terminação da string
         novoCarro->ano = ano;
         cliente->carros[cliente->quantidadePlacas] = novoCarro;
         cliente->quantidadePlacas++;
@@ -198,13 +200,7 @@ void adicionarCarro(Clientes *cliente, const char *placa, int ano) {
     }
 }
 
-void exibirCliente(const Clientes *cliente) {
-    printf("Cliente possui %d carros cadastrados:\n", cliente->quantidadePlacas);
-    for(int i = 0; i < cliente->quantidadePlacas; i++) {
-        printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
-    }
-}
-
+//B)Declarar a função de cadastro de carros (void cadastrarCarros)
 
 
 //TO-DO

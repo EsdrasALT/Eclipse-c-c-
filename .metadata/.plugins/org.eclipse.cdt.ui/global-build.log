@@ -2169,3 +2169,424 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
 gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
 Info: Nothing to build for programasC
+22:01:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:31:2: error: unknown type name 'CadastroPlacas'
+   31 |  CadastroPlacas *carros[MAX_CARROS];
+      |  ^~~~~~~~~~~~~~
+22:02:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   15 |  receberNomePreenchido(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:04:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   15 |  receberNomePreenchido(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:183:25: error: unknown type name 'Cliente'
+  183 | void inicializarCliente(Cliente *cliente) {
+      |                         ^~~~~~~
+22:04:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inicializarCliente':
+..\src\funcoes.c:184:12: error: 'CadastroPlacas' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  184 |     cliente->qtde_placas = 0;
+      |            ^~
+..\src\funcoes.c:186:16: error: 'CadastroPlacas' {aka 'struct <anonymous>'} has no member named 'carros'
+  186 |         cliente->carros[i] = NULL;
+      |                ^~
+22:04:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inicializarCliente':
+..\src\funcoes.c:184:12: error: 'CadastroClientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  184 |     cliente->qtde_placas = 0;
+      |            ^~
+22:05:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:2: warning: 'Clientes' is used uninitialized in this function [-Wuninitialized]
+   15 |  receberNomePreenchido(Clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:08:09 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:42:2: error: unknown type name 'CadastroPlacas'
+   42 |  CadastroPlacas *carros[MAX_CARROS];
+      |  ^~~~~~~~~~~~~~
+..\src\biblioteca.h:62:28: error: unknown type name 'CadastroClientes'
+   62 | void receberNomePreenchido(CadastroClientes *cliente);
+      |                            ^~~~~~~~~~~~~~~~
+..\src\biblioteca.h:66:25: error: unknown type name 'CadastroClientes'
+   66 | void inicializarCliente(CadastroClientes *cliente);
+      |                         ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:150:28: error: unknown type name 'CadastroClientes'
+  150 | void receberNomePreenchido(CadastroClientes *cliente) {
+      |                            ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:183:25: error: unknown type name 'CadastroClientes'
+  183 | void inicializarCliente(CadastroClientes *cliente) {
+      |                         ^~~~~~~~~~~~~~~~
+22:08:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:42:2: error: unknown type name 'CadastroPlacas'
+   42 |  CadastroPlacas *carros[MAX_CARROS];
+      |  ^~~~~~~~~~~~~~
+..\src\funcoes.c:150:28: error: unknown type name 'CadastroClientes'
+  150 | void receberNomePreenchido(CadastroClientes *cliente) {
+      |                            ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:183:25: error: unknown type name 'CadastroClientes'
+  183 | void inicializarCliente(CadastroClientes *cliente) {
+      |                         ^~~~~~~~~~~~~~~~
+22:08:27 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:42:2: error: unknown type name 'CadastroPlacas'
+   42 |  CadastroPlacas *carros[MAX_CARROS];
+      |  ^~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:15:2: error: unknown type name 'CadastroClientes'
+   15 |  CadastroClientes *Clientes;
+      |  ^~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:16:24: warning: passing argument 1 of 'receberNomePreenchido' from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |  receberNomePreenchido(Clientes);
+      |                        ^~~~~~~~
+      |                        |
+      |                        int *
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:62:38: note: expected 'Clientes *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+   62 | void receberNomePreenchido(Clientes *cliente);
+      |                            ~~~~~~~~~~^~~~~~~
+..\src\programaPrincipalAII.c:12:17: warning: variable 'dataNascimento' set but not used [-Wunused-but-set-variable]
+   12 |  DataNascimento dataNascimento;
+      |                 ^~~~~~~~~~~~~~
+22:08:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:42:2: error: unknown type name 'CadastroPlacas'
+   42 |  CadastroPlacas *carros[MAX_CARROS];
+      |  ^~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: variable 'dataNascimento' set but not used [-Wunused-but-set-variable]
+   12 |  DataNascimento dataNascimento;
+      |                 ^~~~~~~~~~~~~~
+22:08:42 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:42:2: error: unknown type name 'CadastroPlacas'
+   42 |  CadastroPlacas *carros[MAX_CARROS];
+      |  ^~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: variable 'dataNascimento' set but not used [-Wunused-but-set-variable]
+   12 |  DataNascimento dataNascimento;
+      |                 ^~~~~~~~~~~~~~
+22:09:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:150:28: error: unknown type name 'CadastroClientes'
+  150 | void receberNomePreenchido(CadastroClientes *cliente) {
+      |                            ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:183:25: error: unknown type name 'CadastroClientes'
+  183 | void inicializarCliente(CadastroClientes *cliente) {
+      |                         ^~~~~~~~~~~~~~~~
+22:09:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:183:25: error: unknown type name 'CadastroClientes'
+  183 | void inicializarCliente(CadastroClientes *cliente) {
+      |                         ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:190:21: error: unknown type name 'CadastroClientes'
+  190 | void adicionarCarro(CadastroClientes *cliente, const char *placa, int ano) {
+      |                     ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:203:26: error: unknown type name 'Cliente'
+  203 | void exibirCliente(const Cliente *cliente) {
+      |                          ^~~~~~~
+..\src\funcoes.c: In function 'exibirCliente':
+..\src\funcoes.c:204:62: error: request for member 'qtde_placas' in something not a structure or union
+  204 |     printf("Cliente possui %d carros cadastrados:\n", cliente->qtde_placas);
+      |                                                              ^~
+..\src\funcoes.c:205:31: error: request for member 'qtde_placas' in something not a structure or union
+  205 |     for(int i = 0; i < cliente->qtde_placas; i++) {
+      |                               ^~
+..\src\funcoes.c:206:62: error: request for member 'carros' in something not a structure or union
+  206 |         printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
+      |                                                              ^~
+..\src\funcoes.c:206:89: error: request for member 'carros' in something not a structure or union
+  206 |         printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
+      |                                                                                         ^~
+22:09:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:17: warning: variable 'dataNascimento' set but not used [-Wunused-but-set-variable]
+   12 |  DataNascimento dataNascimento;
+      |                 ^~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:16:2: warning: 'clientes' is used uninitialized in this function [-Wuninitialized]
+   16 |  receberNomePreenchido(clientes);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:190:21: error: unknown type name 'CadastroClientes'
+  190 | void adicionarCarro(CadastroClientes *cliente, const char *placa, int ano) {
+      |                     ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:203:26: error: unknown type name 'Cliente'
+  203 | void exibirCliente(const Cliente *cliente) {
+      |                          ^~~~~~~
+..\src\funcoes.c: In function 'exibirCliente':
+..\src\funcoes.c:204:62: error: request for member 'qtde_placas' in something not a structure or union
+  204 |     printf("Cliente possui %d carros cadastrados:\n", cliente->qtde_placas);
+      |                                                              ^~
+..\src\funcoes.c:205:31: error: request for member 'qtde_placas' in something not a structure or union
+  205 |     for(int i = 0; i < cliente->qtde_placas; i++) {
+      |                               ^~
+..\src\funcoes.c:206:62: error: request for member 'carros' in something not a structure or union
+  206 |         printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
+      |                                                              ^~
+..\src\funcoes.c:206:89: error: request for member 'carros' in something not a structure or union
+  206 |         printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
+      |                                                                                         ^~
+22:09:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'adicionarCarro':
+..\src\funcoes.c:192:9: error: unknown type name 'Carro'; did you mean 'Carros'?
+  192 |         Carro *novo_carro = (Carro *)malloc(sizeof(Carro));
+      |         ^~~~~
+      |         Carros
+..\src\funcoes.c:192:30: error: 'Carro' undeclared (first use in this function); did you mean 'Carros'?
+  192 |         Carro *novo_carro = (Carro *)malloc(sizeof(Carro));
+      |                              ^~~~~
+      |                              Carros
+..\src\funcoes.c:192:30: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:192:37: error: expected expression before ')' token
+  192 |         Carro *novo_carro = (Carro *)malloc(sizeof(Carro));
+      |                                     ^
+..\src\funcoes.c:193:27: error: request for member 'placa' in something not a structure or union
+  193 |         strncpy(novo_carro->placa, placa, sizeof(novo_carro->placa) - 1);
+      |                           ^~
+..\src\funcoes.c:193:60: error: request for member 'placa' in something not a structure or union
+  193 |         strncpy(novo_carro->placa, placa, sizeof(novo_carro->placa) - 1);
+      |                                                            ^~
+..\src\funcoes.c:194:19: error: request for member 'placa' in something not a structure or union
+  194 |         novo_carro->placa[sizeof(novo_carro->placa) - 1] = '\0'; // Garantir terminação da string
+      |                   ^~
+..\src\funcoes.c:194:44: error: request for member 'placa' in something not a structure or union
+  194 |         novo_carro->placa[sizeof(novo_carro->placa) - 1] = '\0'; // Garantir terminação da string
+      |                                            ^~
+..\src\funcoes.c:195:19: error: request for member 'ano' in something not a structure or union
+  195 |         novo_carro->ano = ano;
+      |                   ^~
+..\src\funcoes.c:196:32: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  196 |         cliente->carros[cliente->qtde_placas] = novo_carro;
+      |                                ^~
+..\src\funcoes.c:197:16: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  197 |         cliente->qtde_placas++;
+      |                ^~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:203:26: error: unknown type name 'Cliente'
+  203 | void exibirCliente(const Cliente *cliente) {
+      |                          ^~~~~~~
+..\src\funcoes.c: In function 'exibirCliente':
+..\src\funcoes.c:204:62: error: request for member 'qtde_placas' in something not a structure or union
+  204 |     printf("Cliente possui %d carros cadastrados:\n", cliente->qtde_placas);
+      |                                                              ^~
+..\src\funcoes.c:205:31: error: request for member 'qtde_placas' in something not a structure or union
+  205 |     for(int i = 0; i < cliente->qtde_placas; i++) {
+      |                               ^~
+..\src\funcoes.c:206:62: error: request for member 'carros' in something not a structure or union
+  206 |         printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
+      |                                                              ^~
+..\src\funcoes.c:206:89: error: request for member 'carros' in something not a structure or union
+  206 |         printf("Carro %d: Placa: %s, Ano: %d\n", i+1, cliente->carros[i]->placa, cliente->carros[i]->ano);
+      |                                                                                         ^~
+22:10:29 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'adicionarCarro':
+..\src\funcoes.c:192:28: error: 'Carro' undeclared (first use in this function); did you mean 'Carros'?
+  192 |      Carros *novo_carro = (Carro *)malloc(sizeof(Carro));
+      |                            ^~~~~
+      |                            Carros
+..\src\funcoes.c:192:28: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:192:35: error: expected expression before ')' token
+  192 |      Carros *novo_carro = (Carro *)malloc(sizeof(Carro));
+      |                                   ^
+..\src\funcoes.c:196:32: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  196 |         cliente->carros[cliente->qtde_placas] = novo_carro;
+      |                                ^~
+..\src\funcoes.c:197:16: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  197 |         cliente->qtde_placas++;
+      |                ^~
+22:10:35 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'adicionarCarro':
+..\src\funcoes.c:196:32: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  196 |         cliente->carros[cliente->qtde_placas] = novo_carro;
+      |                                ^~
+..\src\funcoes.c:197:16: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  197 |         cliente->qtde_placas++;
+      |                ^~
+22:10:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'adicionarCarro':
+..\src\funcoes.c:193:17: error: 'novo_carro' undeclared (first use in this function); did you mean 'novoCarro'?
+  193 |         strncpy(novo_carro->placa, placa, sizeof(novo_carro->placa) - 1);
+      |                 ^~~~~~~~~~
+      |                 novoCarro
+..\src\funcoes.c:193:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:196:32: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  196 |         cliente->carros[cliente->qtde_placas] = novo_carro;
+      |                                ^~
+..\src\funcoes.c:197:16: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  197 |         cliente->qtde_placas++;
+      |                ^~
+..\src\funcoes.c:192:14: warning: unused variable 'novoCarro' [-Wunused-variable]
+  192 |      Carros *novoCarro = (Carros *)malloc(sizeof(Carros));
+      |              ^~~~~~~~~
+22:10:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'adicionarCarro':
+..\src\funcoes.c:196:32: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  196 |         cliente->carros[cliente->qtde_placas] = novo_carro;
+      |                                ^~
+..\src\funcoes.c:196:49: error: 'novo_carro' undeclared (first use in this function); did you mean 'novoCarro'?
+  196 |         cliente->carros[cliente->qtde_placas] = novo_carro;
+      |                                                 ^~~~~~~~~~
+      |                                                 novoCarro
+..\src\funcoes.c:196:49: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:197:16: error: 'Clientes' {aka 'struct <anonymous>'} has no member named 'qtde_placas'
+  197 |         cliente->qtde_placas++;
+      |                ^~
+22:11:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'adicionarCarro':
+..\src\funcoes.c:196:54: error: 'novo_carro' undeclared (first use in this function); did you mean 'novoCarro'?
+  196 |         cliente->carros[cliente->quantidadePlacas] = novo_carro;
+      |                                                      ^~~~~~~~~~
+      |                                                      novoCarro
+..\src\funcoes.c:196:54: note: each undeclared identifier is reported only once for each function it appears in
+22:11:05 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:12:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:21:2: warning: implicit declaration of function 'adicionarCarro' [-Wimplicit-function-declaration]
+   21 |  adicionarCarro(&cliente, "ABC1234", 1999);
+      |  ^~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:12:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:14:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:68:26: error: unknown type name 'Cliente'
+   68 | void exibirCliente(const Cliente *cliente) {
+      |                          ^~~~~~~
+..\src\funcoes.c: In function 'exibirCliente':
+..\src\funcoes.c:201:1: error: expected declaration or statement at end of input
+  201 | }
+      | ^
+At top level:
+..\src\funcoes.c:190:6: warning: 'adicionarCarro' defined but not used [-Wunused-function]
+  190 | void adicionarCarro(Clientes *cliente, const char *placa, int ano) {
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:183:6: warning: 'inicializarCliente' defined but not used [-Wunused-function]
+  183 | void inicializarCliente(Clientes *cliente) {
+      |      ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:165:6: warning: 'formatarNomeRecursiva' defined but not used [-Wunused-function]
+  165 | void formatarNomeRecursiva(char *nome) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:150:6: warning: 'receberNomePreenchido' defined but not used [-Wunused-function]
+  150 | void receberNomePreenchido(Clientes *cliente) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:134:5: warning: 'verificarIdade' defined but not used [-Wunused-function]
+  134 | int verificarIdade(DataNascimento data_nascimento) {
+      |     ^~~~~~~~~~~~~~
+..\src\funcoes.c:126:16: warning: 'converterData' defined but not used [-Wunused-function]
+  126 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:104:16: warning: 'solicitarDataDeNascimento' defined but not used [-Wunused-function]
+  104 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:79:6: warning: 'menuRelatorios' defined but not used [-Wunused-function]
+   79 | void menuRelatorios(){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:58:6: warning: 'menuExcluir' defined but not used [-Wunused-function]
+   58 | void menuExcluir(){
+      |      ^~~~~~~~~~~
+..\src\funcoes.c:37:6: warning: 'menuInserir' defined but not used [-Wunused-function]
+   37 | void menuInserir(){
+      |      ^~~~~~~~~~~
+..\src\funcoes.c:5:6: warning: 'menuPrincipal' defined but not used [-Wunused-function]
+    5 | void menuPrincipal(){
+      |      ^~~~~~~~~~~~~
+22:14:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:68:26: error: unknown type name 'Cliente'
+   68 | void exibirCliente(const Cliente *cliente);
+      |                          ^~~~~~~
+22:14:51 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:15:09 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\programaPrincipalAII.o: in function `main':
+C:\Users\Bless\Eclipse c c++\programasC\Debug/../src/programaPrincipalAII.c:24: undefined reference to `exibirCliente'
+collect2.exe: error: ld returned 1 exit status
+22:15:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'exibirCliente':
+..\src\funcoes.c:204:62: error: 'Clientes' {aka 'const struct <anonymous>'} has no member named 'qtde_placas'
+  204 |     printf("Cliente possui %d carros cadastrados:\n", cliente->qtde_placas);
+      |                                                              ^~
+..\src\funcoes.c:205:31: error: 'Clientes' {aka 'const struct <anonymous>'} has no member named 'qtde_placas'
+  205 |     for(int i = 0; i < cliente->qtde_placas; i++) {
+      |                               ^~
+22:15:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+22:16:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:17:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 

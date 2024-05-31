@@ -30,7 +30,7 @@ typedef struct {
 
   //TO-DO Declaracao Listas
 
-} Carros;
+} CadastroPlacas;
 
 typedef struct {
 	//Dados Simples
@@ -39,11 +39,11 @@ typedef struct {
 	int quantidade;
 	char tpContrato;
 	int quantidadePlacas;
-	Carros *carros[MAX_CARROS];
+	CadastroPlacas *carros[MAX_CARROS];
 
   //TO-DO Declaracao Listas
 
-} Clientes;
+} CadastroClientes;
 
 //-------------Prototipação de Funções-------------
 //MENU
@@ -59,13 +59,10 @@ DataNascimento solicitarDataDeNascimento();
 int verificarIdade(DataNascimento data_nascimento); //TO-DO IMPLEMENTAR
 
 //NOME
-void receberNomePreenchido(Clientes *cliente);
+void receberNomePreenchido(CadastroClientes *cliente);
 void formatarNomeRecursiva(char *nome);
 
 //QTDE PLACA
-void inicializarCliente(Clientes *cliente);
-void adicionarCarro(Clientes *cliente, const char *placa, int ano);
-void exibirCliente(const Clientes *cliente);
-
+void inicializarCliente(Cliente *cliente);
 
 #endif /* BIBLIOTECA_H_ */
