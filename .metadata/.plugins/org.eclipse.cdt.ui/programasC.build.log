@@ -1,7 +1,11 @@
-22:17:50 **** Incremental Build of configuration Debug for project programasC ****
+11:05:18 **** Incremental Build of configuration Debug for project programasC ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
 gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
 
-22:17:50 Build Finished. 0 errors, 0 warnings. (took 472ms)
+11:05:18 Build Finished. 0 errors, 1 warnings. (took 461ms)
 

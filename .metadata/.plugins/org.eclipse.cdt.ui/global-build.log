@@ -2590,3 +2590,1380 @@ gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o"
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
 gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:22:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:27:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:214:34: warning: 'struct Clientes' declared inside parameter list will not be visible outside of this definition or declaration
+  214 | int verificarTipoContrato(struct Clientes cliente) {
+      |                                  ^~~~~~~~
+..\src\funcoes.c:214:43: error: parameter 1 ('cliente') has incomplete type
+  214 | int verificarTipoContrato(struct Clientes cliente) {
+      |                           ~~~~~~~~~~~~~~~~^~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:221:1: warning: control reaches end of non-void function [-Wreturn-type]
+  221 | }
+      | ^
+08:28:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:71:34: warning: 'struct Clientes' declared inside parameter list will not be visible outside of this definition or declaration
+   71 | int verificarTipoContrato(struct Clientes cliente);
+      |                                  ^~~~~~~~
+..\src\funcoes.c:214:34: warning: 'struct Clientes' declared inside parameter list will not be visible outside of this definition or declaration
+  214 | int verificarTipoContrato(struct Clientes cliente) {
+      |                                  ^~~~~~~~
+..\src\funcoes.c:214:43: error: parameter 1 ('cliente') has incomplete type
+  214 | int verificarTipoContrato(struct Clientes cliente) {
+      |                           ~~~~~~~~~~~~~~~~^~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:220:1: warning: control reaches end of non-void function [-Wreturn-type]
+  220 | }
+      | ^
+08:28:17 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:214:34: warning: 'struct Clientes' declared inside parameter list will not be visible outside of this definition or declaration
+  214 | int verificarTipoContrato(struct Clientes cliente) {
+      |                                  ^~~~~~~~
+..\src\funcoes.c:214:43: error: parameter 1 ('cliente') has incomplete type
+  214 | int verificarTipoContrato(struct Clientes cliente) {
+      |                           ~~~~~~~~~~~~~~~~^~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:220:1: warning: control reaches end of non-void function [-Wreturn-type]
+  220 | }
+      | ^
+08:28:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:29:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:225:1: warning: control reaches end of non-void function [-Wreturn-type]
+  225 | }
+      | ^
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:30:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:214:6: error: conflicting types for 'verificarTipoContrato'
+  214 | void verificarTipoContrato(Clientes cliente) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:71:5: note: previous declaration of 'verificarTipoContrato' was here
+   71 | int verificarTipoContrato(Clientes cliente);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:219:11: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  219 |    return 1;
+      |           ^
+..\src\funcoes.c:214:6: note: declared here
+  214 | void verificarTipoContrato(Clientes cliente) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:222:11: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  222 |    return 0;
+      |           ^
+..\src\funcoes.c:214:6: note: declared here
+  214 | void verificarTipoContrato(Clientes cliente) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+08:30:14 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:214:6: error: conflicting types for 'verificarTipoContrato'
+  214 | void verificarTipoContrato(Clientes cliente) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:71:5: note: previous declaration of 'verificarTipoContrato' was here
+   71 | int verificarTipoContrato(Clientes cliente);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+08:30:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:31:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:39:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:25:2: error: too few arguments to function 'verificarTipoContrato'
+   25 |  verificarTipoContrato() {
+      |  ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:71:6: note: declared here
+   71 | void verificarTipoContrato(Clientes cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\programaPrincipalAII.c:25:25: error: expected ';' before '{' token
+   25 |  verificarTipoContrato() {
+      |                         ^~
+      |                         ;
+..\src\programaPrincipalAII.c:31:1: error: expected declaration or statement at end of input
+   31 | }
+      | ^
+08:39:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:216:22: warning: initialization of 'char' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  216 |  char tipoContrato = NULL;
+      |                      ^~~~
+..\src\funcoes.c:221:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  221 |   scanf(" %c", tipoContrato);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:25:2: error: too few arguments to function 'verificarTipoContrato'
+   25 |  verificarTipoContrato();
+      |  ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:71:6: note: declared here
+   71 | void verificarTipoContrato(Clientes cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+08:39:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:26:24: error: incompatible type for argument 1 of 'verificarTipoContrato'
+   26 |  verificarTipoContrato(clientes);
+      |                        ^~~~~~~~
+      |                        |
+      |                        Clientes * {aka struct <anonymous> *}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:71:37: note: expected 'Clientes' {aka 'struct <anonymous>'} but argument is of type 'Clientes *' {aka 'struct <anonymous> *'}
+   71 | void verificarTipoContrato(Clientes cliente);
+      |                            ~~~~~~~~~^~~~~~~
+08:40:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:214:6: error: conflicting types for 'verificarTipoContrato'
+  214 | void verificarTipoContrato(Clientes *cliente) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:71:6: note: previous declaration of 'verificarTipoContrato' was here
+   71 | void verificarTipoContrato(Clientes cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:216:22: warning: initialization of 'char' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  216 |  char tipoContrato = NULL;
+      |                      ^~~~
+..\src\funcoes.c:221:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  221 |   scanf(" %c", tipoContrato);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+..\src\funcoes.c:225:11: error: 'cliente' is a pointer; did you mean to use '->'?
+  225 |    cliente.tipoContrato = tipoContrato;
+      |           ^
+      |           ->
+08:40:27 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:26:24: error: incompatible type for argument 1 of 'verificarTipoContrato'
+   26 |  verificarTipoContrato(clientes);
+      |                        ^~~~~~~~
+      |                        |
+      |                        Clientes * {aka struct <anonymous> *}
+In file included from ..\src\programaPrincipalAII.c:3:
+..\src\biblioteca.h:71:37: note: expected 'Clientes' {aka 'struct <anonymous>'} but argument is of type 'Clientes *' {aka 'struct <anonymous> *'}
+   71 | void verificarTipoContrato(Clientes cliente);
+      |                            ~~~~~~~~~^~~~~~~
+08:42:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c:214:6: error: conflicting types for 'verificarTipoContrato'
+  214 | void verificarTipoContrato(Clientes *cliente) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:71:6: note: previous declaration of 'verificarTipoContrato' was here
+   71 | void verificarTipoContrato(Clientes cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:216:22: warning: initialization of 'char' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  216 |  char tipoContrato = NULL;
+      |                      ^~~~
+..\src\funcoes.c:221:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  221 |   scanf(" %c", tipoContrato);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+..\src\funcoes.c:225:12: error: 'cliente' is a pointer; did you mean to use '->'?
+  225 |    *cliente.tipoContrato = tipoContrato;
+      |            ^
+      |            ->
+08:43:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:216:22: warning: initialization of 'char' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  216 |  char tipoContrato = NULL;
+      |                      ^~~~
+..\src\funcoes.c:221:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  221 |   scanf(" %c", tipoContrato);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:44:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:221:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  221 |   scanf(" %c", tipoContrato);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+..\src\funcoes.c:221:3: warning: 'tipoContrato' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  221 |   scanf(" %c", tipoContrato);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+08:44:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:216:20: error: 'Z' undeclared (first use in this function)
+  216 |  char tipoContrato=Z;
+      |                    ^
+..\src\funcoes.c:216:20: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:221:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  221 |   scanf(" %c", tipoContrato);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+08:44:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:221:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  221 |   scanf(" %c", tipoContrato);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+08:48:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+09:02:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:14:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'chamarFuncoesPlacas':
+..\src\funcoes.c:232:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  232 |  while (placaInvalida)
+      |  ^~~~~
+..\src\funcoes.c:234:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+  234 |   scanf (" %c", &escolha);
+      |   ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+09:15:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+09:20:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'chamarFuncoesPlacas':
+..\src\funcoes.c:232:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  232 |  while (placaInvalida)
+      |  ^~~~~
+..\src\funcoes.c:234:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+  234 |   scanf (" %c", &escolha);
+      |   ^~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:20:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+09:21:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:21:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+09:23:12 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:25:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: error: 'cliente' redeclared as different kind of symbol
+  210 |  Clientes cliente;
+      |           ^~~~~~~
+..\src\funcoes.c:208:37: note: previous definition of 'cliente' was here
+  208 | void verificarTipoContrato(Clientes cliente) {
+      |                            ~~~~~~~~~^~~~~~~
+..\src\funcoes.c:210:11: warning: variable 'cliente' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes cliente;
+      |           ^~~~~~~
+..\src\funcoes.c: In function 'validarTamanhoPlaca':
+..\src\funcoes.c:256:13: error: 'placa' undeclared (first use in this function)
+  256 |  if (strlen(placa) != PLACA_LENGTH)
+      |             ^~~~~
+..\src\funcoes.c:256:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:259:1: warning: control reaches end of non-void function [-Wreturn-type]
+  259 | }
+      | ^
+09:26:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: unused variable 'clientes' [-Wunused-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarTamanhoPlaca':
+..\src\funcoes.c:256:13: error: 'placa' undeclared (first use in this function)
+  256 |  if (strlen(placa) != PLACA_LENGTH)
+      |             ^~~~~
+..\src\funcoes.c:256:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:259:1: warning: control reaches end of non-void function [-Wreturn-type]
+  259 | }
+      | ^
+09:26:22 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:208:1: error: number of arguments doesn't match prototype
+  208 | void verificarTipoContrato() {
+      | ^~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:72:6: error: prototype declaration
+   72 | void verificarTipoContrato(Clientes cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:221:4: error: 'cliente' undeclared (first use in this function); did you mean 'clientes'?
+  221 |    cliente.tipoContrato = tipoContrato;
+      |    ^~~~~~~
+      |    clientes
+..\src\funcoes.c:221:4: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:210:11: warning: unused variable 'clientes' [-Wunused-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarTamanhoPlaca':
+..\src\funcoes.c:256:13: error: 'placa' undeclared (first use in this function)
+  256 |  if (strlen(placa) != PLACA_LENGTH)
+      |             ^~~~~
+..\src\funcoes.c:259:1: warning: control reaches end of non-void function [-Wreturn-type]
+  259 | }
+      | ^
+09:26:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:208:1: error: number of arguments doesn't match prototype
+  208 | void verificarTipoContrato() {
+      | ^~~~
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:72:6: error: prototype declaration
+   72 | void verificarTipoContrato(Clientes cliente);
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarTamanhoPlaca':
+..\src\funcoes.c:256:13: error: 'placa' undeclared (first use in this function)
+  256 |  if (strlen(placa) != PLACA_LENGTH)
+      |             ^~~~~
+..\src\funcoes.c:256:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:259:1: warning: control reaches end of non-void function [-Wreturn-type]
+  259 | }
+      | ^
+09:26:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarTamanhoPlaca':
+..\src\funcoes.c:256:13: error: 'placa' undeclared (first use in this function)
+  256 |  if (strlen(placa) != PLACA_LENGTH)
+      |             ^~~~~
+..\src\funcoes.c:256:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:259:1: warning: control reaches end of non-void function [-Wreturn-type]
+  259 | }
+      | ^
+09:31:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:41:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  strcpy(carros.placa, "digitacao[8]");
+      |  ^~~~~~
+..\src\funcoes.c:254:7: warning: unused variable 'digitacao' [-Wunused-variable]
+  254 |  char digitacao[8];
+      |       ^~~~~~~~~
+09:42:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:22: error: expected expression before ']' token
+  256 |  strcpy(carros.placa[], "digitacao[8]");
+      |                      ^
+..\src\funcoes.c:256:22: error: expected declaration or statement at end of input
+..\src\funcoes.c:254:7: warning: unused variable 'digitacao' [-Wunused-variable]
+  254 |  char digitacao[8];
+      |       ^~~~~~~~~
+..\src\funcoes.c:253:9: warning: variable 'carros' set but not used [-Wunused-but-set-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+09:42:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:21: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  256 |  strcpy(carros.placa[8], "digitacao[8]");
+      |         ~~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  strcpy(carros.placa[8], "digitacao[8]");
+      |  ^~~~~~
+..\src\funcoes.c:254:7: warning: unused variable 'digitacao' [-Wunused-variable]
+  254 |  char digitacao[8];
+      |       ^~~~~~~~~
+09:42:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:21: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  256 |  strcpy(carros.placa[8], digitacao[8]);
+      |         ~~~~~~~~~~~~^~~
+      |                     |
+      |                     char
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c:256:35: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  256 |  strcpy(carros.placa[8], digitacao[8]);
+      |                          ~~~~~~~~~^~~
+      |                                   |
+      |                                   char
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  strcpy(carros.placa[8], digitacao[8]);
+      |  ^~~~~~
+09:42:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  strcpy(carros.placa, digitacao);
+      |  ^~~~~~
+09:43:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  strcpy(carros.placa, digitacao);
+      |  ^~~~~~
+09:44:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:258:16: error: 'tipoContrato' undeclared (first use in this function)
+  258 |  scanf(" %c", &tipoContrato);
+      |                ^~~~~~~~~~~~
+..\src\funcoes.c:258:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:258:2: error: expected declaration or statement at end of input
+  258 |  scanf(" %c", &tipoContrato);
+      |  ^~~~~
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+09:45:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  scanf("%8s", digitacao);
+      |  ^~~~~
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+09:45:53 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  scanf(" %8s", digitacao);
+      |  ^~~~~
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+09:45:58 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[8]' [-Wformat=]
+  256 |  scanf("%8s", &digitacao);
+      |         ~~^   ~~~~~~~~~~
+      |           |   |
+      |           |   char (*)[8]
+      |           char *
+..\src\funcoes.c:256:2: error: expected declaration or statement at end of input
+  256 |  scanf("%8s", &digitacao);
+      |  ^~~~~
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+09:46:05 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:256:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[8]' [-Wformat=]
+  256 |  scanf("%8s", &digitacao);
+      |         ~~^   ~~~~~~~~~~
+      |           |   |
+      |           |   char (*)[8]
+      |           char *
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:46:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlaca':
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:46:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:52:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:262:28: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  262 |       return placaInvalida = 1;
+      |              ~~~~~~~~~~~~~~^~~
+..\src\funcoes.c:252:6: note: declared here
+  252 | void validarPlacaAntiga() {
+      |      ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:267:21: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  267 |              return 0;
+      |                     ^
+..\src\funcoes.c:252:6: note: declared here
+  252 | void validarPlacaAntiga() {
+      |      ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:273:21: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  273 |              return 0;
+      |                     ^
+..\src\funcoes.c:252:6: note: declared here
+  252 | void validarPlacaAntiga() {
+      |      ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:52:44 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:267:21: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  267 |              return 0;
+      |                     ^
+..\src\funcoes.c:252:6: note: declared here
+  252 | void validarPlacaAntiga() {
+      |      ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:273:21: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  273 |              return 0;
+      |                     ^
+..\src\funcoes.c:252:6: note: declared here
+  252 | void validarPlacaAntiga() {
+      |      ^~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:53:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:54:10 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:54:20 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:253:9: warning: unused variable 'carros' [-Wunused-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:55:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:278:19: error: assignment to expression with array type
+  278 |      carros.placa = digitacao;
+      |                   ^
+..\src\funcoes.c:253:9: warning: variable 'carros' set but not used [-Wunused-but-set-variable]
+  253 |  Carros carros;
+      |         ^~~~~~
+09:56:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:56:47 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:57:06 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+09:57:15 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:01:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:03:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:04:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file programasC.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:04:05 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:05:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:09:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'chamarFuncoesPlacas':
+..\src\funcoes.c:244:5: warning: implicit declaration of function 'validarPlacaNova'; did you mean 'validarPlacaAntiga'? [-Wimplicit-function-declaration]
+  244 |     validarPlacaNova();
+      |     ^~~~~~~~~~~~~~~~
+      |     validarPlacaAntiga
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:267:13: warning: variable 'valido' set but not used [-Wunused-but-set-variable]
+  267 |         int valido = 1;
+      |             ^~~~~~
+..\src\funcoes.c:276:9: error: expected 'while' before 'if'
+  276 |         if (!valido) continue;
+      |         ^~
+..\src\funcoes.c:281:17: error: 'valido' undeclared (first use in this function)
+  281 |                 valido = 0;
+      |                 ^~~~~~
+..\src\funcoes.c:281:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:285:22: error: continue statement not within a loop
+  285 |         if (!valido) continue;
+      |                      ^~~~~~~~
+..\src\funcoes.c:255:9: warning: variable 'placaInvalida' set but not used [-Wunused-but-set-variable]
+  255 |     int placaInvalida = 1;
+      |         ^~~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:291:7: error: expected identifier or '(' before 'while'
+  291 |     } while (placaInvalida);
+      |       ^~~~~
+..\src\funcoes.c:292:1: error: expected identifier or '(' before '}' token
+  292 | }
+      | ^
+..\src\funcoes.c:294:6: warning: conflicting types for 'validarPlacaNova'
+  294 | void validarPlacaNova() {
+      |      ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:244:5: note: previous implicit declaration of 'validarPlacaNova' was here
+  244 |     validarPlacaNova();
+      |     ^~~~~~~~~~~~~~~~
+10:10:09 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'chamarFuncoesPlacas':
+..\src\funcoes.c:244:5: warning: implicit declaration of function 'validarPlacaNova'; did you mean 'validarPlacaAntiga'? [-Wimplicit-function-declaration]
+  244 |     validarPlacaNova();
+      |     ^~~~~~~~~~~~~~~~
+      |     validarPlacaAntiga
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:294:6: warning: conflicting types for 'validarPlacaNova'
+  294 | void validarPlacaNova() {
+      |      ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:244:5: note: previous implicit declaration of 'validarPlacaNova' was here
+  244 |     validarPlacaNova();
+      |     ^~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:12:13 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'chamarFuncoesPlacas':
+..\src\funcoes.c:244:5: warning: implicit declaration of function 'validarPlacaNova'; did you mean 'validarPlacaAntiga'? [-Wimplicit-function-declaration]
+  244 |     validarPlacaNova();
+      |     ^~~~~~~~~~~~~~~~
+      |     validarPlacaAntiga
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:295:6: warning: conflicting types for 'validarPlacaNova'
+  295 | void validarPlacaNova() {
+      |      ^~~~~~~~~~~~~~~~
+..\src\funcoes.c:244:5: note: previous implicit declaration of 'validarPlacaNova' was here
+  244 |     validarPlacaNova();
+      |     ^~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:12:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:17:40 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:18:23 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:18:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:320:22: error: 'placa' undeclared (first use in this function)
+  320 |         if (!isdigit(placa[3]))
+      |                      ^~~~~
+..\src\funcoes.c:320:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:320:9: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  320 |         if (!isdigit(placa[3]))
+      |         ^~
+..\src\funcoes.c:322:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  322 |    valido = 0;
+      |    ^~~~~~
+..\src\funcoes.c:326:9: error: expected 'while' before 'if'
+  326 |         if (!valido) continue;
+      |         ^~
+..\src\funcoes.c:332:17: error: 'valido' undeclared (first use in this function)
+  332 |                 valido = 0;
+      |                 ^~~~~~
+..\src\funcoes.c:336:22: error: continue statement not within a loop
+  336 |         if (!valido) continue;
+      |                      ^~~~~~~~
+..\src\funcoes.c:346:22: error: continue statement not within a loop
+  346 |         if (!valido) continue;
+      |                      ^~~~~~~~
+..\src\funcoes.c:296:9: warning: variable 'placaInvalida' set but not used [-Wunused-but-set-variable]
+  296 |     int placaInvalida = 1;
+      |         ^~~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:352:7: error: expected identifier or '(' before 'while'
+  352 |     } while (placaInvalida);
+      |       ^~~~~
+..\src\funcoes.c:353:1: error: expected identifier or '(' before '}' token
+  353 | }
+      | ^
+10:18:50 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:320:22: error: 'placa' undeclared (first use in this function)
+  320 |         if (!isdigit(placa[3]))
+      |                      ^~~~~
+..\src\funcoes.c:320:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:320:9: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  320 |         if (!isdigit(placa[3]))
+      |         ^~
+..\src\funcoes.c:322:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  322 |    valido = 0;
+      |    ^~~~~~
+..\src\funcoes.c:326:9: error: expected 'while' before 'if'
+  326 |         if (!valido) continue;
+      |         ^~
+..\src\funcoes.c:332:17: error: 'valido' undeclared (first use in this function)
+  332 |                 valido = 0;
+      |                 ^~~~~~
+..\src\funcoes.c:336:22: error: continue statement not within a loop
+  336 |         if (!valido) continue;
+      |                      ^~~~~~~~
+..\src\funcoes.c:346:22: error: continue statement not within a loop
+  346 |         if (!valido) continue;
+      |                      ^~~~~~~~
+..\src\funcoes.c:296:9: warning: variable 'placaInvalida' set but not used [-Wunused-but-set-variable]
+  296 |     int placaInvalida = 1;
+      |         ^~~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:352:7: error: expected identifier or '(' before 'while'
+  352 |     } while (placaInvalida);
+      |       ^~~~~
+..\src\funcoes.c:353:1: error: expected identifier or '(' before '}' token
+  353 | }
+      | ^
+10:18:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:19:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:329:113: error: expected ';' before ')' token
+  329 |    printf("Padrão incorreto na posição %d (os três primeiros devem ser letras maiúsculas)\n", digitacao[4]));
+      |                                                                                                                 ^
+      |                                                                                                                 ;
+..\src\funcoes.c:329:113: error: expected statement before ')' token
+10:19:46 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:20:27 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:20:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:21:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:321:44: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  321 |    printf("Padrão incorreto na posição %s (o 4° caractere deve ser digito)\n", digitacao[3]);
+      |                                           ~^                                       ~~~~~~~~~~~~
+      |                                            |                                                |
+      |                                            char *                                           int
+      |                                           %d
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:22:11 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:22:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:22:52 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:321:11: warning: too many arguments for format [-Wformat-extra-args]
+  321 |    printf("Padrão incorreto(o 4° caractere deve ser digito)\n", digitacao[3]);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:329:11: warning: too many arguments for format [-Wformat-extra-args]
+  329 |    printf("Padrão incorreto (o 5° caractere deve ser letra)\n", digitacao[4]);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:23:04 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+10:25:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+10:54:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:193:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  193 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+10:55:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:47:10: warning: implicit declaration of function 'inserirCliente' [-Wimplicit-function-declaration]
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:50:10: warning: implicit declaration of function 'inserirPlaca' [-Wimplicit-function-declaration]
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:104:6: warning: conflicting types for 'inserirCliente'
+  104 | void inserirCliente(){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:47:10: note: previous implicit declaration of 'inserirCliente' was here
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:108:6: warning: conflicting types for 'inserirPlaca'
+  108 | void inserirPlaca(){
+      |      ^~~~~~~~~~~~
+..\src\funcoes.c:50:10: note: previous implicit declaration of 'inserirPlaca' was here
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:193:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  193 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+11:01:16 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:47:10: warning: implicit declaration of function 'inserirCliente' [-Wimplicit-function-declaration]
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:50:10: warning: implicit declaration of function 'inserirPlaca' [-Wimplicit-function-declaration]
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:104:6: warning: conflicting types for 'inserirCliente'
+  104 | void inserirCliente(){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:47:10: note: previous implicit declaration of 'inserirCliente' was here
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'inserirCliente':
+..\src\funcoes.c:106:24: error: expected expression before 'Clientes'
+  106 |  receberNomePreenchido(Clientes *cliente);
+      |                        ^~~~~~~~
+..\src\funcoes.c:105:11: warning: unused variable 'clientes' [-Wunused-variable]
+  105 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:111:6: warning: conflicting types for 'inserirPlaca'
+  111 | void inserirPlaca(){
+      |      ^~~~~~~~~~~~
+..\src\funcoes.c:50:10: note: previous implicit declaration of 'inserirPlaca' was here
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:199:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  199 |  Clientes clientes;
+      |           ^~~~~~~~
+11:01:26 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:47:10: warning: implicit declaration of function 'inserirCliente' [-Wimplicit-function-declaration]
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:50:10: warning: implicit declaration of function 'inserirPlaca' [-Wimplicit-function-declaration]
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:104:6: warning: conflicting types for 'inserirCliente'
+  104 | void inserirCliente(){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:47:10: note: previous implicit declaration of 'inserirCliente' was here
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'inserirCliente':
+..\src\funcoes.c:106:24: error: 'cliente' undeclared (first use in this function); did you mean 'clientes'?
+  106 |  receberNomePreenchido(cliente);
+      |                        ^~~~~~~
+      |                        clientes
+..\src\funcoes.c:106:24: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:105:11: warning: unused variable 'clientes' [-Wunused-variable]
+  105 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:111:6: warning: conflicting types for 'inserirPlaca'
+  111 | void inserirPlaca(){
+      |      ^~~~~~~~~~~~
+..\src\funcoes.c:50:10: note: previous implicit declaration of 'inserirPlaca' was here
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:199:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  199 |  Clientes clientes;
+      |           ^~~~~~~~
+11:01:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:47:10: warning: implicit declaration of function 'inserirCliente' [-Wimplicit-function-declaration]
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:50:10: warning: implicit declaration of function 'inserirPlaca' [-Wimplicit-function-declaration]
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:104:6: warning: conflicting types for 'inserirCliente'
+  104 | void inserirCliente(){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:47:10: note: previous implicit declaration of 'inserirCliente' was here
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'inserirCliente':
+..\src\funcoes.c:106:24: error: incompatible type for argument 1 of 'receberNomePreenchido'
+  106 |  receberNomePreenchido(clientes);
+      |                        ^~~~~~~~
+      |                        |
+      |                        Clientes {aka struct <anonymous>}
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:63:38: note: expected 'Clientes *' {aka 'struct <anonymous> *'} but argument is of type 'Clientes' {aka 'struct <anonymous>'}
+   63 | void receberNomePreenchido(Clientes *cliente);
+      |                            ~~~~~~~~~~^~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:111:6: warning: conflicting types for 'inserirPlaca'
+  111 | void inserirPlaca(){
+      |      ^~~~~~~~~~~~
+..\src\funcoes.c:50:10: note: previous implicit declaration of 'inserirPlaca' was here
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:199:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  199 |  Clientes clientes;
+      |           ^~~~~~~~
+11:01:54 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:47:10: warning: implicit declaration of function 'inserirCliente' [-Wimplicit-function-declaration]
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:50:10: warning: implicit declaration of function 'inserirPlaca' [-Wimplicit-function-declaration]
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:104:6: warning: conflicting types for 'inserirCliente'
+  104 | void inserirCliente(){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:47:10: note: previous implicit declaration of 'inserirCliente' was here
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:111:6: warning: conflicting types for 'inserirPlaca'
+  111 | void inserirPlaca(){
+      |      ^~~~~~~~~~~~
+..\src\funcoes.c:50:10: note: previous implicit declaration of 'inserirPlaca' was here
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:199:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  199 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+11:02:19 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'menuInserir':
+..\src\funcoes.c:47:10: warning: implicit declaration of function 'inserirCliente' [-Wimplicit-function-declaration]
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:50:10: warning: implicit declaration of function 'inserirPlaca' [-Wimplicit-function-declaration]
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:104:6: warning: conflicting types for 'inserirCliente'
+  104 | void inserirCliente(){
+      |      ^~~~~~~~~~~~~~
+..\src\funcoes.c:47:10: note: previous implicit declaration of 'inserirCliente' was here
+   47 |          inserirCliente();
+      |          ^~~~~~~~~~~~~~
+..\src\funcoes.c:111:6: warning: conflicting types for 'inserirPlaca'
+  111 | void inserirPlaca(){
+      |      ^~~~~~~~~~~~
+..\src\funcoes.c:50:10: note: previous implicit declaration of 'inserirPlaca' was here
+   50 |          inserirPlaca();
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:196:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  196 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+11:04:07 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:196:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  196 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+11:05:18 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
