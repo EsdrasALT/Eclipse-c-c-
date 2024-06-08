@@ -9,7 +9,7 @@
 int main(void) {
 	setbuf(stdout, NULL);
 
-	Clientes clientes;
+	Clientes* clientes;
 //	DataNascimento dataNascimento;
 //	dataNascimento = solicitarDataDeNascimento();
 
@@ -28,7 +28,7 @@ int main(void) {
 //	chamarFuncoesPlacas();
 
 //	menuPrincipal();
-
+	quantidadePlacas();
 
 	return EXIT_SUCCESS;
 }

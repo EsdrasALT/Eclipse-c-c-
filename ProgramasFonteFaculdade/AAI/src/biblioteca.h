@@ -24,12 +24,12 @@ typedef struct {
 
 typedef struct {
 	//Dados Simples
-	char placa[PLACA_LENGTH+1]; // +1 para o caractere \0
+	char placa[PLACA_LENGTH + 1]; // +1 para o caractere \0
 	char *codigoSequencial;
 	char marcaModelo[30];
 	int ano;
 
-  //TODO Declaracao Listas
+//TODO Declaracao Listas
 
 } Carros;
 
@@ -37,12 +37,11 @@ typedef struct {
 	//Dados Simples
 	char nome[50];
 	char codigo;
-	int quantidade;
 	char tipoContrato;
 	int quantidadePlacas;
 	Carros *carros[MAX_CARROS];
 
-  //TODO Declaracao Listas
+//TODO Declaracao Listas
 
 } Clientes;
 
@@ -51,8 +50,8 @@ typedef struct {
 void menuPrincipal();
 
 void menuInserir();
-	void inserirCliente();
-	void inserirPlaca();
+void inserirCliente();
+void inserirPlaca();
 
 void menuExcluir();
 void menuRelatorios();
@@ -65,14 +64,14 @@ void formatarNomeRecursiva(char *nome); // TODO IMPLEMENTAR
 
 //DATA
 int validarData(int dia, int mes, int ano);
-DataNascimento converterData( char *data_str);
+DataNascimento converterData(char *data_str);
 DataNascimento solicitarDataDeNascimento();
 int verificarIdade(DataNascimento data_nascimento); //TODO IMPLEMENTAR
 
 //TIPO DE CONTRATO
 void verificarTipoContrato();
 
-//FUNCAO QTDE PLACA - TODO
+void quantidadePlacas();
 
 //PLACAS
 void chamarFuncoesPlacas();

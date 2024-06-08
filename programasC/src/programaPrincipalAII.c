@@ -29,6 +29,19 @@ int main(void) {
 
 //	menuPrincipal();
 
+//	quantidadePlacas();
+
+//	Carros *listaCarro = NULL;
+//	Carros *ultimoCarro = NULL;
+//
+//		for(int i = 1; i<3; i++){
+//			inserirFimUltimo(&ultimoCarro);
+//			if (listaCarro == NULL) {
+//				listaCarro = ultimoCarro;
+//			}
+//			impressao(listaCarro);
+//		}
+
 
 	return EXIT_SUCCESS;
 }

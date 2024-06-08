@@ -112,6 +112,40 @@ void inserirPlaca(){
 	chamarFuncoesPlacas();
 }
 
+void inserirFimUltimo(Carros **ultimoLista){
+	Carros *novo = (Carros*) malloc (sizeof(Carros));
+
+	//Exemplo
+	strcpy(novo->placa, "ABCD123");
+	strcpy(novo->codigoSequencial, "E1999011");
+	strcpy(novo->marcaModelo, "Corsa");
+	novo->ano = 2000;
+	//Exemplo
+	novo->proximoDaLista = NULL;
+
+	if(*ultimoLista != NULL){
+		(*ultimoLista)->proximoDaLista = novo;
+	}
+
+	(*ultimoLista) = novo;
+}
+
+void impressao(Carros *lista){
+	if (lista != NULL) { 	// if (lista) {
+		printf("Placa %s\n"
+				"Codigo Sequencial -%s\n"
+				"Marca Modelo - %s\n"
+				"Ano - %d\n"
+				"Endereço - %p\n"
+				"Proximo - %p\n\n",
+				lista->placa,lista->codigoSequencial,
+				lista->marcaModelo,lista->ano,
+				lista, lista->proximoDaLista);
+		impressao(lista->proximoDaLista);
+	}
+}
+
+
 void receberNomePreenchido(Clientes *cliente) {
     printf("Digite o nome do cliente: ");
     fgets(cliente->nome, sizeof(cliente->nome), stdin);
@@ -211,7 +245,19 @@ void verificarTipoContrato(){
 	}
 }
 
-//TODO IMPLEMENTAR FUNCAO QUANTIDADE PLACA
+void quantidadePlacas() {
+	Clientes clientes;
+	do {
+		printf("Digite a quantidade de placas: ");
+		scanf("%d", &clientes.quantidadePlacas);
+		if (clientes.quantidadePlacas < 1) {
+			printf("\nErro, você deve ter pelo menos 1 placa cadastrada\n");
+		} else if (clientes.quantidadePlacas > MAX_CARROS) {
+			printf("\nErro, 5 é o numero maximo de placas para cadastro\n");
+		}
+	} while (clientes.quantidadePlacas < 1 || clientes.quantidadePlacas > MAX_CARROS);
+	printf("%d", clientes.quantidadePlacas);
+}
 
 void chamarFuncoesPlacas(){
 	char escolha;

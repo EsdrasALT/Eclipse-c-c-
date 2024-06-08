@@ -14,37 +14,39 @@
 #define PLACA_LENGTH 7
 
 // -------------Definições de Tipos (typedefs e enums)-------------
+typedef struct dadosDataDeNascimento DataNascimento;
+typedef struct dadosCarro Carros;
+typedef struct dadosCliente Clientes;
 
 // -------------Declarações de Estruturas-------------
-typedef struct {
+struct dadosDataDeNascimento{
 	int mes;
 	int dia;
 	int ano;
-} DataNascimento;
+};
 
-typedef struct {
+struct dadosCarro{
 	//Dados Simples
 	char placa[PLACA_LENGTH+1]; // +1 para o caractere \0
-	char *codigoSequencial;
+	char *codigoSequencial[8];
 	char marcaModelo[30];
 	int ano;
 
   //TODO Declaracao Listas
+	Carros *proximoDaLista;
+};
 
-} Carros;
-
-typedef struct {
+struct dadosCliente{
 	//Dados Simples
 	char nome[50];
-	char codigo;
-	int quantidade;
+	char codigo[7];
 	char tipoContrato;
 	int quantidadePlacas;
 	Carros *carros[MAX_CARROS];
 
   //TODO Declaracao Listas
 
-} Clientes;
+};
 
 //-------------Prototipação de Funções-------------
 //MENU
@@ -56,6 +58,9 @@ void menuInserir();
 
 void menuExcluir();
 void menuRelatorios();
+
+//LISTAS
+void inserirFimUltimo(Carros **ultimoLista);
 
 //NOME
 void receberNomePreenchido(Clientes *cliente);
@@ -72,7 +77,8 @@ int verificarIdade(DataNascimento data_nascimento); //TODO IMPLEMENTAR
 //TIPO DE CONTRATO
 void verificarTipoContrato();
 
-//FUNCAO QTDE PLACA - TODO
+//FUNCAO QTDE PLACA
+void quantidadePlacas();
 
 //PLACAS
 void chamarFuncoesPlacas();

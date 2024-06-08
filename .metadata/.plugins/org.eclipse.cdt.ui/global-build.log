@@ -3967,3 +3967,1462 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\sr
    12 |  Clientes clientes;
       |           ^~~~~~~~
 gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:27:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:33:2: error: unknown type name 'Carros'
+   33 |  Carros *proximoDaLista;
+      |  ^~~~~~
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:117:16: error: 'ABCD123' undeclared (first use in this function)
+  117 |  novo->placa = ABCD123;
+      |                ^~~~~~~
+..\src\funcoes.c:117:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+21:30:21 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:18:16: warning: useless storage class specifier in empty declaration
+   18 | typedef struct dadosCarros;
+      |                ^~~~~~~~~~~
+..\src\biblioteca.h:24:1: error: expected '{' before 'struct'
+   24 | struct DataNascimento{
+      | ^~~~~~
+..\src\biblioteca.h:24:1: error: two or more data types in declaration specifiers
+..\src\biblioteca.h:28:1: warning: useless type name in empty declaration
+   28 | };
+      | ^
+..\src\biblioteca.h:38:2: error: unknown type name 'Carros'
+   38 |  Carros *proximoDaLista;
+      |  ^~~~~~
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:117:16: error: 'ABCD123' undeclared (first use in this function)
+  117 |  novo->placa = ABCD123;
+      |                ^~~~~~~
+..\src\funcoes.c:117:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:154:16: error: return type is an incomplete type
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:154:16: error: conflicting types for 'solicitarDataDeNascimento'
+..\src\funcoes.c:107:17: note: previous declaration of 'solicitarDataDeNascimento' was here
+  107 |  DataNascimento solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'solicitarDataDeNascimento':
+..\src\funcoes.c:156:17: error: storage size of 'data' isn't known
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c:163:10: error: invalid use of incomplete typedef 'DataNascimento' {aka 'struct dadosDataDeNascimento'}
+  163 |   data = converterData(data_str);
+      |          ^~~~~~~~~~~~~
+..\src\funcoes.c:173:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  173 |  return data;
+      |         ^~~~
+..\src\funcoes.c:154:16: note: declared here
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:156:17: warning: unused variable 'data' [-Wunused-variable]
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:176:16: error: return type is an incomplete type
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:176:16: error: conflicting types for 'converterData'
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:77:16: note: previous declaration of 'converterData' was here
+   77 | DataNascimento converterData( char *data_str);
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c: In function 'converterData':
+..\src\funcoes.c:177:20: error: storage size of 'data' isn't known
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c:180:12: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  180 |     return data;
+      |            ^~~~
+..\src\funcoes.c:176:16: note: declared here
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:177:20: warning: unused variable 'data' [-Wunused-variable]
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:184:35: error: parameter 1 ('data_nascimento') has incomplete type
+  184 | int verificarIdade(DataNascimento data_nascimento) {
+      |                    ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarIdade':
+..\src\funcoes.c:186:20: error: storage size of 'data_atual' isn't known
+  186 |     DataNascimento data_atual;
+      |                    ^~~~~~~~~~
+..\src\funcoes.c:186:20: warning: unused variable 'data_atual' [-Wunused-variable]
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+21:31:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: error: storage size of 'clientes' isn't known
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+21:32:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirCliente':
+..\src\funcoes.c:105:11: error: storage size of 'clientes' isn't known
+  105 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:105:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:116:42: error: invalid application of 'sizeof' to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                                          ^~~~~~
+..\src\funcoes.c:117:6: error: dereferencing pointer to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  117 |  novo->placa = ABCD123;
+      |      ^~
+..\src\funcoes.c:117:16: error: 'ABCD123' undeclared (first use in this function)
+  117 |  novo->placa = ABCD123;
+      |                ^~~~~~~
+..\src\funcoes.c:117:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:123:18: error: dereferencing pointer to incomplete type 'Clientes' {aka 'struct dadosCliente'}
+  123 |     fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |                  ^~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:154:16: error: return type is an incomplete type
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:154:16: error: conflicting types for 'solicitarDataDeNascimento'
+..\src\funcoes.c:107:17: note: previous declaration of 'solicitarDataDeNascimento' was here
+  107 |  DataNascimento solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'solicitarDataDeNascimento':
+..\src\funcoes.c:156:17: error: storage size of 'data' isn't known
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c:163:10: error: invalid use of incomplete typedef 'DataNascimento' {aka 'struct dadosDataDeNascimento'}
+  163 |   data = converterData(data_str);
+      |          ^~~~~~~~~~~~~
+..\src\funcoes.c:173:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  173 |  return data;
+      |         ^~~~
+..\src\funcoes.c:154:16: note: declared here
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:156:17: warning: unused variable 'data' [-Wunused-variable]
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:176:16: error: return type is an incomplete type
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:176:16: error: conflicting types for 'converterData'
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:74:16: note: previous declaration of 'converterData' was here
+   74 | DataNascimento converterData( char *data_str);
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c: In function 'converterData':
+..\src\funcoes.c:177:20: error: storage size of 'data' isn't known
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c:180:12: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  180 |     return data;
+      |            ^~~~
+..\src\funcoes.c:176:16: note: declared here
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:177:20: warning: unused variable 'data' [-Wunused-variable]
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:184:35: error: parameter 1 ('data_nascimento') has incomplete type
+  184 | int verificarIdade(DataNascimento data_nascimento) {
+      |                    ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarIdade':
+..\src\funcoes.c:186:20: error: storage size of 'data_atual' isn't known
+  186 |     DataNascimento data_atual;
+      |                    ^~~~~~~~~~
+..\src\funcoes.c:186:20: warning: unused variable 'data_atual' [-Wunused-variable]
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: error: storage size of 'clientes' isn't known
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:202:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:244:12: error: storage size of 'carros' isn't known
+  244 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:244:12: warning: unused variable 'carros' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:285:12: error: storage size of 'carros' isn't known
+  285 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:285:12: warning: unused variable 'carros' [-Wunused-variable]
+21:34:12 **** Clean-only build of configuration Debug for project programasC ****
+rm -rf src/funcoes.o src/programaPrincipalAII.d programasC.exe src/programaPrincipalAII.o src/funcoes.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Bless/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Bless\anaconda3;C:\Users\Bless\anaconda3\Library\mingw-w64\bin;C:\Users\Bless\anaconda3\Library\usr\bin;C:\Users\Bless\anaconda3\Library\bin;C:\Users\Bless\anaconda3\Scripts;C:\Users\Bless\AppData\Local\Microsoft\WindowsApps;C:\Users\Bless\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bless\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\System32]
+
+21:34:12 **** Clean-only build of configuration Debug for project programasC ****
+21:34:12 **** Rebuild of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirCliente':
+..\src\funcoes.c:105:11: error: storage size of 'clientes' isn't known
+  105 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:105:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:116:42: error: invalid application of 'sizeof' to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                                          ^~~~~~
+..\src\funcoes.c:117:6: error: dereferencing pointer to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  117 |  novo->placa = ABCD123;
+      |      ^~
+..\src\funcoes.c:117:16: error: 'ABCD123' undeclared (first use in this function)
+  117 |  novo->placa = ABCD123;
+      |                ^~~~~~~
+..\src\funcoes.c:117:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:123:18: error: dereferencing pointer to incomplete type 'Clientes' {aka 'struct dadosCliente'}
+  123 |     fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |                  ^~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:154:16: error: return type is an incomplete type
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:154:16: error: conflicting types for 'solicitarDataDeNascimento'
+..\src\funcoes.c:107:17: note: previous declaration of 'solicitarDataDeNascimento' was here
+  107 |  DataNascimento solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'solicitarDataDeNascimento':
+..\src\funcoes.c:156:17: error: storage size of 'data' isn't known
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c:163:10: error: invalid use of incomplete typedef 'DataNascimento' {aka 'struct dadosDataDeNascimento'}
+  163 |   data = converterData(data_str);
+      |          ^~~~~~~~~~~~~
+..\src\funcoes.c:173:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  173 |  return data;
+      |         ^~~~
+..\src\funcoes.c:154:16: note: declared here
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:156:17: warning: unused variable 'data' [-Wunused-variable]
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:176:16: error: return type is an incomplete type
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:176:16: error: conflicting types for 'converterData'
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:74:16: note: previous declaration of 'converterData' was here
+   74 | DataNascimento converterData( char *data_str);
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c: In function 'converterData':
+..\src\funcoes.c:177:20: error: storage size of 'data' isn't known
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c:180:12: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  180 |     return data;
+      |            ^~~~
+..\src\funcoes.c:176:16: note: declared here
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:177:20: warning: unused variable 'data' [-Wunused-variable]
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:184:35: error: parameter 1 ('data_nascimento') has incomplete type
+  184 | int verificarIdade(DataNascimento data_nascimento) {
+      |                    ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarIdade':
+..\src\funcoes.c:186:20: error: storage size of 'data_atual' isn't known
+  186 |     DataNascimento data_atual;
+      |                    ^~~~~~~~~~
+..\src\funcoes.c:186:20: warning: unused variable 'data_atual' [-Wunused-variable]
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: error: storage size of 'clientes' isn't known
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:202:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:244:12: error: storage size of 'carros' isn't known
+  244 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:244:12: warning: unused variable 'carros' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:285:12: error: storage size of 'carros' isn't known
+  285 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:285:12: warning: unused variable 'carros' [-Wunused-variable]
+21:34:15 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: error: storage size of 'clientes' isn't known
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+21:35:24 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirCliente':
+..\src\funcoes.c:105:11: error: storage size of 'clientes' isn't known
+  105 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:105:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:116:42: error: invalid application of 'sizeof' to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                                          ^~~~~~
+..\src\funcoes.c:117:6: error: dereferencing pointer to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  117 |  novo->
+      |      ^~
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:123:18: error: dereferencing pointer to incomplete type 'Clientes' {aka 'struct dadosCliente'}
+  123 |     fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |                  ^~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:154:16: error: return type is an incomplete type
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:154:16: error: conflicting types for 'solicitarDataDeNascimento'
+..\src\funcoes.c:107:17: note: previous declaration of 'solicitarDataDeNascimento' was here
+  107 |  DataNascimento solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'solicitarDataDeNascimento':
+..\src\funcoes.c:156:17: error: storage size of 'data' isn't known
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c:163:10: error: invalid use of incomplete typedef 'DataNascimento' {aka 'struct dadosDataDeNascimento'}
+  163 |   data = converterData(data_str);
+      |          ^~~~~~~~~~~~~
+..\src\funcoes.c:173:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  173 |  return data;
+      |         ^~~~
+..\src\funcoes.c:154:16: note: declared here
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:156:17: warning: unused variable 'data' [-Wunused-variable]
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:176:16: error: return type is an incomplete type
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:176:16: error: conflicting types for 'converterData'
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:74:16: note: previous declaration of 'converterData' was here
+   74 | DataNascimento converterData( char *data_str);
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c: In function 'converterData':
+..\src\funcoes.c:177:20: error: storage size of 'data' isn't known
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c:180:12: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  180 |     return data;
+      |            ^~~~
+..\src\funcoes.c:176:16: note: declared here
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:177:20: warning: unused variable 'data' [-Wunused-variable]
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:184:35: error: parameter 1 ('data_nascimento') has incomplete type
+  184 | int verificarIdade(DataNascimento data_nascimento) {
+      |                    ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarIdade':
+..\src\funcoes.c:186:20: error: storage size of 'data_atual' isn't known
+  186 |     DataNascimento data_atual;
+      |                    ^~~~~~~~~~
+..\src\funcoes.c:186:20: warning: unused variable 'data_atual' [-Wunused-variable]
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: error: storage size of 'clientes' isn't known
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:202:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:244:12: error: storage size of 'carros' isn't known
+  244 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:244:12: warning: unused variable 'carros' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:285:12: error: storage size of 'carros' isn't known
+  285 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:285:12: warning: unused variable 'carros' [-Wunused-variable]
+21:36:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirCliente':
+..\src\funcoes.c:105:11: error: storage size of 'clientes' isn't known
+  105 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:105:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:116:42: error: invalid application of 'sizeof' to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                                          ^~~~~~
+..\src\funcoes.c:117:6: error: dereferencing pointer to incomplete type 'Carros' {aka 'struct dadosCarro'}
+  117 |  novo->
+      |      ^~
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: In function 'receberNomePreenchido':
+..\src\funcoes.c:123:18: error: dereferencing pointer to incomplete type 'Clientes' {aka 'struct dadosCliente'}
+  123 |     fgets(cliente->nome, sizeof(cliente->nome), stdin);
+      |                  ^~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:154:16: error: return type is an incomplete type
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:154:16: error: conflicting types for 'solicitarDataDeNascimento'
+..\src\funcoes.c:107:17: note: previous declaration of 'solicitarDataDeNascimento' was here
+  107 |  DataNascimento solicitarDataDeNascimento();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'solicitarDataDeNascimento':
+..\src\funcoes.c:156:17: error: storage size of 'data' isn't known
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c:163:10: error: invalid use of incomplete typedef 'DataNascimento' {aka 'struct dadosDataDeNascimento'}
+  163 |   data = converterData(data_str);
+      |          ^~~~~~~~~~~~~
+..\src\funcoes.c:173:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  173 |  return data;
+      |         ^~~~
+..\src\funcoes.c:154:16: note: declared here
+  154 | DataNascimento solicitarDataDeNascimento() {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\funcoes.c:156:17: warning: unused variable 'data' [-Wunused-variable]
+  156 |  DataNascimento data;
+      |                 ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:176:16: error: return type is an incomplete type
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:176:16: error: conflicting types for 'converterData'
+In file included from ..\src\funcoes.c:3:
+..\src\biblioteca.h:74:16: note: previous declaration of 'converterData' was here
+   74 | DataNascimento converterData( char *data_str);
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c: In function 'converterData':
+..\src\funcoes.c:177:20: error: storage size of 'data' isn't known
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c:180:12: warning: 'return' with a value, in function returning void [-Wreturn-type]
+  180 |     return data;
+      |            ^~~~
+..\src\funcoes.c:176:16: note: declared here
+  176 | DataNascimento converterData(char *data_string) {
+      |                ^~~~~~~~~~~~~
+..\src\funcoes.c:177:20: warning: unused variable 'data' [-Wunused-variable]
+  177 |     DataNascimento data;
+      |                    ^~~~
+..\src\funcoes.c: At top level:
+..\src\funcoes.c:184:35: error: parameter 1 ('data_nascimento') has incomplete type
+  184 | int verificarIdade(DataNascimento data_nascimento) {
+      |                    ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarIdade':
+..\src\funcoes.c:186:20: error: storage size of 'data_atual' isn't known
+  186 |     DataNascimento data_atual;
+      |                    ^~~~~~~~~~
+..\src\funcoes.c:186:20: warning: unused variable 'data_atual' [-Wunused-variable]
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: error: storage size of 'clientes' isn't known
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c:202:11: warning: unused variable 'clientes' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaAntiga':
+..\src\funcoes.c:244:12: error: storage size of 'carros' isn't known
+  244 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:244:12: warning: unused variable 'carros' [-Wunused-variable]
+..\src\funcoes.c: In function 'validarPlacaNova':
+..\src\funcoes.c:285:12: error: storage size of 'carros' isn't known
+  285 |     Carros carros;
+      |            ^~~~~~
+..\src\funcoes.c:285:12: warning: unused variable 'carros' [-Wunused-variable]
+21:38:32 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:117:6: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'novo'
+  117 |  novo->
+      |      ^~
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+21:39:00 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:117:6: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'novo'
+  117 |  novo->
+      |      ^~
+..\src\funcoes.c:119:1: error: expected identifier before '}' token
+  119 | }
+      | ^
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:202:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  202 |  Clientes clientes;
+      |           ^~~~~~~~
+21:45:41 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:117:16: error: 'ABCD123' undeclared (first use in this function)
+  117 |  novo->placa = ABCD123;
+      |                ^~~~~~~
+..\src\funcoes.c:117:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c:118:25: error: assignment to expression with array type
+  118 |  novo->codigoSequencial =
+      |                         ^
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:203:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  203 |  Clientes clientes;
+      |           ^~~~~~~~
+21:47:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:117:16: warning: character constant too long for its type
+  117 |  novo->placa = 'ABCD123';
+      |                ^~~~~~~~~
+..\src\funcoes.c:117:14: error: assignment to expression with array type
+  117 |  novo->placa = 'ABCD123';
+      |              ^
+..\src\funcoes.c:118:27: warning: character constant too long for its type
+  118 |  novo->codigoSequencial = 'E1999011';
+      |                           ^~~~~~~~~~
+..\src\funcoes.c:118:25: error: assignment to expression with array type
+  118 |  novo->codigoSequencial = 'E1999011';
+      |                         ^
+..\src\funcoes.c:119:22: warning: character constant too long for its type
+  119 |  novo->marcaModelo = 'Corsa';
+      |                      ^~~~~~~
+..\src\funcoes.c:119:20: error: assignment to expression with array type
+  119 |  novo->marcaModelo = 'Corsa';
+      |                    ^
+..\src\funcoes.c:121:6: warning: statement with no effect [-Wunused-value]
+  121 |  novo->proximoDaLista;
+      |  ~~~~^~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:205:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  205 |  Clientes clientes;
+      |           ^~~~~~~~
+21:48:36 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:116:27: warning: implicit declaration of function 'malooc'; did you mean 'malloc'? [-Wimplicit-function-declaration]
+  116 |  Carros *novo = (Carros*) malooc (sizeof(Carros));
+      |                           ^~~~~~
+      |                           malloc
+..\src\funcoes.c:117:16: warning: character constant too long for its type
+  117 |  novo->placa = 'ABCD123';
+      |                ^~~~~~~~~
+..\src\funcoes.c:117:14: error: assignment to expression with array type
+  117 |  novo->placa = 'ABCD123';
+      |              ^
+..\src\funcoes.c:118:27: warning: character constant too long for its type
+  118 |  novo->codigoSequencial = 'E1999011';
+      |                           ^~~~~~~~~~
+..\src\funcoes.c:118:25: error: assignment to expression with array type
+  118 |  novo->codigoSequencial = 'E1999011';
+      |                         ^
+..\src\funcoes.c:119:22: warning: character constant too long for its type
+  119 |  novo->marcaModelo = 'Corsa';
+      |                      ^~~~~~~
+..\src\funcoes.c:119:20: error: assignment to expression with array type
+  119 |  novo->marcaModelo = 'Corsa';
+      |                    ^
+..\src\funcoes.c:121:6: warning: statement with no effect [-Wunused-value]
+  121 |  novo->proximoDaLista;
+      |  ~~~~^~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:205:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  205 |  Clientes clientes;
+      |           ^~~~~~~~
+21:48:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:117:16: warning: character constant too long for its type
+  117 |  novo->placa = 'ABCD123';
+      |                ^~~~~~~~~
+..\src\funcoes.c:117:14: error: assignment to expression with array type
+  117 |  novo->placa = 'ABCD123';
+      |              ^
+..\src\funcoes.c:118:27: warning: character constant too long for its type
+  118 |  novo->codigoSequencial = 'E1999011';
+      |                           ^~~~~~~~~~
+..\src\funcoes.c:118:25: error: assignment to expression with array type
+  118 |  novo->codigoSequencial = 'E1999011';
+      |                         ^
+..\src\funcoes.c:119:22: warning: character constant too long for its type
+  119 |  novo->marcaModelo = 'Corsa';
+      |                      ^~~~~~~
+..\src\funcoes.c:119:20: error: assignment to expression with array type
+  119 |  novo->marcaModelo = 'Corsa';
+      |                    ^
+..\src\funcoes.c:121:6: warning: statement with no effect [-Wunused-value]
+  121 |  novo->proximoDaLista;
+      |  ~~~~^~~~~~~~~~~~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:205:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  205 |  Clientes clientes;
+      |           ^~~~~~~~
+21:50:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:118:22: warning: character constant too long for its type
+  118 |  char novaPlaca[8] = 'ABCD123';
+      |                      ^~~~~~~~~
+..\src\funcoes.c:118:22: error: invalid initializer
+..\src\funcoes.c:119:23: warning: character constant too long for its type
+  119 |  char novoCodigo[8] = 'E1999011';
+      |                       ^~~~~~~~~~
+..\src\funcoes.c:119:23: error: invalid initializer
+..\src\funcoes.c:120:24: warning: character constant too long for its type
+  120 |  char novoModelo[30] = 'Corsa';
+      |                        ^~~~~~~
+..\src\funcoes.c:120:24: error: invalid initializer
+..\src\funcoes.c:122:14: error: assignment to expression with array type
+  122 |  novo->placa = novaPlaca;
+      |              ^
+..\src\funcoes.c:123:25: error: assignment to expression with array type
+  123 |  novo->codigoSequencial = novoCodigo;
+      |                         ^
+..\src\funcoes.c:124:20: error: assignment to expression with array type
+  124 |  novo->marcaModelo = novoModelo;
+      |                    ^
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:210:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  210 |  Clientes clientes;
+      |           ^~~~~~~~
+21:52:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:118:22: warning: character constant too long for its type
+  118 |  char novaPlaca[8] = 'ABCD123';
+      |                      ^~~~~~~~~
+..\src\funcoes.c:118:22: error: invalid initializer
+..\src\funcoes.c:119:23: warning: character constant too long for its type
+  119 |  char novoCodigo[8] = 'E1999011';
+      |                       ^~~~~~~~~~
+..\src\funcoes.c:119:23: error: invalid initializer
+..\src\funcoes.c:120:24: warning: character constant too long for its type
+  120 |  char novoModelo[30] = 'Corsa';
+      |                        ^~~~~~~
+..\src\funcoes.c:120:24: error: invalid initializer
+..\src\funcoes.c:122:14: error: assignment to expression with array type
+  122 |  novo->placa = novaPlaca;
+      |              ^
+..\src\funcoes.c:123:25: error: assignment to expression with array type
+  123 |  novo->codigoSequencial = novoCodigo;
+      |                         ^
+..\src\funcoes.c:124:20: error: assignment to expression with array type
+  124 |  novo->marcaModelo = novoModelo;
+      |                    ^
+..\src\funcoes.c:132:4: error: 'ultimoLiSTA' undeclared (first use in this function); did you mean 'ultimoLista'?
+  132 |  (*ultimoLiSTA) = novo;
+      |    ^~~~~~~~~~~
+      |    ultimoLista
+..\src\funcoes.c:132:4: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:216:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  216 |  Clientes clientes;
+      |           ^~~~~~~~
+21:52:45 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:118:22: warning: character constant too long for its type
+  118 |  char novaPlaca[8] = 'ABCD123';
+      |                      ^~~~~~~~~
+..\src\funcoes.c:118:22: error: invalid initializer
+..\src\funcoes.c:119:23: warning: character constant too long for its type
+  119 |  char novoCodigo[8] = 'E1999011';
+      |                       ^~~~~~~~~~
+..\src\funcoes.c:119:23: error: invalid initializer
+..\src\funcoes.c:120:24: warning: character constant too long for its type
+  120 |  char novoModelo[30] = 'Corsa';
+      |                        ^~~~~~~
+..\src\funcoes.c:120:24: error: invalid initializer
+..\src\funcoes.c:122:14: error: assignment to expression with array type
+  122 |  novo->placa = novaPlaca;
+      |              ^
+..\src\funcoes.c:123:25: error: assignment to expression with array type
+  123 |  novo->codigoSequencial = novoCodigo;
+      |                         ^
+..\src\funcoes.c:124:20: error: assignment to expression with array type
+  124 |  novo->marcaModelo = novoModelo;
+      |                    ^
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:216:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  216 |  Clientes clientes;
+      |           ^~~~~~~~
+21:53:55 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:215:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  215 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+21:54:08 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:214:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  214 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:05:29 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:124:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:139:18: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |                 ~^
+      |                  |
+      |                  char *
+..\src\funcoes.c:139:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:140:26: note: format string is defined here
+  140 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c:139:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:141:22: note: format string is defined here
+  141 |     "Marca Modelo - %s\n"
+      |                     ~^
+      |                      |
+      |                      char *
+..\src\funcoes.c:139:10: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:142:13: note: format string is defined here
+  142 |     "Ano - %d\n"
+      |            ~^
+      |             |
+      |             int
+..\src\funcoes.c:146:17: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'codigo'
+  146 |     lista, lista->codigo, lista->proximo);
+      |                 ^~
+..\src\funcoes.c:146:32: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  146 |     lista, lista->codigo, lista->proximo);
+      |                                ^~
+..\src\funcoes.c:147:18: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  147 |   impressao(lista->proximo);
+      |                  ^~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:233:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  233 |  Clientes clientes;
+      |           ^~~~~~~~
+22:05:43 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'teste':
+..\src\funcoes.c:116:11: warning: unused variable 'clientes' [-Wunused-variable]
+  116 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:124:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:139:18: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |                 ~^
+      |                  |
+      |                  char *
+..\src\funcoes.c:139:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:140:26: note: format string is defined here
+  140 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c:139:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:141:22: note: format string is defined here
+  141 |     "Marca Modelo - %s\n"
+      |                     ~^
+      |                      |
+      |                      char *
+..\src\funcoes.c:139:10: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:142:13: note: format string is defined here
+  142 |     "Ano - %d\n"
+      |            ~^
+      |             |
+      |             int
+..\src\funcoes.c:146:17: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'codigo'
+  146 |     lista, lista->codigo, lista->proximo);
+      |                 ^~
+..\src\funcoes.c:146:32: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  146 |     lista, lista->codigo, lista->proximo);
+      |                                ^~
+..\src\funcoes.c:147:18: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  147 |   impressao(lista->proximo);
+      |                  ^~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:233:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  233 |  Clientes clientes;
+      |           ^~~~~~~~
+22:14:28 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:40:4: warning: implicit declaration of function 'impressao' [-Wimplicit-function-declaration]
+   40 |    impressao(listaCarro);
+      |    ^~~~~~~~~
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'teste':
+..\src\funcoes.c:116:11: warning: unused variable 'clientes' [-Wunused-variable]
+  116 |  Clientes clientes;
+      |           ^~~~~~~~
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:124:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:139:18: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |                 ~^
+      |                  |
+      |                  char *
+..\src\funcoes.c:139:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:140:26: note: format string is defined here
+  140 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c:139:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:141:22: note: format string is defined here
+  141 |     "Marca Modelo - %s\n"
+      |                     ~^
+      |                      |
+      |                      char *
+..\src\funcoes.c:139:10: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  139 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:142:13: note: format string is defined here
+  142 |     "Ano - %d\n"
+      |            ~^
+      |             |
+      |             int
+..\src\funcoes.c:146:17: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'codigo'
+  146 |     lista, lista->codigo, lista->proximo);
+      |                 ^~
+..\src\funcoes.c:146:32: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  146 |     lista, lista->codigo, lista->proximo);
+      |                                ^~
+..\src\funcoes.c:147:18: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  147 |   impressao(lista->proximo);
+      |                  ^~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:233:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  233 |  Clientes clientes;
+      |           ^~~~~~~~
+22:14:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:40:4: warning: implicit declaration of function 'impressao' [-Wimplicit-function-declaration]
+   40 |    impressao(listaCarro);
+      |    ^~~~~~~~~
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:18: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |                 ~^
+      |                  |
+      |                  char *
+..\src\funcoes.c:135:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c:135:10: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:137:22: note: format string is defined here
+  137 |     "Marca Modelo - %s\n"
+      |                     ~^
+      |                      |
+      |                      char *
+..\src\funcoes.c:135:10: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+..\src\funcoes.c:138:13: note: format string is defined here
+  138 |     "Ano - %d\n"
+      |            ~^
+      |             |
+      |             int
+..\src\funcoes.c:142:17: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'codigo'
+  142 |     lista, lista->codigo, lista->proximo);
+      |                 ^~
+..\src\funcoes.c:142:32: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  142 |     lista, lista->codigo, lista->proximo);
+      |                                ^~
+..\src\funcoes.c:143:18: error: 'Carros' {aka 'struct dadosCarro'} has no member named 'proximo'
+  143 |   impressao(lista->proximo);
+      |                  ^~
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:229:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  229 |  Clientes clientes;
+      |           ^~~~~~~~
+22:15:39 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  139 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:227:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  227 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+22:15:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:40:4: warning: implicit declaration of function 'impressao' [-Wimplicit-function-declaration]
+   40 |    impressao(listaCarro);
+      |    ^~~~~~~~~
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+22:17:48 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+22:18:02 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+22:18:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:18:31 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:40:4: warning: implicit declaration of function 'impressao' [-Wimplicit-function-declaration]
+   40 |    impressao(listaCarro);
+      |    ^~~~~~~~~
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:19:01 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:19:33 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:119:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+  119 |  int i++;
+      |       ^~
+..\src\funcoes.c:119:9: error: expected expression before ';' token
+  119 |  int i++;
+      |         ^
+..\src\funcoes.c:121:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c:123:21: error: 'i' undeclared (first use in this function)
+  123 |  novo->ano = 2000 + i;
+      |                     ^
+..\src\funcoes.c:123:21: note: each undeclared identifier is reported only once for each function it appears in
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:136:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  136 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  142 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:137:26: note: format string is defined here
+  137 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:231:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  231 |  Clientes clientes;
+      |           ^~~~~~~~
+22:19:57 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+22:24:49 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:26:25 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:26:30 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+Info: Nothing to build for programasC
+Info: Nothing to build for programasC
+22:26:59 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programaPrincipalAII.o" "..\\src\\programaPrincipalAII.c" 
+..\src\programaPrincipalAII.c: In function 'main':
+..\src\programaPrincipalAII.c:12:11: warning: unused variable 'clientes' [-Wunused-variable]
+   12 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
+22:27:37 **** Incremental Build of configuration Debug for project programasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcoes.o" "..\\src\\funcoes.c" 
+..\src\funcoes.c: In function 'inserirFimUltimo':
+..\src\funcoes.c:120:13: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+  120 |  strcpy(novo->codigoSequencial, "E1999011");
+      |         ~~~~^~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+In file included from ..\src\biblioteca.h:9,
+                 from ..\src\funcoes.c:3:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+..\src\funcoes.c: In function 'impressao':
+..\src\funcoes.c:135:10: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char **' [-Wformat=]
+  135 |   printf("Placa %s\n"
+      |          ^~~~~~~~~~~~
+......
+  141 |     lista->placa,lista->codigoSequencial,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       char **
+..\src\funcoes.c:136:26: note: format string is defined here
+  136 |     "Codigo Sequencial -%s\n"
+      |                         ~^
+      |                          |
+      |                          char *
+..\src\funcoes.c: In function 'verificarTipoContrato':
+..\src\funcoes.c:230:11: warning: variable 'clientes' set but not used [-Wunused-but-set-variable]
+  230 |  Clientes clientes;
+      |           ^~~~~~~~
+gcc -o programasC.exe "src\\funcoes.o" "src\\programaPrincipalAII.o" 
