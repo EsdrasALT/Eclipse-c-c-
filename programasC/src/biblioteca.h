@@ -51,7 +51,6 @@ struct dadosCliente{
 //-------------Prototipação de Funções-------------
 //MENU
 void menuPrincipal();
-
 void menuInserir();
 	void inserirCliente();
 	void inserirPlaca();
@@ -64,28 +63,32 @@ void inserirFimUltimo(Carros **ultimoLista);
 
 //NOME
 void receberNomePreenchido(Clientes *cliente);
-void formatarNomeRecursiva(char *nome); // TODO IMPLEMENTAR
-
-//FUNCAO CODIGO - TODO
+void formatarNomeRecursiva(char *nome, int indice, int caractereDeveSerPego);
 
 //DATA
-int validarData(int dia, int mes, int ano);
-DataNascimento converterData( char *data_str);
-DataNascimento solicitarDataDeNascimento();
-int verificarIdade(DataNascimento data_nascimento); //TODO IMPLEMENTAR
+void solicitarDataDeNascimento(DataNascimento *dataNascimento);
+DataNascimento converterData(char *data_str);
+int verificarIdade(int ano);
+int isAnoBissexto(int ano);
+int isDataValida(int dia, int mes, int ano);
+
+//FUNCAO CODIGO
+void gerarCodigoSequencial(Clientes *cliente, DataNascimento *dataNascimento, int *numeroSequencial);
 
 //TIPO DE CONTRATO
-void verificarTipoContrato();
+void verificarTipoContrato(Clientes *cliente);
 
 //FUNCAO QTDE PLACA
-void quantidadePlacas();
+void quantidadePlacas(Clientes *cliente);
 
 //PLACAS
 void chamarFuncoesPlacas();
-void validarPlacaAntiga();
-void validarPlacaNova();
+	void validarPlacaAntiga();
+	void validarPlacaNova();
 
 //FUNCAO CODIGO - TODO
+void gerarCodigoSequencialCarro(Carros *carro,Clientes *cliente, int *numeroSequencial);
+
 //FUNCAO MODELO - TODO
 //FUNCAO ANO - TODO
 

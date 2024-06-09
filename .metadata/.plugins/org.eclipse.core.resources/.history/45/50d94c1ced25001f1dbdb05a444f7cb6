@@ -1,0 +1,18 @@
+// MAIN - programaPrincipal.c = https://codeshare.io/jALdkP
+
+#include "biblioteca.h"
+
+//Daniel Ribeiro Costa
+//Danilo Augusto
+//Esdras Altivo
+
+int main(void) {
+	setbuf(stdout, NULL);
+	Clientes *cliente;
+	receberNomePreenchido(&cliente);
+
+	DataNascimento dataNascimento;
+	solicitarDataDeNascimento(&dataNascimento);
+
+	return EXIT_SUCCESS;
+}

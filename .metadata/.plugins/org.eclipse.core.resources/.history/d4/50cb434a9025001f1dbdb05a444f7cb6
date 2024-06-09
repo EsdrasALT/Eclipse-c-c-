@@ -1,0 +1,122 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Definição da estrutura do carro
+typedef struct Carro {
+    int codigoSequencial;
+    char placa[10];
+    struct Carro *proximo;
+} Carro;
+
+// Definição da estrutura do cliente
+typedef struct Cliente {
+    int codigoSequencial;
+    char nome[50];
+    int quantidadeDeCarros;
+    Carro *carros; // Fila de carros do cliente
+    struct Cliente *proximo;
+} Cliente;
+
+// Definição da fila de clientes
+typedef struct {
+    Cliente *frente;
+    Cliente *tras;
+} FilaClientes;
+
+// Função para inicializar a fila de clientes
+void inicializaFilaClientes(FilaClientes *fila) {
+    fila->frente = NULL;
+    fila->tras = NULL;
+}
+
+// Função para adicionar um cliente na fila
+void enfileiraCliente(FilaClientes *fila, Cliente *cliente) {
+    if (fila->tras == NULL) {
+        fila->frente = cliente;
+        fila->tras = cliente;
+    } else {
+        fila->tras->proximo = cliente;
+        fila->tras = cliente;
+    }
+    cliente->proximo = NULL;
+}
+
+// Função para adicionar um carro na fila de carros do cliente
+void enfileiraCarro(Cliente *cliente, Carro *carro) {
+    Carro *ultimo = cliente->carros;
+    if (ultimo == NULL) {
+        cliente->carros = carro;
+    } else {
+        while (ultimo->proximo != NULL) {
+            ultimo = ultimo->proximo;
+        }
+        ultimo->proximo = carro;
+    }
+    carro->proximo = NULL;
+}
+
+// Função para criar um novo cliente
+Cliente* criaCliente(int codigoSequencial, char nome[], int quantidadeDeCarros) {
+    Cliente *cliente = (Cliente*)malloc(sizeof(Cliente));
+    cliente->codigoSequencial = codigoSequencial;
+    strcpy(cliente->nome, nome);
+    cliente->quantidadeDeCarros = quantidadeDeCarros;
+    cliente->carros = NULL;
+    cliente->proximo = NULL;
+    return cliente;
+}
+
+// Função para criar um novo carro
+Carro* criaCarro(int codigoSequencial, char placa[]) {
+    Carro *carro = (Carro*)malloc(sizeof(Carro));
+    carro->codigoSequencial = codigoSequencial;
+    strcpy(carro->placa, placa);
+    carro->proximo = NULL;
+    return carro;
+}
+
+// Função para imprimir os dados de um cliente e seus carros
+void imprimeCliente(Cliente *cliente) {
+    printf("Cliente: %s (Codigo: %d)\n", cliente->nome, cliente->codigoSequencial);
+    printf("Quantidade de Carros: %d\n", cliente->quantidadeDeCarros);
+    Carro *carro = cliente->carros;
+    while (carro != NULL) {
+        printf("  Carro: %s (Codigo: %d)\n", carro->placa, carro->codigoSequencial);
+        carro = carro->proximo;
+    }
+    printf("\n");
+}
+
+// Função principal
+int main() {
+    FilaClientes fila;
+    inicializaFilaClientes(&fila);
+
+    // Criar e adicionar clientes
+    Cliente *cliente1 = criaCliente(1, "Alice", 2);
+    enfileiraCliente(&fila, cliente1);
+
+    Cliente *cliente2 = criaCliente(2, "Bob", 1);
+    enfileiraCliente(&fila, cliente2);
+
+    // Criar e adicionar carros para cliente1
+    Carro *carro1 = criaCarro(1, "AAA1111");
+    enfileiraCarro(cliente1, carro1);
+
+    Carro *carro2 = criaCarro(2, "BBB2222");
+    enfileiraCarro(cliente1, carro2);
+
+    // Criar e adicionar carros para cliente2
+    Carro *carro3 = criaCarro(3, "CCC3333");
+    enfileiraCarro(cliente2, carro3);
+
+    // Imprimir clientes e seus carros
+    Cliente *cliente = fila.frente;
+    while (cliente != NULL) {
+        imprimeCliente(cliente);
+        cliente = cliente->proximo;
+    }
+
+    return 0;
+}
