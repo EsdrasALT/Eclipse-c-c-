@@ -55,7 +55,7 @@ struct dadosCliente{
 void menuPrincipal();
 void menuInserir();
 void inserirCliente(Clientes **inicio, Clientes **fim, int numeroSequencial);
-void inserirPlaca();
+void inserirPlaca(Clientes *inicio, int numeroSequencial);
 void menuExcluir();
 void menuRelatorios();
 
@@ -66,12 +66,14 @@ void insereClienteFim(Clientes **inicio, Clientes **fim, Clientes *novoCliente);
 Carros* criaCarro(Clientes *cliente,int numeroSequencial);
 void insereCarroInicio(Clientes *cliente, Carros *carro);
 
+//OUTROS
+Clientes* encontraCliente(Clientes *inicio, char *codigoCliente);
+
 //NOME
 void receberNomePreenchido(Clientes *cliente);
 void formatarNomeRecursiva(char *nome, int indice, int caractereDeveSerPego);
 
 //DATA
-
 DataNascimento* solicitarDataDeNascimento();
 DataNascimento converterData(char *data_str);
 int verificarIdade(int ano);

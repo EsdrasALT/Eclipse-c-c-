@@ -51,7 +51,7 @@ void menuInserir(Clientes **inicio, Clientes **fim, int codigoSequencial){
         	inserirCliente(&inicio, &fim, codigoSequencial);
             break;
         case 2:
-        	inserirPlaca();
+        	inserirPlaca(&inicio, codigoSequencial);
             break;
         default:
             printf("Opção inválida!\n");
@@ -119,8 +119,20 @@ void inserirCliente(Clientes **inicio, Clientes **fim, int numeroSequencial){
     printf("Cliente inserido com sucesso!\n");
 }
 
-void inserirPlaca(){
-
+void inserirPlaca(Clientes *inicio, int numeroSequencial){
+    char clienteCodigo[8]; // Supondo que o código do cliente seja de até 7 caracteres + '\0'
+    printf("Digite o codigo do cliente: ");
+    scanf("%7s", clienteCodigo);
+    //getchar();
+    Clientes *cliente = encontraCliente(inicio, clienteCodigo);
+    if (cliente == NULL) {
+        printf("Cliente com codigo %s nao encontrado.\n", clienteCodigo);
+    } else if (cliente->quantidadePlacas > MAX_CARROS){
+    	printf("Espaço limite de carros atingindo.\n");
+    } else {
+		Carros *novoCarro = criaCarro(cliente, numeroSequencial++);
+		insereCarroInicio(cliente, novoCarro);
+    }
 }
 
 Clientes* criarCliente(int codigo){
@@ -172,6 +184,16 @@ void insereCarroInicio(Clientes *cliente, Carros *carro){
 	cliente->carros = carro;
 }
 
+Clientes* encontraCliente(Clientes *inicio, char *codigoCliente) {
+    Clientes *cliente = inicio;
+    while (cliente != NULL) {
+        if (strcmp(cliente->codigo, codigoCliente) == 0) {
+            return cliente;
+        }
+        cliente = cliente->proximo;
+    }
+    return NULL;
+}
 
 void receberNomePreenchido(Clientes *cliente) { //chamada da função: receberNomePreenchido(&cliente);
 	printf("Digite o nome do cliente: ");
