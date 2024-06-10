@@ -32,8 +32,8 @@ struct dadosCarro{
 	char marcaModelo[30];
 	int ano;
 
-  //TODO Declaracao Listas
-	Carros *proximoDaLista;
+  //Declaracao Listas
+	Carros *proximo;
 };
 
 struct dadosCliente{
@@ -42,38 +42,46 @@ struct dadosCliente{
 	char codigo[7];
 	char tipoContrato;
 	int quantidadePlacas;
-	Carros *carros[MAX_CARROS];
+	DataNascimento *dataNascimento;
+	Carros *carros;
 
-  //TODO Declaracao Listas
-
+  //Declaracao Listas
+	Clientes *anterior;
+	Clientes *proximo;
 };
 
 //-------------Prototipação de Funções-------------
 //MENU
 void menuPrincipal();
 void menuInserir();
-	void inserirCliente();
-	void inserirPlaca();
-
+void inserirCliente(Clientes **inicio, Clientes **fim, int numeroSequencial);
+void inserirPlaca(Clientes *inicio, int numeroSequencial);
 void menuExcluir();
 void menuRelatorios();
 
 //LISTAS
-void inserirFimUltimo(Carros **ultimoLista);
+Clientes* criarCliente(int codigo);
+void insereClienteFim(Clientes **inicio, Clientes **fim, Clientes *novoCliente);
+
+Carros* criaCarro(Clientes *cliente,int numeroSequencial);
+void insereCarroInicio(Clientes *cliente, Carros *carro);
+
+//OUTROS
+Clientes* encontraCliente(Clientes *inicio, char *codigoCliente);
 
 //NOME
 void receberNomePreenchido(Clientes *cliente);
 void formatarNomeRecursiva(char *nome, int indice, int caractereDeveSerPego);
 
 //DATA
-void solicitarDataDeNascimento(DataNascimento *dataNascimento);
+DataNascimento* solicitarDataDeNascimento();
 DataNascimento converterData(char *data_str);
 int verificarIdade(int ano);
 int isAnoBissexto(int ano);
 int isDataValida(int dia, int mes, int ano);
 
 //FUNCAO CODIGO
-void gerarCodigoSequencial(Clientes *cliente, DataNascimento *dataNascimento, int *numeroSequencial);
+void gerarCodigoSequencial(Clientes *cliente, int numeroSequencial);
 
 //TIPO DE CONTRATO
 void verificarTipoContrato(Clientes *cliente);
@@ -83,13 +91,19 @@ void quantidadePlacas(Clientes *cliente);
 
 //PLACAS
 void chamarFuncoesPlacas();
-	void validarPlacaAntiga();
-	void validarPlacaNova();
+void validarPlacaAntiga();
+void validarPlacaNova();
 
-//FUNCAO CODIGO - TODO
-void gerarCodigoSequencialCarro(Carros *carro,Clientes *cliente, int *numeroSequencial);
+//FUNCAO CODIGO
+void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial);
 
-//FUNCAO MODELO - TODO
-//FUNCAO ANO - TODO
+//FUNCAO MODELO
+void receberMarcaOuModeloCarro(Carros *carro);
+int mostrarMenuMarca();
+int mostrarSubmenuModelos(int marca);
+void concatenarMarcaModelo(Carros *carro, int marca, int modelo);
+
+//FUNCAO ANO
+void receberAnoCarro(Carros *carro);
 
 #endif /* BIBLIOTECA_H_ */

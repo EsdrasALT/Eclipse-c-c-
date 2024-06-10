@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="nao encontrado"/>
+		<item key="selection" value="Codigo do cliente"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="nao encontrado"/>
+			<item value="E199901"/>
+			<item value="Codigo do cliente"/>
+			<item value="encontraCliente"/>
+			<item value="Sequencial"/>
+			<item value="codigoSequencial"/>
+			<item value="numeroSequencial"/>
 			<item value="quantidadePlacas"/>
+			<item value="quantidade"/>
+			<item value="insereClienteFim"/>
+			<item value="nao encontrado"/>
 			<item value="todo"/>
 			<item value="TO-DO"/>
 			<item value="TODO"/>
-			<item value="quantidade"/>
 			<item value="placa"/>
 			<item value="excluir"/>
-			<item value="Formato incorreto. Por favor, insira a data no formato correto."/>
-			<item value="float calcularSerieRecursividade(int numero)"/>
-			<item value="float calcularSerieRecursividade(int numero);"/>
-			<item value="stpr"/>
-			<item value="row"/>
-			<item value="rou"/>
-			<item value="cadastrarNome"/>
 		</list>
 		<list key="replacehistory">
 			<item value="TODO"/>

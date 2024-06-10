@@ -1,0 +1,19 @@
+// MAIN - programaPrincipal.c = https://codeshare.io/jALdkP
+
+#include "biblioteca.h"
+
+//Daniel Ribeiro Costa
+//Danilo Augusto
+//Esdras Altivo
+
+int main(void) {
+	setbuf(stdout, NULL);
+	Clientes *cliente;
+	DataNascimento dataNascimento;
+	Carros *carro;
+	int numeroSequencial = 1;
+
+	receberAnoCarro(&carro);
+
+	return EXIT_SUCCESS;
+}
