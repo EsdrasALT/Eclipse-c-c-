@@ -28,7 +28,7 @@ struct dadosDataDeNascimento{
 struct dadosCarro{
 	//Dados Simples
 	char placa[PLACA_LENGTH+1]; // +1 para o caractere \0
-	char *codigoSequencial[8];
+	char *codigoSequencial[9];
 	char marcaModelo[30];
 	int ano;
 
@@ -55,19 +55,20 @@ struct dadosCliente{
 void menuPrincipal();
 void menuInserir();
 void inserirCliente(Clientes **inicio, Clientes **fim, int numeroSequencial);
-void inserirPlaca(Clientes *inicio, int numeroSequencial);
-void menuExcluir();
+void inserirPlaca(Clientes **inicio, int numeroSequencial);
+void menuExcluir(Clientes **inicio);
 void menuRelatorios();
 
-//LISTAS
-Clientes* criarCliente(int codigo);
-void insereClienteFim(Clientes **inicio, Clientes **fim, Clientes *novoCliente);
+//INSERIR CLIENTE
+Clientes* criarCliente(Clientes **inicio, Clientes **fim, int codigo);
 
+//INSERIR CARRO
 Carros* criaCarro(Clientes *cliente,int numeroSequencial);
-void insereCarroInicio(Clientes *cliente, Carros *carro);
 
-//OUTROS
-Clientes* encontraCliente(Clientes *inicio, char *codigoCliente);
+//EXCLUIR CLIENTE
+char* buscarCodigo(char* mensagem);
+Clientes* buscarRegistro(Clientes *atual, char codigoCliente);
+
 
 //NOME
 void receberNomePreenchido(Clientes *cliente);
@@ -96,6 +97,7 @@ void validarPlacaNova();
 
 //FUNCAO CODIGO
 void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial);
+
 
 //FUNCAO MODELO
 void receberMarcaOuModeloCarro(Carros *carro);

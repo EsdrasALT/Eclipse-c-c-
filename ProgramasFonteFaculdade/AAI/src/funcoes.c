@@ -19,13 +19,13 @@ void menuPrincipal(){
 
         switch(opcao) {
             case 'A':
-            	menuInserir(&inicio, &fim, codigoSequencial);
+            	menuInserir(inicio, fim, codigoSequencial);
                 break;
             case 'B':
-            	menuExcluir();
+            	menuExcluir(inicio);
                 break;
             case 'C':
-            	menuRelatorios();
+            	menuRelatorios(inicio);
                 break;
             case 'D':
                 printf("Finalizando o programa...\n");
@@ -48,10 +48,10 @@ void menuInserir(Clientes **inicio, Clientes **fim, int codigoSequencial){
 
     switch(opcao) {
         case 1:
-        	inserirCliente(&inicio, &fim, codigoSequencial);
+        	inserirCliente(inicio, fim, codigoSequencial);
             break;
         case 2:
-        	inserirPlaca(&inicio, codigoSequencial);
+        	inserirPlaca(inicio, codigoSequencial);
             break;
         default:
             printf("Opção inválida!\n");
@@ -59,7 +59,7 @@ void menuInserir(Clientes **inicio, Clientes **fim, int codigoSequencial){
     }
 }
 
-void menuExcluir(){
+void menuExcluir(Clientes **inicio){
     int opcao;
     printf("\nMenu Excluir:\n");
     printf("1 - Exclusão de cliente\n");
@@ -69,7 +69,7 @@ void menuExcluir(){
 
     switch(opcao) {
         case 1:
-            //excluir_cliente();
+            //excluirCliente(inicio);
             break;
         case 2:
             //excluir_placa();
@@ -107,35 +107,17 @@ void menuRelatorios(){
 
 
 void inserirCliente(Clientes **inicio, Clientes **fim, int numeroSequencial){
-	Clientes *novoCliente = criarCliente(numeroSequencial++);
-    insereClienteFim(inicio, fim, novoCliente);
 
+	Clientes *novoCliente = criarCliente(inicio, fim, numeroSequencial);
 
     for(int i=0;i<novoCliente->quantidadePlacas;i++){
-		Carros *novoCarro = criaCarro(novoCliente,numeroSequencial++);
-		insereCarroInicio(novoCliente, novoCarro);
+		Carros *novoCarro = criaCarro(novoCliente,numeroSequencial);
+//		insereCarroInicio(novoCliente, novoCarro);
     }
-
     printf("Cliente inserido com sucesso!\n");
 }
 
-void inserirPlaca(Clientes *inicio, int numeroSequencial){
-    char clienteCodigo[8]; // Supondo que o código do cliente seja de até 7 caracteres + '\0'
-    printf("Digite o codigo do cliente: ");
-    scanf("%7s", clienteCodigo);
-    //getchar();
-    Clientes *cliente = encontraCliente(inicio, clienteCodigo);
-    if (cliente == NULL) {
-        printf("Cliente com codigo %s nao encontrado.\n", clienteCodigo);
-    } else if (cliente->quantidadePlacas > MAX_CARROS){
-    	printf("Espaço limite de carros atingindo.\n");
-    } else {
-		Carros *novoCarro = criaCarro(cliente, numeroSequencial++);
-		insereCarroInicio(cliente, novoCarro);
-    }
-}
-
-Clientes* criarCliente(int codigo){
+Clientes* criarCliente(Clientes **inicio, Clientes **fim, int codigo){
     Clientes *novoCliente = (Clientes *)malloc(sizeof(Clientes));
     if (novoCliente == NULL) {
         printf("Erro de alocação de memória!\n");
@@ -149,11 +131,8 @@ Clientes* criarCliente(int codigo){
     novoCliente->carros = NULL;
     novoCliente->anterior = NULL;
     novoCliente->proximo = NULL;
-    return novoCliente;
-}
 
-void insereClienteFim(Clientes **inicio, Clientes **fim, Clientes *novoCliente){
-	 if (*fim == NULL) { // Lista vazia
+    if (*fim == NULL) { // Lista vazia
 		*inicio = novoCliente;
 		*fim = novoCliente;
 	} else {
@@ -161,6 +140,8 @@ void insereClienteFim(Clientes **inicio, Clientes **fim, Clientes *novoCliente){
 		novoCliente->anterior = *fim;
 		*fim = novoCliente;
 	}
+
+    return novoCliente;
 }
 
 Carros* criaCarro(Clientes *cliente,int numeroSequencial){
@@ -174,26 +155,96 @@ Carros* criaCarro(Clientes *cliente,int numeroSequencial){
 	gerarCodigoSequencialCarro(novoCarro,cliente,numeroSequencial);
 	receberMarcaOuModeloCarro(novoCarro);
 	receberAnoCarro(novoCarro);
-	novoCarro->proximo = NULL;
+	novoCarro->proximo = cliente->carros;
+	cliente->carros = novoCarro;
 
 	return novoCarro;
 }
 
-void insereCarroInicio(Clientes *cliente, Carros *carro){
-	carro->proximo = cliente->carros;
-	cliente->carros = carro;
+void inserirPlaca(Clientes **inicio, int numeroSequencial){
+	char* clienteCodigo = buscarCodigo("Digite o código que buscado: ");
+    Clientes *cliente = buscarRegistro(inicio, clienteCodigo);
+
+    free(clienteCodigo);
+
+    if (cliente != NULL) {
+        printf("Cliente encontrado com o código: %s\n", clienteCodigo);
+    } else {
+        printf("Cliente não encontrado.\n");
+    }
+
+//    if (cliente == NULL) {
+//        printf("Cliente com codigo %s nao encontrado.\n", cliente->codigo);
+//    } else if (cliente->quantidadePlacas > MAX_CARROS){
+//    	printf("Espaço limite de carros atingindo.\n");
+//    } else {
+//		Carros *novoCarro = criaCarro(cliente, numeroSequencial++);
+////		insereCarroInicio(cliente, novoCarro);
+//    }
 }
 
-Clientes* encontraCliente(Clientes *inicio, char *codigoCliente) {
-    Clientes *cliente = inicio;
-    while (cliente != NULL) {
-        if (strcmp(cliente->codigo, codigoCliente) == 0) {
-            return cliente;
-        }
-        cliente = cliente->proximo;
+//Clientes* excluirCliente(Clientes **inicio){
+//	int codigo = buscarCodigo("Digite o código que será excluído: ");
+//	Clientes *excluir = buscarRegistro(inicio, codigo);
+//
+//	if (excluir != NULL){ //if (excluir)
+//		if (excluir->anterior == NULL) { //if (!anterior)
+//			inicio = inicio->proximo;
+//			if (inicio != NULL) { //if (iniciolista) {
+//				inicio->anterior = NULL;
+//			}
+//		} else {
+//			excluir->anterior->proximo = excluir->proximo;
+//			if (excluir->proximo != NULL) { //if (excluir->proximo) {
+//				excluir->proximo->anterior = excluir->anterior;
+//			}
+//		}
+//
+//		free(excluir);
+//	}
+//	return inicio;
+//}
+//
+
+char* buscarCodigo(char* mensagem) {
+    char digitacao[8];
+    printf("%s", mensagem);
+    fgets(digitacao, sizeof(digitacao), stdin);
+
+//    // Remove o caractere de nova linha, se presente
+//    size_t len = strlen(buffer);
+//    if (len > 0 && buffer[len - 1] == '\n') {
+//        buffer[len - 1] = '\0';
+//    }
+
+    // Aloca memória para a string de retorno
+    char* codigo = malloc((strlen(digitacao) + 1) * sizeof(char));
+    if (codigo == NULL) {
+        fprintf(stderr, "Erro de alocação de memória\n");
+        exit(1);
     }
+
+    // Copia o buffer para a memória alocada
+    strcpy(codigo, digitacao);
+    return codigo;
+}
+
+Clientes* buscarRegistro(Clientes *atual, char codigoCliente) {
+    while (atual != NULL) {
+        if (atual->codigo == codigoCliente) {
+            return atual;
+        } else {
+        	atual = atual->proximo;
+        }
+    }
+    printf("\nRegistro não encontrado.");
     return NULL;
 }
+
+
+
+
+
 
 void receberNomePreenchido(Clientes *cliente) { //chamada da função: receberNomePreenchido(&cliente);
 	printf("Digite o nome do cliente: ");
@@ -294,11 +345,8 @@ void gerarCodigoSequencial(Clientes *cliente, int numeroSequencial) {
     printf("Ano de nascimento: %d\n", cliente->dataNascimento->ano);
     printf("Número sequencial: %02d\n", numeroSequencial);
 
-    char codigo[7];
-    sprintf(codigo, "%c%d%02d", toupper(cliente->nome[0]), cliente->dataNascimento->ano, numeroSequencial);
-    printf("Código sequencial gerado: %s\n", codigo);
-
-    numeroSequencial++;
+    sprintf(cliente->codigo, "%c%d%02d", toupper(cliente->nome[0]), cliente->dataNascimento->ano, numeroSequencial);
+    printf("Código sequencial gerado: %s\n", cliente->codigo);
 }
 
 void verificarTipoContrato(Clientes *cliente){
@@ -452,18 +500,9 @@ void validarPlacaNova(Carros *carros) {
 }
 
 void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial){
-	printf("Codigo do cliente: %s\n", cliente->codigo);
-	printf("Número sequencial: %02d\n", numeroSequencial);
 
-	strcpy(carro->codigoSequencial, cliente->codigo);
-
-	char numeroSequencialString[3];
-	sprintf(numeroSequencialString, "%02d", numeroSequencial);
-	strcat(carro->codigoSequencial, numeroSequencialString);
-
-	printf("Código sequencial gerado para o carro: %s\n", carro->codigoSequencial);
-
-	numeroSequencial++;
+	sprintf(carro->codigoSequencial, "%s%02d", cliente->codigo, numeroSequencial);
+    printf("Código sequencial gerado: %s\n", carro->codigoSequencial);
 }
 
 void receberMarcaOuModeloCarro(Carros *carro) {

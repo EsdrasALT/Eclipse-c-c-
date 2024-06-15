@@ -51,22 +51,26 @@ struct dadosCliente{
 };
 
 //-------------Prototipação de Funções-------------
+
+
+
 //MENU
 void menuPrincipal();
 void menuInserir();
-void inserirCliente(Clientes **inicio, Clientes **fim, int numeroSequencial);
-void inserirPlaca(Clientes **inicio, int numeroSequencial);
-void menuExcluir();
+void inserirCliente(Clientes **inicio, Clientes **fim, int *numeroSequencial);
+void inserirPlaca(Clientes **inicio, int *numeroSequencial);
+void menuExcluir(Clientes **inicio);
 void menuRelatorios();
 
-//LISTAS
-Clientes* criarCliente(Clientes **inicio, Clientes **fim, int codigo);
+//INSERIR CLIENTE
+Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo);
 
+//INSERIR CARRO
 Carros* criaCarro(Clientes *cliente,int numeroSequencial);
-void insereCarroInicio(Clientes *cliente, Carros *carro);
 
-//OUTROS
-Clientes* encontraCliente(Clientes *inicio, char *codigoCliente);
+//EXCLUIR CLIENTE
+char* buscarCodigo(char* mensagem);
+Clientes* buscarRegistro(Clientes *atual, char *codigoCliente);
 
 //NOME
 void receberNomePreenchido(Clientes *cliente);
