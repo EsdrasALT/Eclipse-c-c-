@@ -71,7 +71,9 @@ void imprimeCliente(Clientes *cliente, int numCliente);
 //FUNCOES DE BUSCA
 char* buscarCodigo(char* mensagem);
 Clientes* buscarClientePorCodigo(Clientes *inicio, char *codigoCliente);
-Carros* buscarCarroPorCodigo(Clientes *inicio, char *placaCarro, Carros **anterior);
+Carros* buscarCarroPorCodigo(Clientes *inicio, char *codigoCarro, Carros **anterior);
+
+
 
 //LSTAR CLIENTE POR CODIGO
 void listarClientePorCodigo(Clientes *inicio);
