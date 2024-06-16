@@ -55,7 +55,7 @@ void imprimeCliente(Cliente *cliente) {
 void imprimeTodosClientes(Cliente *inicio) {
     Cliente *cliente = inicio;
     while (cliente != NULL) {
-        imprimeCliente(cliente);
+        imprimeCliente(cliente->proximo);
         cliente = cliente->proximo;
     }
 }
