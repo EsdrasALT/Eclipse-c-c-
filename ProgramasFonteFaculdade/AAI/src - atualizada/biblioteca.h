@@ -26,7 +26,7 @@ struct dadosDataDeNascimento{
 struct dadosCarro{
 	//Dados Simples
 	char placa[8];
-	char codigoSequencial[10];
+	char codigoSequencial[9];
 	char marcaModelo[31];
 	int ano;
 
@@ -37,7 +37,7 @@ struct dadosCarro{
 struct dadosCliente{
 	//Dados Simples
 	char nome[50];
-	char codigo[8];
+	char codigo[7];
 	char tipoContrato;
 	int quantidadePlacas;
 	DataNascimento *dataNascimento;

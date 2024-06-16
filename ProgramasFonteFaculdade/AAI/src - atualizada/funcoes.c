@@ -118,10 +118,25 @@ Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo){
         exit(1);
     }
     receberNomePreenchido(novoCliente);
+	printf("Nome formatado: %s\n", novoCliente->nome);
+
     solicitarDataDeNascimento(novoCliente);
+	printf("Data de nascimento válida: %02d/%02d/%d\n",
+			novoCliente->dataNascimento->dia,
+			novoCliente->dataNascimento->mes,
+			novoCliente->dataNascimento->ano);
+
     verificarTipoContrato(novoCliente);
+    printf("Tipo de contrato selecionado: %c\n", novoCliente->tipoContrato);
+
+
     quantidadePlacas(novoCliente);
+	printf("Quantidade de placas : %d\n", novoCliente->quantidadePlacas);
+
+
     gerarCodigoSequencial(novoCliente, (*codigo));
+    printf("Código sequencial gerado: %s\n", novoCliente->codigo);
+
 
     novoCliente->carros = NULL;
     novoCliente->anterior = NULL;
@@ -135,6 +150,10 @@ Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo){
         novoCliente->anterior = *fim;
         *fim = novoCliente;
     }
+
+	printf("\nAnterior %p - Endereço %p - Próximo %p\n",
+			novoCliente->anterior, novoCliente, novoCliente->proximo);
+
     return novoCliente;
 }
 
@@ -151,11 +170,24 @@ Carros* criaCarro(Clientes *cliente, int *codigo){
     }
 
     chamarFuncoesPlacas(novoCarro);
+    printf("Placa registrada: %s\n", novoCarro->placa);
+
     gerarCodigoSequencialCarro(novoCarro, cliente, (*codigo)++);
+    printf("Código sequencial gerado: %s\n", novoCarro->codigoSequencial);
+
     receberMarcaModeloCarro(novoCarro);
+    printf("Marca/Modelo: %s\n", novoCarro->marcaModelo);
+
     receberAnoCarro(novoCarro);
+    printf("Ano cadastrado: %d\n", novoCarro->ano);
+
     novoCarro->proximo = cliente->carros;
     cliente->carros = novoCarro;
+
+    printf("\nAnterior %p - Endereço %p - Próximo %p\n",
+			cliente->anterior, cliente, cliente->proximo);
+	printf("\nEndereço %p - Próximo %p\n",
+			novoCarro, novoCarro->proximo);
 
     return novoCarro;
 }
@@ -362,7 +394,7 @@ void excluirPlaca(Clientes **inicio) {
 }
 
 void receberNomePreenchido(Clientes *cliente) { //chamada da função: receberNomePreenchido(&cliente);
-	printf("\nDigite o nome do cliente: ");
+	printf("Digite o nome do cliente: ");
     fgets(cliente->nome, sizeof(cliente->nome), stdin);
     cliente->nome[strcspn(cliente->nome, "\n")] = '\0'; // Remover o caractere de enter (nova linha lido pelo fgets)
 
@@ -400,7 +432,7 @@ void solicitarDataDeNascimento(Clientes *cliente) {
 
 	int solicitarNovamente = 1;
 	while (solicitarNovamente) {
-		printf("\nDigite sua data de nascimento no formato DD/MM/AAAA: ");
+		printf("Digite sua data de nascimento no formato DD/MM/AAAA: ");
 		fgets(data_str, sizeof(data_str), stdin);
 		data_str[strcspn(data_str, "\n")]  = '\0';
 
@@ -412,6 +444,7 @@ void solicitarDataDeNascimento(Clientes *cliente) {
 				printf("Idade menor que 18 ou maior que 100\n");
 				solicitarNovamente = 1; // Solicitar novamente
 			} else {
+				printf("Idade apta\n");
 				solicitarNovamente = 0; // Saída do loop
 			}
 		} else {
@@ -450,13 +483,17 @@ int isDataValida(int dia, int mes, int ano) {
 }
 
 void gerarCodigoSequencial(Clientes *cliente, int numeroSequencial) {
+    printf("Primeira letra do nome: %c\n", cliente->nome[0]);
+    printf("Ano de nascimento: %d\n", cliente->dataNascimento->ano);
+    printf("Número sequencial: %02d\n", numeroSequencial);
+
     sprintf(cliente->codigo, "%c%d%02d", cliente->nome[0], cliente->dataNascimento->ano, numeroSequencial);
 }
 
 void verificarTipoContrato(Clientes *cliente) {
     char tipo;
     do {
-        printf("\nDigite o tipo de contrato (D - Diária, P - Parcial, M - Mensal): ");
+        printf("Digite o tipo de contrato (D - Diária, P - Parcial, M - Mensal): ");
         scanf(" %c", &tipo);
         tipo = toupper(tipo);
         getchar();
@@ -467,7 +504,7 @@ void verificarTipoContrato(Clientes *cliente) {
 void quantidadePlacas(Clientes *cliente) {
     int result;
     do {
-        printf("\nDigite a quantidade de placas: ");
+        printf("Digite a quantidade de placas: ");
         result = scanf("%d", &cliente->quantidadePlacas);
 
         if (result != 1) {
@@ -488,8 +525,7 @@ void chamarFuncoesPlacas(Carros *carro){
 	char escolha;
 	int placaInvalida = 1;
 	while (placaInvalida){
-		printf("\nCadastro de placa modelo novo ou modelo antigo?"
-			   "\n(A - Antigo OU N - Novo)\n");
+		printf("Cadastro de placa modelo novo ou modelo antigo? (A - Antigo OU N - Novo)\n");
 		scanf (" %c", &escolha);
 
 		if (escolha == 'A' || escolha == 'N'){
@@ -511,8 +547,7 @@ void validarPlacaAntiga(Carros *carros) {
     int placaInvalida = 1;
 
     do {
-        printf("\nDigite a placa seguindo o modelo antigo"
-        		"\n(exemplo: ABC1234):");
+        printf("Digite a placa seguindo o modelo antigo (exemplo: ABC1234): \n");
         scanf("%8s", digitacao);
         getchar();
 
@@ -553,8 +588,7 @@ void validarPlacaNova(Carros *carros) {
     int placaInvalida = 1;
 
     do {
-        printf("\nDigite a placa seguindo o modelo novo"
-        		"\n(exemplo: ABC1D23):");
+        printf("Digite a placa seguindo o modelo novo (exemplo: ABC1D23): \n");
         scanf("%8s", digitacao);
         getchar();
 
@@ -605,19 +639,14 @@ void validarPlacaNova(Carros *carros) {
     } while (placaInvalida);
 }
 
-void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial) {
-    // Copia o código do cliente para carro->codigoSequencial
-    strncpy(carro->codigoSequencial, cliente->codigo, sizeof(carro->codigoSequencial));
-    carro->codigoSequencial[sizeof(carro->codigoSequencial) - 1] = '\0'; // Garante o terminador nulo
+void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial){
 
-    // Concatena o número sequencial
-    int remaining_space = sizeof(carro->codigoSequencial) - strlen(carro->codigoSequencial);
-    snprintf(carro->codigoSequencial + strlen(carro->codigoSequencial), remaining_space, "%02d", numeroSequencial);
+	sprintf(carro->codigoSequencial, "%s%02d", cliente->codigo, numeroSequencial);
+	puts(carro->codigoSequencial);
 }
 
-
 void receberMarcaModeloCarro(Carros *carro) {
-    printf("\nInsira a marca/modelo do carro: ");
+    printf("Insira a marca/modelo do carro: ");
     fgets(carro->marcaModelo, sizeof(carro->marcaModelo), stdin);
     carro->marcaModelo[strcspn(carro->marcaModelo, "\n")] = '\0';
 }
@@ -628,10 +657,11 @@ void receberAnoCarro(Carros *carro) {
     do {
         printf("Digite o ano do carro (1950 - 2024): ");
         scanf("%d", &ano);
-        getchar();
         if (ano >= 1950 && ano <= 2024) {
             carro->ano = ano;
             anoInvalido = 0;
+        } else {
+            printf("Ano inválido. Tente novamente.\n");
         }
     } while (anoInvalido);
 }
