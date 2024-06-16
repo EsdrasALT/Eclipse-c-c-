@@ -26,7 +26,7 @@ struct dadosDataDeNascimento{
 struct dadosCarro{
 	//Dados Simples
 	char placa[8];
-	char codigoSequencial[9];
+	char codigoSequencial[10];
 	char marcaModelo[31];
 	int ano;
 
@@ -37,7 +37,7 @@ struct dadosCarro{
 struct dadosCliente{
 	//Dados Simples
 	char nome[50];
-	char codigo[7];
+	char codigo[8];
 	char tipoContrato;
 	int quantidadePlacas;
 	DataNascimento *dataNascimento;
@@ -71,7 +71,7 @@ void imprimeCliente(Clientes *cliente, int numCliente);
 //FUNCOES DE BUSCA
 char* buscarCodigo(char* mensagem);
 Clientes* buscarClientePorCodigo(Clientes *inicio, char *codigoCliente);
-Carros* buscarCarroPorCodigo(Clientes *inicio, char *placaCarro, Carros **anterior);
+Carros* buscarCarroPorCodigo(Clientes *inicio, char *codigoCarro, Carros **anterior);
 
 //LSTAR CLIENTE POR CODIGO
 void listarClientePorCodigo(Clientes *inicio);

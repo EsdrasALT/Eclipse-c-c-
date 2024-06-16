@@ -95,7 +95,7 @@ void menuRelatorios(Clientes *inicio){
         	listarClientePorCodigo(inicio);
             break;
         case 3:
-            listarClientesPorContrato(inicio); // TO-DO AJUSTE CONTRATO
+            listarClientesPorContrato(inicio);
             break;
         default:
             printf("Opção inválida!\n");
@@ -107,7 +107,7 @@ void inserirCliente(Clientes **inicio, Clientes **fim, int *numeroSequencial){
     Clientes *novoCliente = criarCliente(inicio, fim, numeroSequencial);
 
     for(int i=0; i < novoCliente->quantidadePlacas; i++){
-        Carros *novoCarro = criaCarro(novoCliente, numeroSequencial);
+        criaCarro(novoCliente, numeroSequencial);
     }
 }
 
@@ -118,25 +118,10 @@ Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo){
         exit(1);
     }
     receberNomePreenchido(novoCliente);
-	printf("Nome formatado: %s\n", novoCliente->nome);
-
     solicitarDataDeNascimento(novoCliente);
-	printf("Data de nascimento válida: %02d/%02d/%d\n",
-			novoCliente->dataNascimento->dia,
-			novoCliente->dataNascimento->mes,
-			novoCliente->dataNascimento->ano);
-
     verificarTipoContrato(novoCliente);
-    printf("Tipo de contrato selecionado: %c\n", novoCliente->tipoContrato);
-
-
     quantidadePlacas(novoCliente);
-	printf("Quantidade de placas : %d\n", novoCliente->quantidadePlacas);
-
-
     gerarCodigoSequencial(novoCliente, (*codigo));
-    printf("Código sequencial gerado: %s\n", novoCliente->codigo);
-
 
     novoCliente->carros = NULL;
     novoCliente->anterior = NULL;
@@ -150,15 +135,11 @@ Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo){
         novoCliente->anterior = *fim;
         *fim = novoCliente;
     }
-
-	printf("\nAnterior %p - Endereço %p - Próximo %p\n",
-			novoCliente->anterior, novoCliente, novoCliente->proximo);
-
     return novoCliente;
 }
 
 Carros* criaCarro(Clientes *cliente, int *codigo){
-    if (cliente->quantidadePlacas >= MAX_CARROS) {
+    if (cliente->quantidadePlacas > MAX_CARROS) {
         printf("Número máximo de placas atingido.\n");
         return NULL;
     }
@@ -170,24 +151,11 @@ Carros* criaCarro(Clientes *cliente, int *codigo){
     }
 
     chamarFuncoesPlacas(novoCarro);
-    printf("Placa registrada: %s\n", novoCarro->placa);
-
     gerarCodigoSequencialCarro(novoCarro, cliente, (*codigo)++);
-    printf("Código sequencial gerado: %s\n", novoCarro->codigoSequencial);
-
     receberMarcaModeloCarro(novoCarro);
-    printf("Marca/Modelo: %s\n", novoCarro->marcaModelo);
-
     receberAnoCarro(novoCarro);
-    printf("Ano cadastrado: %d\n", novoCarro->ano);
-
     novoCarro->proximo = cliente->carros;
     cliente->carros = novoCarro;
-
-    printf("\nAnterior %p - Endereço %p - Próximo %p\n",
-			cliente->anterior, cliente, cliente->proximo);
-	printf("\nEndereço %p - Próximo %p\n",
-			novoCarro, novoCarro->proximo);
 
     return novoCarro;
 }
@@ -199,7 +167,12 @@ void inserirPlaca(Clientes **inicio, int *numeroSequencial) {
 
     Clientes *cliente = buscarClientePorCodigo(*inicio, codigoCliente);
     if (cliente != NULL) {
-        criaCarro(cliente, numeroSequencial);
+    	if (cliente->quantidadePlacas >= MAX_CARROS){
+    		printf("Quantidade maxima de carros permitida\n");
+    		return;
+    	} else {
+    		criaCarro(cliente, numeroSequencial);
+    	}
     } else {
         printf("Cliente não encontrado.\n");
     }
@@ -272,24 +245,6 @@ Clientes* buscarClientePorCodigo(Clientes *inicio, char *codigoCliente) {
     return NULL;
 }
 
-Carros* buscarCarroPorCodigo(Clientes *inicio, char *placaCarro, Carros **anterior) {
-    Clientes *clienteAtual = inicio;
-	while (clienteAtual != NULL) {
-        Carros *carroAtual = clienteAtual->carros;
-        while(carroAtual != NULL){
-    		if (carroAtual->placa == placaCarro) {
-    			if(anterior != NULL){
-                    *anterior = clienteAtual;
-                }
-                return carroAtual;
-            }
-    		carroAtual = carroAtual->proximo;
-        }
-        clienteAtual = carroAtual->proximo;
-    }
-    return NULL;
-}
-
 void listarClientePorCodigo(Clientes *inicio) {
 	getchar();
     char *codigoCliente = buscarCodigo("Digite o código do cliente: ");
@@ -337,66 +292,110 @@ void listarClientesPorContrato(Clientes *inicio) {
 
 void excluirCliente(Clientes **inicio) {
     char codigoCliente[10];
-    printf("Digite o código do cliente para excluir: ");
-    scanf("%s", codigoCliente);
+    int clienteValido = 0;
 
-    Clientes *atual = *inicio;
-    while (atual != NULL) {
-        if (strcmp(atual->codigo, codigoCliente) == 0) {
-            if (atual->anterior != NULL) {
-                atual->anterior->proximo= atual->proximo;
-            } else {
-                *inicio = atual->proximo->proximo;
-            }
-            if (atual->proximo != NULL) {
-                atual->proximo->anterior = atual->anterior;
-            }
+    do {
+        printf("Digite o código do cliente para excluir: ");
+        scanf("%9s", codigoCliente);
 
-            Carros *carro = atual->carros;
-            while (carro != NULL) {
-                Carros *tempCarro = carro;
-                carro = carro->proximo;
-                free(tempCarro);
+        Clientes *atual = *inicio;
+        while (atual != NULL) {
+            if (strcmp(atual->codigo, codigoCliente) == 0) {
+                clienteValido = 1;
+
+                if (atual->anterior != NULL) {
+                    atual->anterior->proximo = atual->proximo;
+                } else {
+                    *inicio = atual->proximo;
+                }
+                if (atual->proximo != NULL) {
+                    atual->proximo->anterior = atual->anterior;
+                }
+
+                Carros *carro = atual->carros;
+                while (carro != NULL) {
+                    Carros *tempCarro = carro;
+                    carro = carro->proximo;
+                    free(tempCarro);
+                }
+                free(atual);
+                printf("Cliente excluído com sucesso.\n");
+                return;
             }
-            free(atual);
-            printf("Cliente excluído com sucesso.\n");
-            return;
+            atual = atual->proximo;
         }
-        atual = atual->proximo;
-    }
-    printf("Cliente não encontrado.\n");
+        printf("Cliente com código '%s' não encontrado. Digite novamente.\n", codigoCliente);
+    } while (!clienteValido);
+
 }
 
 void excluirPlaca(Clientes **inicio) {
-    char placaCarro[8];
-    printf("Digite a placa do carro para excluir: ");
-    scanf("%s", placaCarro);
+    char codigoCarro[10];
+    int placaValida = 0;
+	Clientes *anterior = NULL;
+	Clientes *clienteAtual = *inicio;
 
-    Clientes *anterior = NULL;
-    Carros *carro = buscarCarroPorCodigo(*inicio, placaCarro, &anterior);
+	if (clienteAtual->quantidadePlacas <= 1){
+		printf("O Cliente so possui um carro cadastrado, não podendo ficar com 0\n");
+		excluirCliente(inicio);
+		return;
+	}
 
-    if (carro != NULL) {
-        if (anterior->carros == carro) {
-            anterior->carros = carro->proximo;
-        } else {
-            Carros *temp = anterior->carros;
-            while (temp->proximo != carro) {
-                temp = temp->proximo;
+    do {
+    	printf("Digite o codigo do carro: ");
+        scanf("%9s", codigoCarro);
+
+        while (clienteAtual != NULL) {
+            Carros *carroAtual = clienteAtual->carros;
+
+            while (carroAtual != NULL) {
+                if (strcmp(carroAtual->codigoSequencial, codigoCarro) == 0) {
+                    anterior = clienteAtual;
+                    placaValida = 1;
+                    break;
+                }
+                carroAtual = carroAtual->proximo;
             }
-            temp->proximo = carro->proximo;
+            if (placaValida) {
+                break;
+            }
+            clienteAtual = clienteAtual->proximo;
         }
-        free(carro);
-        anterior->quantidadePlacas--;
-        printf("Carro excluído com sucesso.\n");
+        if (!placaValida) {
+            printf("Carro com a placa '%s' não encontrado. Digite novamente.\n", codigoCarro);
+        }
+    } while (!placaValida);
+
+    if (placaValida) {
+        Carros *carro = anterior->carros;
+        while (carro != NULL) {
+            if (strcmp(carro->codigoSequencial, codigoCarro) == 0) {
+                if (anterior->carros == carro) {
+                    anterior->carros = carro->proximo;
+                } else {
+                    Carros *temp = anterior->carros;
+                    while (temp->proximo != carro) {
+                        temp = temp->proximo;
+                    }
+                    temp->proximo = carro->proximo;
+                }
+                free(carro);
+                anterior->quantidadePlacas--;
+                printf("Carro excluído com sucesso.\n");
+                return;
+            }
+            carro = carro->proximo;
+        }
     } else {
-        printf("Carro não encontrado.\n");
+        printf("Erro na exclusão do carro. Carro não encontrado.\n");
     }
+
 }
 
-void receberNomePreenchido(Clientes *cliente) { //chamada da função: receberNomePreenchido(&cliente);
-	printf("Digite o nome do cliente: ");
+void receberNomePreenchido(Clientes *cliente) {
+	printf("\nDigite o nome do cliente: ");
     fgets(cliente->nome, sizeof(cliente->nome), stdin);
-    cliente->nome[strcspn(cliente->nome, "\n")] = '\0'; // Remover o caractere de enter (nova linha lido pelo fgets)
+    cliente->nome[strcspn(cliente->nome, "\n")] = '\0';
 
     formatarNomeRecursiva(cliente->nome,0,1);
 }
@@ -432,7 +431,7 @@ void solicitarDataDeNascimento(Clientes *cliente) {
 
 	int solicitarNovamente = 1;
 	while (solicitarNovamente) {
-		printf("Digite sua data de nascimento no formato DD/MM/AAAA: ");
+		printf("\nDigite sua data de nascimento no formato DD/MM/AAAA: ");
 		fgets(data_str, sizeof(data_str), stdin);
 		data_str[strcspn(data_str, "\n")]  = '\0';
 
@@ -444,7 +443,6 @@ void solicitarDataDeNascimento(Clientes *cliente) {
 				printf("Idade menor que 18 ou maior que 100\n");
 				solicitarNovamente = 1; // Solicitar novamente
 			} else {
-				printf("Idade apta\n");
 				solicitarNovamente = 0; // Saída do loop
 			}
 		} else {
@@ -483,17 +481,13 @@ int isDataValida(int dia, int mes, int ano) {
 }
 
 void gerarCodigoSequencial(Clientes *cliente, int numeroSequencial) {
-    printf("Primeira letra do nome: %c\n", cliente->nome[0]);
-    printf("Ano de nascimento: %d\n", cliente->dataNascimento->ano);
-    printf("Número sequencial: %02d\n", numeroSequencial);
-
     sprintf(cliente->codigo, "%c%d%02d", cliente->nome[0], cliente->dataNascimento->ano, numeroSequencial);
 }
 
 void verificarTipoContrato(Clientes *cliente) {
     char tipo;
     do {
-        printf("Digite o tipo de contrato (D - Diária, P - Parcial, M - Mensal): ");
+        printf("\nDigite o tipo de contrato (D - Diária, P - Parcial, M - Mensal): ");
         scanf(" %c", &tipo);
         tipo = toupper(tipo);
         getchar();
@@ -504,7 +498,7 @@ void verificarTipoContrato(Clientes *cliente) {
 void quantidadePlacas(Clientes *cliente) {
     int result;
     do {
-        printf("Digite a quantidade de placas: ");
+        printf("\nDigite a quantidade de placas: ");
         result = scanf("%d", &cliente->quantidadePlacas);
 
         if (result != 1) {
@@ -525,7 +519,8 @@ void chamarFuncoesPlacas(Carros *carro){
 	char escolha;
 	int placaInvalida = 1;
 	while (placaInvalida){
-		printf("Cadastro de placa modelo novo ou modelo antigo? (A - Antigo OU N - Novo)\n");
+		printf("\nCadastro de placa modelo novo ou modelo antigo?"
+			   "\n(A - Antigo OU N - Novo)\n");
 		scanf (" %c", &escolha);
 
 		if (escolha == 'A' || escolha == 'N'){
@@ -547,7 +542,8 @@ void validarPlacaAntiga(Carros *carros) {
     int placaInvalida = 1;
 
     do {
-        printf("Digite a placa seguindo o modelo antigo (exemplo: ABC1234): \n");
+        printf("\nDigite a placa seguindo o modelo antigo"
+        		"\n(exemplo: ABC1234):");
         scanf("%8s", digitacao);
         getchar();
 
@@ -588,7 +584,8 @@ void validarPlacaNova(Carros *carros) {
     int placaInvalida = 1;
 
     do {
-        printf("Digite a placa seguindo o modelo novo (exemplo: ABC1D23): \n");
+        printf("\nDigite a placa seguindo o modelo novo"
+        		"\n(exemplo: ABC1D23):");
         scanf("%8s", digitacao);
         getchar();
 
@@ -639,14 +636,16 @@ void validarPlacaNova(Carros *carros) {
     } while (placaInvalida);
 }
 
-void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial){
-
-	sprintf(carro->codigoSequencial, "%s%02d", cliente->codigo, numeroSequencial);
-	puts(carro->codigoSequencial);
+void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial) {
+    strncpy(carro->codigoSequencial, cliente->codigo, sizeof(carro->codigoSequencial));
+    carro->codigoSequencial[sizeof(carro->codigoSequencial) - 1] = '\0'; // Garante o terminador nulo
+    int remaining_space = sizeof(carro->codigoSequencial) - strlen(carro->codigoSequencial);
+    snprintf(carro->codigoSequencial + strlen(carro->codigoSequencial), remaining_space, "%02d", numeroSequencial);
 }
 
+
 void receberMarcaModeloCarro(Carros *carro) {
-    printf("Insira a marca/modelo do carro: ");
+    printf("\nInsira a marca/modelo do carro: ");
     fgets(carro->marcaModelo, sizeof(carro->marcaModelo), stdin);
     carro->marcaModelo[strcspn(carro->marcaModelo, "\n")] = '\0';
 }
@@ -657,11 +656,10 @@ void receberAnoCarro(Carros *carro) {
     do {
         printf("Digite o ano do carro (1950 - 2024): ");
         scanf("%d", &ano);
+        getchar();
         if (ano >= 1950 && ano <= 2024) {
             carro->ano = ano;
             anoInvalido = 0;
-        } else {
-            printf("Ano inválido. Tente novamente.\n");
         }
     } while (anoInvalido);
 }

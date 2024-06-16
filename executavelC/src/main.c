@@ -4,6 +4,8 @@
 //Danilo Augusto
 //Esdras Altivo
 
+//Criado, testado e executado utilizando a IDE Eclipse c c++
+
 int main(void) {
 	setbuf(stdout, NULL);
 

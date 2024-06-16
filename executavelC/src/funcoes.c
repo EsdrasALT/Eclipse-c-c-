@@ -139,7 +139,7 @@ Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo){
 }
 
 Carros* criaCarro(Clientes *cliente, int *codigo){
-    if (cliente->quantidadePlacas >= MAX_CARROS) {
+    if (cliente->quantidadePlacas > MAX_CARROS) {
         printf("Número máximo de placas atingido.\n");
         return NULL;
     }
@@ -167,49 +167,14 @@ void inserirPlaca(Clientes **inicio, int *numeroSequencial) {
 
     Clientes *cliente = buscarClientePorCodigo(*inicio, codigoCliente);
     if (cliente != NULL) {
-        criaCarro(cliente, numeroSequencial);
+    	if (cliente->quantidadePlacas >= MAX_CARROS){
+    		printf("Quantidade maxima de carros permitida\n");
+    		return;
+    	} else {
+    		criaCarro(cliente, numeroSequencial);
+    	}
     } else {
         printf("Cliente não encontrado.\n");
-    }
-}
-
-void imprimeCliente(Clientes *cliente, int numCliente) {
-    printf("=====================================\n");
-    printf("           Cliente %d                \n", numCliente);
-    printf("=====================================\n");
-    printf("Nome: %s\n", cliente->nome);
-    printf("Data de nascimento válida: %02d/%02d/%d\n",
-            cliente->dataNascimento->dia,
-            cliente->dataNascimento->mes,
-            cliente->dataNascimento->ano);
-    printf("Contrato: %c\n", cliente->tipoContrato);
-    printf("Codigo: %s\n", cliente->codigo);
-    printf("Quantidade de Carros: %d\n", cliente->quantidadePlacas);
-    printf("-------------------------------------\n");
-
-    Carros *carro = cliente->carros;
-    int numCarro = 1;
-    while (carro != NULL) {
-        printf("   Carro %d:\n", numCarro);
-        printf("   Placa: %s\n", carro->placa);
-        printf("   Codigo: %s\n", carro->codigoSequencial);
-        printf("   Modelo: %s\n", carro->marcaModelo);
-        printf("   Ano: %d\n", carro->ano);
-        printf("   ----------------------------\n");
-
-        carro = carro->proximo;
-        numCarro++;
-    }
-    printf("\n");
-}
-
-void listarTodosClientes(Clientes *inicio) {
-    Clientes *cliente = inicio;
-    int numCliente = 1;
-    while (cliente != NULL) {
-        imprimeCliente(cliente, numCliente);
-        cliente = cliente->proximo;
-        numCliente++;
     }
 }
 
@@ -240,13 +205,56 @@ Clientes* buscarClientePorCodigo(Clientes *inicio, char *codigoCliente) {
     return NULL;
 }
 
+void imprimeCarroRecursivo(Carros *carro, int numCarro) {
+    if (carro == NULL) {
+        return;
+    }
+
+    printf("   Carro %d:\n", numCarro);
+    printf("   Placa: %s\n", carro->placa);
+    printf("   Codigo: %s\n", carro->codigoSequencial);
+    printf("   Modelo: %s\n", carro->marcaModelo);
+    printf("   Ano: %d\n", carro->ano);
+    printf("   ----------------------------\n");
+
+    imprimeCarroRecursivo(carro->proximo, numCarro + 1);
+}
+
+void imprimeClienteRecursivo(Clientes *cliente, int numCliente) {
+    if (cliente == NULL) {
+        return;
+    }
+
+    printf("=====================================\n");
+    printf("           Cliente %d                \n", numCliente);
+    printf("=====================================\n");
+    printf("Nome: %s\n", cliente->nome);
+    printf("Data de nascimento válida: %02d/%02d/%d\n",
+            cliente->dataNascimento->dia,
+            cliente->dataNascimento->mes,
+            cliente->dataNascimento->ano);
+    printf("Contrato: %c\n", cliente->tipoContrato);
+    printf("Codigo: %s\n", cliente->codigo);
+    printf("Quantidade de Carros: %d\n", cliente->quantidadePlacas);
+    printf("-------------------------------------\n");
+
+    imprimeCarroRecursivo(cliente->carros, 1);
+    printf("\n");
+
+    imprimeClienteRecursivo(cliente->proximo, numCliente + 1);
+}
+
+void listarTodosClientes(Clientes *inicio) {
+    imprimeClienteRecursivo(inicio, 1);
+}
+
 void listarClientePorCodigo(Clientes *inicio) {
-	getchar();
+    getchar();
     char *codigoCliente = buscarCodigo("Digite o código do cliente: ");
     Clientes *cliente = buscarClientePorCodigo(inicio, codigoCliente);
 
     if (cliente != NULL) {
-        imprimeCliente(cliente, 1); // Imprime os detalhes do cliente e carros
+        imprimeClienteRecursivo(cliente, 1); // Imprime os detalhes do cliente e carros
     } else {
         printf("Cliente com código %s não encontrado.\n", codigoCliente);
     }
@@ -274,7 +282,7 @@ void listarClientesPorContrato(Clientes *inicio) {
 
     while (cliente != NULL) {
         if (cliente->tipoContrato == tipoContrato) {
-            imprimeCliente(cliente, encontrados + 1);
+            imprimeClienteRecursivo(cliente, encontrados + 1);
             encontrados++;
         }
         cliente = cliente->proximo;

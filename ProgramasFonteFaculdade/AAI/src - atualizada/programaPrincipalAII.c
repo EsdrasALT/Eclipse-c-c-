@@ -4,6 +4,8 @@
 //Danilo Augusto
 //Esdras Altivo
 
+//Criado,
+
 int main(void) {
 	setbuf(stdout, NULL);
 
