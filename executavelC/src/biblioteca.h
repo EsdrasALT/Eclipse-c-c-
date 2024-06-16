@@ -1,104 +1,122 @@
-#ifndef BIBLIOTECA_H
-#define BIBLIOTECA_H
+// BIBLIOTECA - biblioteca.h = https://codeshare.io/64xkqp
+
+#ifndef BIBLIOTECA_H_
+#define BIBLIOTECA_H_
 
 // -------------Inclusões de Bibliotecas Necessárias-------------
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//#include <ctype.h>
+#include <ctype.h>
 
 // -------------Definições de Macros e Constantes-------------
-#define MAX_NOME 50
-#define MAX_CODIGO 7
 #define MAX_CARROS 5
-#define MAX_PLACA 8
-#define MAX_MARCA_MODELO 30
+#define PLACA_LENGTH 7
 
 // -------------Definições de Tipos (typedefs e enums)-------------
+typedef struct dadosDataDeNascimento DataNascimento;
+typedef struct dadosCarro Carros;
+typedef struct dadosCliente Clientes;
 
 // -------------Declarações de Estruturas-------------
-typedef struct DataNascimento {
-    int dia;
-    int mes;
-    int ano;
-} DataNascimento;
+struct dadosDataDeNascimento{
+	int mes;
+	int dia;
+	int ano;
+};
 
-typedef struct Carros {
-    char placa[MAX_PLACA];
-    char codigoSequencial[MAX_CODIGO+2];
-    char marcaModelo[MAX_MARCA_MODELO];
-    int ano;
-    struct Carros *proximo;
-} Carros;
+struct dadosCarro{
+	//Dados Simples
+	char placa[8];
+	char codigoSequencial[9];
+	char marcaModelo[31];
+	int ano;
 
-typedef struct Clientes {
-    char nome[MAX_NOME];
-    DataNascimento *dataNascimento;
-    char codigo[MAX_CODIGO];
-    char tipoContrato;
-    int quantidadePlacas;
-    Carros *carros;
-    struct Clientes *proximo;
-    struct Clientes *anterior;
-} Clientes;
+  //Declaracao Listas
+	Carros *proximo;
+};
+
+struct dadosCliente{
+	//Dados Simples
+	char nome[50];
+	char codigo[7];
+	char tipoContrato;
+	int quantidadePlacas;
+	DataNascimento *dataNascimento;
+	Carros *carros;
+
+  //Declaracao Listas
+	Clientes *anterior;
+	Clientes *proximo;
+};
 
 //-------------Prototipação de Funções-------------
 
 //MENU
-
-void cadastrarCliente(Clientes **inicio, int *numeroSequencial);
-
-void criarCarro(Clientes *cliente, int *numeroSequencial);
-Carros* alocarNovoCarro();
-
-//
+void menuPrincipal();
+void menuInserir(Clientes **inicio, Clientes **fim, int *codigoSequencial);
+void inserirCliente(Clientes **inicio, Clientes **fim, int *numeroSequencial);
 void inserirPlaca(Clientes **inicio, int *numeroSequencial);
+void menuExcluir(Clientes **inicio);
+void menuRelatorios();
 
-//IMPRESSAO
+//INSERIR CLIENTE
+Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo);
+
+//INSERIR CARRO
+Carros* criaCarro(Clientes *cliente, int *codigo);
+
+//LISTAR TODOS CLIENTES
+void listarTodosClientes(Clientes *inicio);
 void imprimeCliente(Clientes *cliente, int numCliente);
 
-//BUSCAS
+//FUNCOES DE BUSCA
+char* buscarCodigo(char* mensagem);
 Clientes* buscarClientePorCodigo(Clientes *inicio, char *codigoCliente);
 Carros* buscarCarroPorCodigo(Clientes *inicio, char *placaCarro, Carros **anterior);
-char* buscarCodigo(char* mensagem);
 
-//LISTAR POR
-void listarTodosClientes(Clientes *inicio);
+//LSTAR CLIENTE POR CODIGO
 void listarClientePorCodigo(Clientes *inicio);
+
+//LISTAR CLIENTES POR CONTRATO
 void listarClientesPorContrato(Clientes *inicio);
 
-//EXCLUSAO
+//EXCLUIR CLIENTE
 void excluirCliente(Clientes **inicio);
 void excluirPlaca(Clientes **inicio);
 
-//FUNCAO PLACA CARRO
-void receberPlacaPreenchida(Carros *carro);
-int validarPlaca(char *placa);
-
-//FUNCAO NOMES CLIENTES
+//NOME
 void receberNomePreenchido(Clientes *cliente);
 void formatarNomeRecursiva(char *nome, int indice, int caractereDeveSerPego);
 
-//FUNCAO DATA CLIENTES
+//DATA
 void solicitarDataDeNascimento(Clientes *cliente);
-DataNascimento converterData(char *data_string);
+DataNascimento converterData(char *data_str);
 int verificarIdade(int ano);
+int isAnoBissexto(int ano);
 int isDataValida(int dia, int mes, int ano);
 
-//FUNCAO CODIGO CLIENTES
-void receberCodigoPreenchido(Clientes *cliente, int *numeroSequencial);
+//FUNCAO CODIGO
+void gerarCodigoSequencial(Clientes *cliente, int numeroSequencial);
 
-//FUNCAO TIPOS CONTRATOS CLIENTES
-void receberTipoDeContrato(Clientes *cliente);
+//TIPO DE CONTRATO
+void verificarTipoContrato(Clientes *cliente);
 
-//FUNCAO CODIGO CARROS
-void receberCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial);
-//void receberCodigoSequencialCarro(Carros *carro, int *numeroSequencial);
+//FUNCAO QTDE PLACA
+void quantidadePlacas(Clientes *cliente);
 
-//FUNCAO MARCA MODELO CARROS
+//PLACAS
+void chamarFuncoesPlacas();
+void validarPlacaAntiga();
+void validarPlacaNova();
+
+//FUNCAO CODIGO
+void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial);
+
+//FUNCAO MODELO
 void receberMarcaModeloCarro(Carros *carro);
 
-//FUNCAO ANO CARRO
+//FUNCAO ANO
 void receberAnoCarro(Carros *carro);
 
 #endif /* BIBLIOTECA_H_ */
