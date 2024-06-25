@@ -24,26 +24,20 @@ struct dadosDataDeNascimento{
 };
 
 struct dadosCarro{
-	//Dados Simples
 	char placa[8];
 	char codigoSequencial[10];
 	char marcaModelo[31];
 	int ano;
-
-  //Declaracao Listas
 	Carros *proximo;
 };
 
 struct dadosCliente{
-	//Dados Simples
 	char nome[50];
 	char codigo[8];
 	char tipoContrato;
 	int quantidadePlacas;
 	DataNascimento *dataNascimento;
 	Carros *carros;
-
-  //Declaracao Listas
 	Clientes *anterior;
 	Clientes *proximo;
 };
@@ -64,14 +58,18 @@ Clientes* criarCliente(Clientes **inicio, Clientes **fim, int *codigo);
 //INSERIR CARRO
 Carros* criaCarro(Clientes *cliente, int *codigo);
 
-//LISTAR TODOS CLIENTES
-void listarTodosClientes(Clientes *inicio);
-void imprimeCliente(Clientes *cliente, int numCliente);
-
 //FUNCOES DE BUSCA
 char* buscarCodigo(char* mensagem);
 Clientes* buscarClientePorCodigo(Clientes *inicio, char *codigoCliente);
 Carros* buscarCarroPorCodigo(Clientes *inicio, char *codigoCarro, Carros **anterior);
+
+//FUNCOES DE IMPRESSAO
+//void imprimeCliente(Clientes *cliente, int numCliente);
+void imprimeCarroRecursivo(Carros *carro, int numCarro);
+void imprimeClienteRecursivo(Clientes *cliente, int numCliente);
+
+//LISTAR TODOS CLIENTES
+void listarTodosClientes(Clientes *inicio);
 
 //LSTAR CLIENTE POR CODIGO
 void listarClientePorCodigo(Clientes *inicio);
@@ -98,7 +96,7 @@ int isDataValida(int dia, int mes, int ano);
 void gerarCodigoSequencial(Clientes *cliente, int numeroSequencial);
 
 //TIPO DE CONTRATO
-void verificarTipoContrato(Clientes *cliente); // TO-DO Contrato: (EM BRANCO?)
+void verificarTipoContrato(Clientes *cliente);
 
 //FUNCAO QTDE PLACA
 void quantidadePlacas(Clientes *cliente);
@@ -109,7 +107,7 @@ void validarPlacaAntiga();
 void validarPlacaNova();
 
 //FUNCAO CODIGO
-void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial); //TO-DO    Codigo: E19990102CARRO LARANJA
+void gerarCodigoSequencialCarro(Carros *carro, Clientes *cliente, int numeroSequencial);
 
 //FUNCAO MODELO
 void receberMarcaModeloCarro(Carros *carro);

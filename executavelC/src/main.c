@@ -1,15 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: 24 de jun. de 2024
+ *      Author: Bless
+ */
+
 #include "biblioteca.h"
 
-//Daniel Ribeiro Costa
-//Danilo Augusto
-//Esdras Altivo
+int main(void){
+	setbuf(stdout,NULL);
 
-//Criado, testado e executado utilizando a IDE Eclipse c c++
-
-int main(void) {
-	setbuf(stdout, NULL);
-
-	menuPrincipal();
+	menu();
 
 	return 0;
 }
